@@ -13,8 +13,8 @@ import {
   Printer,
 } from "lucide-react";
 
-// ─── CONFIG — change UPI ID / merchant name here ──────────────────────────────
-const UPI_ID = "ruprintportal@okaxis"; // ← replace with real UPI ID
+// ─── CONFIG ───────────────────────────────────────────────────────────────────
+const UPI_ID = "20260509024786@YesBank";
 const MERCHANT_NAME = "RU Print Portal";
 
 interface Props {

@@ -5,7 +5,7 @@ import { useAuth } from "@/context/AuthContext";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { AlertCircle, Eye, EyeOff, Printer, Lock, User } from "lucide-react";
+import { AlertCircle, Eye, EyeOff, Printer, Lock, User, ArrowLeft } from "lucide-react";
 import { motion } from "framer-motion";
 
 export function LoginPage() {
@@ -38,13 +38,20 @@ export function LoginPage() {
 
   return (
     <div className="h-screen w-full flex flex-col lg:flex-row bg-background p-3 sm:p-4 lg:p-6 font-sans overflow-hidden relative">
-      {/* Theme toggle — top right */}
-      <div className="absolute top-6 right-6 z-30">
+      {/* Top right — back + theme toggle */}
+      <div className="absolute top-5 right-5 z-30 flex items-center gap-2">
+        <button
+          onClick={() => window.location.href = "/"}
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-all"
+        >
+          <ArrowLeft className="h-3.5 w-3.5" />
+          Back
+        </button>
         <ThemeToggle />
       </div>
 
-      {/* ── Left panel — brand art ── */}
-      <div className="relative w-full lg:w-[44%] h-56 sm:h-72 lg:h-full rounded-[28px] overflow-hidden flex flex-col justify-between p-7 sm:p-10 text-white shrink-0 select-none shadow-lg">
+      {/* ── Left panel — brand art (desktop only) ── */}
+      <div className="hidden lg:relative lg:flex lg:w-[44%] lg:h-full rounded-[28px] overflow-hidden flex-col justify-between p-10 text-white shrink-0 select-none shadow-lg">
         {/* Background image */}
         <img
           src="/RU-BG.png"
@@ -79,25 +86,42 @@ export function LoginPage() {
               University Printer Management
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight text-white drop-shadow-lg">
+          <h2 className="text-3xl lg:text-5xl font-bold leading-tight tracking-tight text-white drop-shadow-lg">
             Print smarter,
             <br />
             not harder.
           </h2>
-          <p className="text-xs sm:text-sm text-white/75 mt-3 tracking-wide max-w-sm">
+          <p className="text-sm text-white/75 mt-3 tracking-wide max-w-sm">
             Centralized print queue management for all Rishihood University printers.
           </p>
         </div>
       </div>
 
       {/* ── Right panel — login form ── */}
-      <div className="w-full lg:w-[56%] flex flex-col justify-center px-6 sm:px-10 lg:px-20 pt-8 sm:pt-10 lg:pt-0 pb-4">
+      <div className="w-full lg:w-[56%] flex flex-col justify-center px-6 sm:px-10 lg:px-20 pt-0 pb-4">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: "spring", stiffness: 380, damping: 30 }}
           className="max-w-sm mx-auto w-full space-y-7"
         >
+          {/* Mobile-only brand header */}
+          <div className="flex items-center gap-3 lg:hidden">
+            <img
+              src="/Rishihood_University_idxo_lfgcw_2.png"
+              alt="RU Logo"
+              className="h-10 w-10 object-contain"
+            />
+            <div>
+              <p className="text-sm font-bold leading-tight text-foreground">
+                Rishihood University
+              </p>
+              <p className="text-[11px] text-primary font-semibold tracking-widest uppercase">
+                Print Portal — Admin
+              </p>
+            </div>
+          </div>
+
           {/* Heading */}
           <div className="space-y-2">
             <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
