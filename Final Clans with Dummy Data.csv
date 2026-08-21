@@ -1,0 +1,652 @@
+First Name,Last Name,Enrollment No,Full Name,Clan,Course,Parents Name,Mobile Number,Email,Band Color,Hostel Allocated,Fees Paid,Pending Fees
+Aagam,Jain,2503210001,AAGAM JAIN,Chola,B.Design,Anil Jain,+91613427546,aagam.anil@gmail.com,Blue,False,True,True
+Arit,Dey,2503210002,ARIT DEY,Chola,B.Design,Deepak Dey,+91731475314,arit.deepak@gmail.com,Red,False,False,False
+Oshi,prasad,2503210015,OSHI PRASAD,Chola,B.Design,Ajay prasad,+91674913853,oshi.ajay@gmail.com,Red,False,True,True
+Parth,shringi,2503210016,PARTH SHRINGI,Chola,B.Design,Anil shringi,+91963300269,parth.anil@gmail.com,Blue,False,True,False
+PRATEEK,GIRDHAR,2503210035,PRATEEK GIRDHAR,Chola,B.Design,Ashok GIRDHAR,+91646674928,prateek.ashok@gmail.com,Red,False,False,False
+Purvit,Kamboj,2503210018,PURVIT KAMBOJ,Chola,B.Design,Karan Kamboj,+91826517555,purvit.karan@gmail.com,Blue,False,True,False
+Sneha,RAWAT,2503210034,SNEHA RAWAT,Chola,B.Design,Suresh RAWAT,+91615997261,sneha.suresh@gmail.com,Red,True,True,False
+Tanishka,Rawat,2503210025,TANISHKA RAWAT,Chola,B.Design,Ramesh Rawat,+91717380369,tanishka.ramesh@gmail.com,Red,False,True,True
+Abhinav,Sukhwal,2504310001,ABHINAV SUKHWAL,Chola,B.Sc (Hons) Psychology,Ajay Sukhwal,+91871310554,abhinav.ajay@gmail.com,Blue,False,True,True
+Adhishtha,Sharma,2504310042,ADHISHTHA SHARMA,Chola,B.Sc (Hons) Psychology,Rahul Sharma,+91614246390,adhishtha.rahul@gmail.com,Red,False,True,True
+Bhumika,singh,2504310009,BHUMIKA SINGH,Chola,B.Sc (Hons) Psychology,Ashok singh,+91706750149,bhumika.ashok@gmail.com,Red,False,True,True
+Harshit,atwal,2504310018,HARSHIT ATWAL,Chola,B.Sc (Hons) Psychology,Ashok atwal,+91825227988,harshit.ashok@gmail.com,Blue,False,False,False
+KUMARI,ANANYA,2504310021,KUMARI ANANYA,Chola,B.Sc (Hons) Psychology,Ajay ANANYA,+91841167269,kumari.ajay@gmail.com,Blue,False,False,False
+Nandika,Bisht,2504310047,NANDIKA BISHT,Chola,B.Sc (Hons) Psychology,Karan Bisht,+91749352498,nandika.karan@gmail.com,Red,False,True,True
+Shreya,Singh,2504310031,SHREYA SINGH,Chola,B.Sc (Hons) Psychology,Rajesh Singh,+91685716440,shreya.rajesh@gmail.com,Red,False,True,False
+Shreya,Verma,2504310030,SHREYA VERMA,Chola,B.Sc (Hons) Psychology,Vikram Verma,+91782670606,shreya.vikram@gmail.com,Blue,False,False,False
+Siddharth,Pandey,2504310032,SIDDHARTH PANDEY,Chola,B.Sc (Hons) Psychology,Deepak Pandey,+91683472422,siddharth.deepak@gmail.com,Blue,False,True,False
+Vaibhav,Saini,2504310051,VAIBHAV SAINI,Chola,B.Sc (Hons) Psychology,Sanjay Saini,+91780707823,vaibhav.sanjay@gmail.com,Blue,False,True,True
+Aadi,kalra,2501010002,AADI KALRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil kalra,+91649792546,aadi.anil@gmail.com,Red,True,True,True
+Aaditya,bansal,2501010617,AADITYA BANSAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Rakesh bansal,+91651924210,aaditya.rakesh@gmail.com,Red,True,False,True
+Aarya,Upadhyay,2501010005,AARYA UPADHYAY,Chola,B.Tech - Computer Science and Artificial Intelligence,Alok Upadhyay,+91784659822,aarya.alok@gmail.com,Blue,False,True,False
+Aaryan,Sharma,2501010007,AARYAN SHARMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Rahul Sharma,+91742013556,aaryan.rahul@gmail.com,Red,False,False,True
+Aastik,Yadav,2501010008,AASTIK YADAV,Chola,B.Tech - Computer Science and Artificial Intelligence,Suresh Yadav,+91991771770,aastik.suresh@gmail.com,Blue,True,True,True
+Abhinav,Tayal,2501010016,ABHINAV TAYAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj Tayal,+91887885264,abhinav.manoj@gmail.com,Red,False,False,True
+Abhishek,Gupta,2501010017,ABHISHEK GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Gupta,+91803224098,abhishek.anil@gmail.com,Blue,True,False,True
+Aditya,Gupta,2501010033,ADITYA GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh Gupta,+91896374558,aditya.ramesh@gmail.com,Blue,True,True,True
+Aditya,Singla,2501010031,ADITYA SINGLA,Chola,B.Tech - Computer Science and Artificial Intelligence,Pradeep Singla,+91937498421,aditya.pradeep@gmail.com,Red,True,False,True
+Aish,Sagwal,2501010038,AISH SAGWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Rahul Sagwal,+91794151326,aish.rahul@gmail.com,Red,True,True,False
+Akash,Mukherjee,2501010043,AKASH MUKHERJEE,Chola,B.Tech - Computer Science and Artificial Intelligence,Karan Mukherjee,+91703234149,akash.karan@gmail.com,Blue,True,False,False
+Akshansh,Gandhi,2501010045,AKSHANSH GANDHI,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh Gandhi,+91624601779,akshansh.ramesh@gmail.com,Red,False,True,True
+Akshat,Tripathi,2501010584,AKSHAT TRIPATHI,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Tripathi,+91755363977,akshat.ajay@gmail.com,Red,True,True,True
+AMAN,MISHRA,2501010050,AMAN MISHRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh MISHRA,+91724978655,aman.ramesh@gmail.com,Red,False,False,False
+Amit,Pal,2501010667,AMIT PAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Pal,+91804078714,amit.anil@gmail.com,Red,False,True,False
+Aniket,Kumar,2501010635,ANIKET KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak Kumar,+91843422802,aniket.deepak@gmail.com,Red,True,True,True
+Ankit,Kumar,2501010061,ANKIT KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Alok Kumar,+91687324253,ankit.alok@gmail.com,Blue,True,False,True
+ANKUR,AGARWAL,2501010063,ANKUR AGARWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Alok AGARWAL,+91790734506,ankur.alok@gmail.com,Red,False,True,True
+ANMOL,GAUTAM,2501010066,ANMOL GAUTAM,Chola,B.Tech - Computer Science and Artificial Intelligence,Sanjay GAUTAM,+91959797556,anmol.sanjay@gmail.com,Red,True,True,True
+Ansh,singh,2501010070,ANSH SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak singh,+91976786911,ansh.deepak@gmail.com,Red,True,False,False
+ANUKALP,KUMAR,2501010073,ANUKALP KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh KUMAR,+91927024718,anukalp.ramesh@gmail.com,Red,False,False,True
+Anushka,Mishra,2501010608,ANUSHKA MISHRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Vijay Mishra,+91886764160,anushka.vijay@gmail.com,Red,False,True,True
+Aranav,Chhabra,2501010676,ARANAV CHHABRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Chhabra,+91687726045,aranav.ajay@gmail.com,Red,True,True,True
+Arjun,Verma,2501010693,ARJUN VERMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj Verma,+91803718590,arjun.manoj@gmail.com,Red,False,False,True
+arnav,bansal,2501010643,ARNAV BANSAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak bansal,+91943597253,arnav.deepak@gmail.com,Blue,True,False,False
+Arpit,Chhimpa,2501010083,ARPIT CHHIMPA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok Chhimpa,+91717904996,arpit.ashok@gmail.com,Red,True,True,False
+Ashwin,Singh,2501010097,ASHWIN SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Singh,+91630031457,ashwin.sandeep@gmail.com,Blue,True,False,False
+Avaneja,Rikhta,2501010105,AVANEJA RIKHTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Rikhta,+91617233684,avaneja.ajay@gmail.com,Red,False,True,True
+Ayushmaan,Daksh,2501010110,AYUSHMAAN DAKSH,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Daksh,+91815373707,ayushmaan.sandeep@gmail.com,Blue,False,True,True
+Badal,khandelwal,2501010111,BADAL KHANDELWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak khandelwal,+91635534736,badal.deepak@gmail.com,Blue,False,True,False
+Devansh,Chauhan,2501010702,DEVANSH CHAUHAN,Chola,B.Tech - Computer Science and Artificial Intelligence,Sanjay Chauhan,+91904502471,devansh.sanjay@gmail.com,Blue,False,True,True
+DEVANSHI,KUMARI,2501010139,DEVANSHI KUMARI,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep KUMARI,+91714153005,devanshi.sandeep@gmail.com,Blue,False,True,True
+Dhruv,Chhabra,2501010143,DHRUV CHHABRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Arun Chhabra,+91812403258,dhruv.arun@gmail.com,Blue,True,False,False
+Dia,Chowdhary,2501010598,DIA CHOWDHARY,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj Chowdhary,+91676703600,dia.manoj@gmail.com,Red,True,False,False
+DIVYANSHI,SINGH,2501010155,DIVYANSHI SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak SINGH,+91674963459,divyanshi.deepak@gmail.com,Blue,True,False,False
+Divyanshu,Sharma,2501010723,Divyanshu sharma,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Sharma,+91999962915,divyanshu.ajay@gmail.com,Red,True,False,False
+Charan,Durga,2501010122,DURGA CHARAN,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok Durga,+91889361229,charan.ashok@gmail.com,Red,False,True,True
+Garv,Grover,2501010165,GARV GROVER,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak Grover,+91913847215,garv.deepak@gmail.com,Blue,True,True,True
+Garvit,Dhuran,2501010726,Garvit Dhuran,Chola,B.Tech - Computer Science and Artificial Intelligence,Vikram Dhuran,+91913281854,garvit.vikram@gmail.com,Red,False,True,False
+Garvit,Gandhi,2501010166,GARVIT GANDHI,Chola,B.Tech - Computer Science and Artificial Intelligence,Rakesh Gandhi,+91794345362,garvit.rakesh@gmail.com,Red,True,True,True
+Granth,gupta,2501010170,GRANTH GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay gupta,+91674266288,granth.ajay@gmail.com,Red,False,False,False
+Gurtaz,Singh,2501010172,GURTAZ SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Vinod Singh,+91864954299,gurtaz.vinod@gmail.com,Red,False,True,False
+gyanshi,gupta,2501010173,GYANSHI GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh gupta,+91625295410,gyanshi.ramesh@gmail.com,Red,True,True,True
+Harsh,Raja,2501010177,HARSH RAJA,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Raja,+91682056059,harsh.anil@gmail.com,Red,True,False,False
+Harsh,Tomar,2501010725,Harsh Tomar,Chola,B.Tech - Computer Science and Artificial Intelligence,Vijay Tomar,+91965330570,harsh.vijay@gmail.com,Red,True,False,True
+Harsh,Vardhan,2501010175,HARSH VARDHAN,Chola,B.Tech - Computer Science and Artificial Intelligence,Vikram Vardhan,+91920194662,harsh.vikram@gmail.com,Blue,True,False,True
+ISHAAN,GUPTA,2501010634,ISHAAN GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh GUPTA,+91806570376,ishaan.ramesh@gmail.com,Blue,False,False,True
+Ishan,Bansal,2501010714,ISHAN BANSAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Rakesh Bansal,+91919915161,ishan.rakesh@gmail.com,Red,True,True,True
+Ishan,Chetwani,2501010194,ISHAN CHETWANI,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj Chetwani,+91884066101,ishan.manoj@gmail.com,Blue,True,True,False
+Janvi,Saraf,2501010587,JANVI SARAF,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak Saraf,+91897010891,janvi.deepak@gmail.com,Blue,False,False,True
+Jatasay,khetaan,2501010576,JATASAY KHETAAN,Chola,B.Tech - Computer Science and Artificial Intelligence,Rajesh khetaan,+91965224372,jatasay.rajesh@gmail.com,Red,True,True,False
+kabir,vashisht,2501010208,KABIR VASHISHT,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil vashisht,+91965990466,kabir.anil@gmail.com,Red,True,True,False
+Kanika,Prajapati,2501010211,KANIKA PRAJAPATI,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok Prajapati,+91743250681,kanika.ashok@gmail.com,Red,True,True,False
+Khyati,Dash,2501010223,KHYATI DASH,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Dash,+91659889117,khyati.sandeep@gmail.com,Blue,True,False,False
+Labhansh,Agarwal,2501010696,LABHANSH AGARWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Pradeep Agarwal,+91833412819,labhansh.pradeep@gmail.com,Red,True,True,True
+Madhav,Gupta,2501010252,MADHAV GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Vijay Gupta,+91843591060,madhav.vijay@gmail.com,Blue,False,False,True
+Manjeet,Lodha,2501010259,MANJEET LODHA,Chola,B.Tech - Computer Science and Artificial Intelligence,Rajesh Lodha,+91987670222,manjeet.rajesh@gmail.com,Blue,True,True,False
+Mayank,Chauhan,2501010271,MAYANK CHAUHAN,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak Chauhan,+91868750123,mayank.deepak@gmail.com,Red,True,True,False
+Mishti,Agarwal,2501010708,MISHTI AGARWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Vijay Agarwal,+91872559523,mishti.vijay@gmail.com,Red,True,True,True
+Mridul,Gupta,2501010668,MRIDUL GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Gupta,+91935705485,mridul.anil@gmail.com,Red,True,False,False
+MUSKAN,PARVEEN,2501010602,MUSKAN PARVEEN,Chola,B.Tech - Computer Science and Artificial Intelligence,Pradeep PARVEEN,+91943033396,muskan.pradeep@gmail.com,Red,True,True,True
+Nabhya,Singh,2501010288,NABHYA SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Vinod Singh,+91926938392,nabhya.vinod@gmail.com,Blue,False,False,False
+neha,sharma,2501010300,NEHA SHARMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Sanjay sharma,+91682054959,neha.sanjay@gmail.com,Blue,True,False,True
+NIKHIL,SHARMA,2501010304,NIKHIL SHARMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Alok SHARMA,+91686730978,nikhil.alok@gmail.com,Blue,False,False,False
+Nitesh,Kumar,2501010309,NITESH KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok Kumar,+91884731459,nitesh.ashok@gmail.com,Blue,False,True,False
+oojass,kwatra,2501010636,OOJASS KWATRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Rajesh kwatra,+91921555926,oojass.rajesh@gmail.com,Red,True,True,True
+Parth,Saklani,2501010597,PARTH SAKLANI,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Saklani,+91862318192,parth.sandeep@gmail.com,Blue,True,True,False
+Parth,Sharma,2501010321,PARTH SHARMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Rajesh Sharma,+91660058527,parth.rajesh@gmail.com,Red,True,True,False
+Payal,Phougat,2501010331,PAYAL PHOUGAT,Chola,B.Tech - Computer Science and Artificial Intelligence,Alok Phougat,+91765095391,payal.alok@gmail.com,Red,True,False,True
+Piyush,Alagh,2501010333,PIYUSH ALAGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Alagh,+91631098339,piyush.ajay@gmail.com,Blue,False,False,False
+Piyush,Tharwani,2501010335,PIYUSH THARWANI,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Tharwani,+91904597436,piyush.ajay979@gmail.com,Blue,True,False,True
+POORVANSH,TONK,2501010661,POORVANSH TONK,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh TONK,+91645984845,poorvansh.ramesh@gmail.com,Blue,True,True,True
+Pranjal,Gangwar,2501010675,PRANJAL GANGWAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Arun Gangwar,+91637158185,pranjal.arun@gmail.com,Red,True,False,False
+Pratham,Verma,2501010679,PRATHAM VERMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok Verma,+91667517162,pratham.ashok@gmail.com,Red,True,True,False
+pratyusha,singh,2501010349,PRATYUSHA SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Sunil singh,+91954201025,pratyusha.sunil@gmail.com,Red,True,False,False
+PRAVEEN,CHOUDHARY,2501010350,PRAVEEN CHOUDHARY,Chola,B.Tech - Computer Science and Artificial Intelligence,Arun CHOUDHARY,+91895173558,praveen.arun@gmail.com,Blue,True,True,False
+Priyanshu,Shrivastava,2501010644,PRIYANSHU SHRIVASTAVA,Chola,B.Tech - Computer Science and Artificial Intelligence,Vijay Shrivastava,+91742301192,priyanshu.vijay@gmail.com,Blue,False,True,False
+Rachit,Masiwal,2501010364,RACHIT MASIWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Vinod Masiwal,+91925662628,rachit.vinod@gmail.com,Red,False,False,False
+Rahil,Paliwal,2501010652,RAHIL PALIWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Vikram Paliwal,+91713708292,rahil.vikram@gmail.com,Blue,True,False,False
+Ramni,kaushik,2501010370,RAMNI KAUSHIK,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok kaushik,+91991878757,ramni.ashok@gmail.com,Red,True,False,True
+Rehaan,Dhillon,2501010372,REHAAN DHILLON,Chola,B.Tech - Computer Science and Artificial Intelligence,Sanjay Dhillon,+91982761564,rehaan.sanjay@gmail.com,Blue,True,False,False
+Renuka,Yadav,2501010373,RENUKA YADAV,Chola,B.Tech - Computer Science and Artificial Intelligence,Pradeep Yadav,+91814207359,renuka.pradeep@gmail.com,Red,False,True,True
+Rishabh,Singh,2501010376,RISHABH SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Alok Singh,+91835203188,rishabh.alok@gmail.com,Red,True,False,False
+Rishit,Babbar,2501010378,RISHIT BABBAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Vinod Babbar,+91842389777,rishit.vinod@gmail.com,Red,False,False,False
+Ritam,Mishra,2501010610,RITAM MISHRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Mishra,+91733093315,ritam.anil@gmail.com,Red,True,False,True
+Ritesh,verma,2501010711,RITESH VERMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay verma,+91634373643,ritesh.ajay@gmail.com,Red,True,True,False
+Ritwik,Goutam,2501010380,RITWIK GOUTAM,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Goutam,+91611292683,ritwik.sandeep@gmail.com,Red,True,True,False
+Roshni,Singh,2501010665,ROSHNI SINGH,Chola,B.Tech - Computer Science and Artificial Intelligence,Karan Singh,+91897384352,roshni.karan@gmail.com,Red,True,False,True
+Rudraksh,Bairagi,2501010389,RUDRAKSH BAIRAGI,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Bairagi,+91915916382,rudraksh.ajay@gmail.com,Blue,False,True,False
+Saksham,Saxena,2501010395,SAKSHAM SAXENA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Saxena,+91603860554,saksham.ajay@gmail.com,Red,False,False,False
+Samarth,Nagpal,2501010400,SAMARTH NAGPAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh Nagpal,+91980019213,samarth.ramesh@gmail.com,Blue,True,True,False
+Sanyam,Garg,2501010406,SANYAM GARG,Chola,B.Tech - Computer Science and Artificial Intelligence,Suresh Garg,+91722912186,sanyam.suresh@gmail.com,Red,True,True,True
+Shashank,Badhautia,2501010419,SHASHANK BADHAUTIA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh Badhautia,+91616864703,shashank.ramesh@gmail.com,Red,False,True,False
+Shivam,Choubey,2501010426,SHIVAM CHOUBEY,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Choubey,+91638041250,shivam.sandeep@gmail.com,Blue,False,True,False
+Shivang,agarwal,2501010429,SHIVANG AGARWAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Vinod agarwal,+91727777765,shivang.vinod@gmail.com,Red,False,False,False
+SHIVANSH,BOORA,2501010431,SHIVANSH BOORA,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak BOORA,+91959154708,shivansh.deepak@gmail.com,Blue,False,False,False
+SHIVESH,SAINI,2501010432,SHIVESH SAINI,Chola,B.Tech - Computer Science and Artificial Intelligence,Arun SAINI,+91715017511,shivesh.arun@gmail.com,Red,True,False,True
+Shlok,garg,2501010677,SHLOK GARG,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok garg,+91671034381,shlok.ashok@gmail.com,Red,False,True,True
+Shreemoyee,Roy,2501010606,SHREEMOYEE ROY,Chola,B.Tech - Computer Science and Artificial Intelligence,Karan Roy,+91909351272,shreemoyee.karan@gmail.com,Red,True,False,False
+Shreyansh,Mishra,2501010438,SHREYANSH MISHRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Arun Mishra,+91730458149,shreyansh.arun@gmail.com,Red,False,False,False
+Shubham,Makkar,2501010445,SHUBHAM MAKKAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Arun Makkar,+91818538654,shubham.arun@gmail.com,Blue,False,False,True
+Shubham,Mittal,2501010446,SHUBHAM MITTAL,Chola,B.Tech - Computer Science and Artificial Intelligence,Sanjay Mittal,+91650640778,shubham.sanjay@gmail.com,Red,False,True,True
+Sneha,Bayan,2501010618,SNEHA BAYAN,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Bayan,+91953788671,sneha.anil@gmail.com,Blue,False,True,False
+Srijan,Pal,2501010633,SRIJAN KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Vikram Pal,+91790212059,srijan.vikram@gmail.com,Blue,False,True,True
+Sugunesh,Dande,2501010462,SUGUNESH DANDE,Chola,B.Tech - Computer Science and Artificial Intelligence,Vikram Dande,+91820708855,sugunesh.vikram@gmail.com,Blue,True,False,False
+SWASTIK,MISHRA,2501010469,SWASTIK MISHRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj MISHRA,+91991419619,swastik.manoj@gmail.com,Red,True,False,True
+TUHINSUVRA,ROY,2501010480,TUHINSUVRA ROY,Chola,B.Tech - Computer Science and Artificial Intelligence,Suresh ROY,+91961509836,tuhinsuvra.suresh@gmail.com,Blue,False,False,True
+Tushant,Sharma,2501010481,TUSHANT SHARMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil Sharma,+91632541181,tushant.anil@gmail.com,Red,False,True,True
+Unnati,Asthana,2501010483,UNNATI ASTHANA,Chola,B.Tech - Computer Science and Artificial Intelligence,Rakesh Asthana,+91990956693,unnati.rakesh@gmail.com,Blue,True,True,True
+Urvita,Sharma,2501010486,URVITA SHARMA,Chola,B.Tech - Computer Science and Artificial Intelligence,Sandeep Sharma,+91658663364,urvita.sandeep@gmail.com,Blue,False,False,False
+Utkarsh,Jain,2501010605,UTKARSH JAIN,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Jain,+91702859136,utkarsh.ajay@gmail.com,Red,False,True,True
+UTKARSH,Patidar,2501010487,UTKARSH PATIDAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Sanjay Patidar,+91887916220,utkarsh.sanjay@gmail.com,Blue,True,True,True
+Utkarsh,Vashist,2501010588,UTKARSH VASHISHT,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj Vashist,+91675259798,utkarsh.manoj@gmail.com,Blue,False,True,False
+Vansh,Adhlakha,2501010496,VANSH ADHLAKHA,Chola,B.Tech - Computer Science and Artificial Intelligence,Vikram Adhlakha,+91698509390,vansh.vikram@gmail.com,Red,False,True,True
+vansh,kumar,2501010563,VANSH KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Deepak kumar,+91848371554,vansh.deepak@gmail.com,Red,True,False,True
+Vedaant,Chopra,2501010502,VEDAANT CHOPRA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ajay Chopra,+91640471954,vedaant.ajay@gmail.com,Red,True,True,False
+Vinayak,Kulshrestha,2501010506,VINAYAK KULSHRESTHA,Chola,B.Tech - Computer Science and Artificial Intelligence,Manoj Kulshrestha,+91895453652,vinayak.manoj@gmail.com,Red,True,True,True
+Vishal,kumar,2501010512,VISHAL KUMAR,Chola,B.Tech - Computer Science and Artificial Intelligence,Anil kumar,+91627159403,vishal.anil@gmail.com,Red,False,True,False
+Yash,Gupta,2501010523,YASH GUPTA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ashok Gupta,+91607923061,yash.ashok@gmail.com,Blue,True,True,False
+Yash,Srivastava,2501010517,YASH SRIVASTAVA,Chola,B.Tech - Computer Science and Artificial Intelligence,Ramesh Srivastava,+91726905272,yash.ramesh@gmail.com,Blue,True,False,False
+Yashaswi,Gusain,2501010524,YASHASWI GUSAIN,Chola,B.Tech - Computer Science and Artificial Intelligence,Vijay Gusain,+91818191887,yashaswi.vijay@gmail.com,Blue,True,False,False
+Abhinav,Bhardwaj,2502140004,ABHINAV BHARDWAJ,Chola,"B.Tech - CS,DS and Business",Arun Bhardwaj,+91858427335,abhinav.arun@gmail.com,Blue,True,True,True
+aishwarya,bajpai,2502140010,AISHWARYA BAJPAI,Chola,"B.Tech - CS,DS and Business",Sanjay bajpai,+91815306864,aishwarya.sanjay@gmail.com,Red,True,True,False
+Anirudh,Singla,2502140013,ANIRUDH SINGLA,Chola,"B.Tech - CS,DS and Business",Suresh Singla,+91688388881,anirudh.suresh@gmail.com,Red,True,True,True
+Anmol,Raj,2502140014,ANMOL RAJ,Chola,"B.Tech - CS,DS and Business",Rakesh Raj,+91601157156,anmol.rakesh@gmail.com,Blue,False,True,True
+Aryan,Jaiswal,2502140138,ARYAN JAISWAL,Chola,"B.Tech - CS,DS and Business",Rakesh Jaiswal,+91742379807,aryan.rakesh@gmail.com,Blue,False,True,True
+Chetanya,Khurana,2502140140,CHETANYA KHURANA,Chola,"B.Tech - CS,DS and Business",Manoj Khurana,+91753142014,chetanya.manoj@gmail.com,Blue,True,True,True
+Deepanshu,Sharma,2502140118,DEEPANSHU SHARMA,Chola,"B.Tech - CS,DS and Business",Vikram Sharma,+91973979715,deepanshu.vikram@gmail.com,Blue,True,False,True
+Dev,Chauhan,2502140022,DEV CHAUHAN,Chola,"B.Tech - CS,DS and Business",Ashok Chauhan,+91955339452,dev.ashok@gmail.com,Blue,True,True,True
+Dhruv,Singla,2502140111,DHRUV SINGLA,Chola,"B.Tech - CS,DS and Business",Arun Singla,+91683105914,dhruv.arun204@gmail.com,Blue,False,False,True
+Harshit,Raut,2502140026,HARSHIT RAUT,Chola,"B.Tech - CS,DS and Business",Pradeep Raut,+91716877277,harshit.pradeep@gmail.com,Blue,False,False,True
+Kritika,Rawat,2502140034,KRITIKA RAWAT,Chola,"B.Tech - CS,DS and Business",Suresh Rawat,+91910945048,kritika.suresh@gmail.com,Blue,False,True,True
+LAVYA,GUPTA,2502140039,LAVYA GUPTA,Chola,"B.Tech - CS,DS and Business",Ashok GUPTA,+91632726345,lavya.ashok@gmail.com,Red,False,False,True
+Nibha,Singh,2502140128,NIBHA SINGH,Chola,"B.Tech - CS,DS and Business",Sandeep Singh,+91630690373,nibha.sandeep@gmail.com,Red,False,False,False
+Nimisha,Goyal,2502140050,NIMISHA GOYAL,Chola,"B.Tech - CS,DS and Business",Suresh Goyal,+91913627959,nimisha.suresh@gmail.com,Red,False,False,False
+PRABHAS,KUMAR,2502140056,PRABHAS KUMAR,Chola,"B.Tech - CS,DS and Business",Arun KUMAR,+91869965740,prabhas.arun@gmail.com,Red,False,False,False
+RISHABH,GUPTA,2502140059,RISHABH GUPTA,Chola,"B.Tech - CS,DS and Business",Vinod GUPTA,+91684521052,rishabh.vinod@gmail.com,Red,False,False,True
+RUDRAKSH,KARMAKAR,2502140060,RUDRAKSH KARMAKAR,Chola,"B.Tech - CS,DS and Business",Suresh KARMAKAR,+91872638348,rudraksh.suresh@gmail.com,Red,False,False,False
+Sakshi,PATEL,2502140063,SAKSHI PATEL,Chola,"B.Tech - CS,DS and Business",Ramesh PATEL,+91699764018,sakshi.ramesh@gmail.com,Blue,True,True,False
+Sameer,Alam,2502140065,SAMEER ALAM,Chola,"B.Tech - CS,DS and Business",Ramesh Alam,+91919457040,sameer.ramesh@gmail.com,Blue,True,False,False
+Sarthak,Pandey,2502140069,SARTHAK PANDEY,Chola,"B.Tech - CS,DS and Business",Ramesh Pandey,+91962501977,sarthak.ramesh@gmail.com,Blue,True,False,True
+SHIV,Kuriyal,2502140074,SHIV KURIYAL,Chola,"B.Tech - CS,DS and Business",Ajay Kuriyal,+91816775349,shiv.ajay@gmail.com,Blue,True,False,True
+Sneha,Gangwar,2502140080,SNEHA GANGWAR,Chola,"B.Tech - CS,DS and Business",Anil Gangwar,+91905842159,sneha.anil262@gmail.com,Red,False,True,True
+Aarna,gupta,2502110003,AARNA GUPTA,Chola,BBA - Entrepreneurship,Karan gupta,+91919180042,aarna.karan@gmail.com,Red,False,False,True
+Aditya,Mohite,2502110005,ADITYA MOHITE,Chola,BBA - Entrepreneurship,Suresh Mohite,+91932527916,aditya.suresh@gmail.com,Red,True,True,False
+Arpita,Singh,2502110064,ARPITA SINGH,Chola,BBA - Entrepreneurship,Ramesh Singh,+91825069660,arpita.ramesh@gmail.com,Red,False,False,False
+Ayush,Kashyap,2502110057,AYUSH KASHYAP,Chola,BBA - Entrepreneurship,Karan Kashyap,+91903453894,ayush.karan@gmail.com,Red,True,True,False
+Jaismeen,Kaur,2502110015,JAISMEEN KAUR,Chola,BBA - Entrepreneurship,Vinod Kaur,+91769849767,jaismeen.vinod@gmail.com,Red,False,True,False
+jasmeet,kour,2502110016,JASMEET KOUR,Chola,BBA - Entrepreneurship,Deepak kour,+91709660823,jasmeet.deepak@gmail.com,Red,True,False,True
+KUSHAGR,KASHYAP,2502110019,KUSHAGR KASHYAP,Chola,BBA - Entrepreneurship,Sandeep KASHYAP,+91728143547,kushagr.sandeep@gmail.com,Blue,False,False,True
+OM,SINGH,2502110046,OM SINGH,Chola,BBA - Entrepreneurship,Deepak SINGH,+91812485908,om.deepak@gmail.com,Blue,False,True,True
+Param,Jain,2502110026,PARAM JAIN,Chola,BBA - Entrepreneurship,Sunil Jain,+91960610943,param.sunil@gmail.com,Red,True,False,False
+Prakul,Jindal,2502110070,PRAKUL JINDAL,Chola,BBA - Entrepreneurship,Pradeep Jindal,+91845470574,prakul.pradeep@gmail.com,Red,False,True,True
+Vishakha,Goyal,2502110042,VISHAKHA GOYAL,Chola,BBA - Entrepreneurship,Sandeep Goyal,+91638946288,vishakha.sandeep@gmail.com,Blue,True,True,True
+Armaan,Dhaka,2503210003,ARMAAN DHAKA,Maratha,B.Design,Rajesh Dhaka,+91846040164,armaan.rajesh@gmail.com,Blue,True,True,False
+Chhavi,Aggarwal,2503210036,CHHAVI AGGARWAL,Maratha,B.Design,Rahul Aggarwal,+91902254908,chhavi.rahul@gmail.com,Blue,True,True,False
+Devansh,vimal,2503210004,DEVANSH VIMAL,Maratha,B.Design,Anil vimal,+91639331548,devansh.anil@gmail.com,Blue,True,True,True
+Gurmannat,Kaur,2503210006,GURMANNAT KAUR,Maratha,B.Design,Ashok Kaur,+91714436349,gurmannat.ashok@gmail.com,Red,False,False,True
+Saurav,kumar,2503210020,SAURAV KUMAR,Maratha,B.Design,Vinod kumar,+91742378389,saurav.vinod@gmail.com,Blue,False,True,True
+AKHIL,KHAN,2504310004,AKHIL KHAN,Maratha,B.Sc (Hons) Psychology,Sunil KHAN,+91787372691,akhil.sunil@gmail.com,Red,False,True,True
+ANANYA,Jha,2504310006,ANANYA JHA,Maratha,B.Sc (Hons) Psychology,Ramesh Jha,+91731149196,ananya.ramesh@gmail.com,Blue,True,False,True
+Daeboshree,ghose,2504310011,DAEBOSHREE GHOSE,Maratha,B.Sc (Hons) Psychology,Alok ghose,+91753001442,daeboshree.alok@gmail.com,Blue,False,True,True
+Diya,Majumdar,2504310014,DIYA MAJUMDAR,Maratha,B.Sc (Hons) Psychology,Vijay Majumdar,+91835248548,diya.vijay@gmail.com,Red,True,False,False
+Ishayu,Krishnam,2504310053,ISHAYU KRISHNAM,Maratha,B.Sc (Hons) Psychology,Ashok Krishnam,+91977710120,ishayu.ashok@gmail.com,Blue,False,False,False
+Prabhgun,Kaur,2504310025,PRABHGUN KAUR,Maratha,B.Sc (Hons) Psychology,Pradeep Kaur,+91928391997,prabhgun.pradeep@gmail.com,Blue,False,False,False
+Shilpi,kumari,2504310029,SHILPI KUMARI,Maratha,B.Sc (Hons) Psychology,Vinod kumari,+91604199998,shilpi.vinod@gmail.com,Blue,False,True,True
+Smridhi,Joon,2504310033,SMRIDHI JOON,Maratha,B.Sc (Hons) Psychology,Ashok Joon,+91760727741,smridhi.ashok@gmail.com,Red,True,True,False
+Zamin,Nisar,2504310041,ZAMIN NISAR,Maratha,B.Sc (Hons) Psychology,Anil Nisar,+91672096993,zamin.anil@gmail.com,Red,False,True,True
+Aamir,Hamza,2501010546,AAMIR HAMZA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Deepak Hamza,+91661970293,aamir.deepak@gmail.com,Red,False,False,True
+Aarush,Dogra,2501010003,AARUSH DOGRA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Anil Dogra,+91998581923,aarush.anil@gmail.com,Blue,True,True,False
+Aayush,Kumar,2501010011,AAYUSH KUMAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ashok Kumar,+91683455461,aayush.ashok@gmail.com,Blue,False,False,True
+Abhishek,Panigrahi,2501010019,ABHISHEK PANIGRAHI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Deepak Panigrahi,+91751266747,abhishek.deepak@gmail.com,Blue,True,True,True
+Abhradip,Ghosal,2501010021,ABHRADIP GHOSAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul Ghosal,+91713080933,abhradip.rahul@gmail.com,Red,False,False,False
+Achintya,Sharma,2501010022,ACHINTYA SHARMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep Sharma,+91709305473,achintya.sandeep@gmail.com,Red,True,True,False
+Aditya,Harsh,2501010035,ADITYA HARSH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Deepak Harsh,+91871339422,aditya.deepak@gmail.com,Red,True,True,False
+Aditya,Kumar,2501010613,ADITYA KUMAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Arun Kumar,+91734819694,aditya.arun@gmail.com,Red,False,True,True
+Aditya,Srivastava,2501010029,ADITYA SRIVASTAVA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Srivastava,+91649552361,aditya.suresh659@gmail.com,Red,True,False,False
+Ajay,Kumar,2501010040,AJAY KUMAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Kumar,+91748541566,ajay.vikram@gmail.com,Red,True,False,False
+Aksh,Rathi,2501010044,AKSH RATHI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Rathi,+91601903577,aksh.suresh@gmail.com,Blue,True,True,True
+Ananya,Agrahari,2501010624,ANANYA AGRAHARI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep Agrahari,+91670233268,ananya.sandeep@gmail.com,Red,True,True,False
+Animesh,Priyanshu,2501010057,ANIMESH PRIYANSHU,Maratha,B.Tech - Computer Science and Artificial Intelligence,Deepak Priyanshu,+91686748663,animesh.deepak@gmail.com,Red,True,False,False
+Anish,Kajla,2501010569,ANISH KAJLA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Manoj Kajla,+91896181171,anish.manoj@gmail.com,Red,True,False,False
+Ankit,Mishra,2501010687,ANKIT MISHRA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Mishra,+91901134582,ankit.vikram@gmail.com,Red,False,False,True
+ANKUSH,JHA,2501010064,ANKUSH JHA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rajesh JHA,+91660061833,ankush.rajesh@gmail.com,Blue,True,True,True
+Ansh,Gupta,2501010068,ANSH GUPTA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ramesh Gupta,+91970988333,ansh.ramesh@gmail.com,Blue,True,False,True
+Ansh,Verma,2501010069,ANSH VERMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sunil Verma,+91892911559,ansh.sunil@gmail.com,Red,False,True,True
+Anshika,Srivastava,2501010071,ANSHIKA SRIVASTAVA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Srivastava,+91798221323,anshika.suresh@gmail.com,Red,False,False,False
+Ariv,Gupta,2501010077,ARIV GUPTA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Karan Gupta,+91896634652,ariv.karan@gmail.com,Blue,False,True,True
+Arnav,Goyal,2501010081,ARNAV GOYAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sunil Goyal,+91830739986,arnav.sunil@gmail.com,Red,False,False,True
+Arpit,goyal,2501010086,ARPIT GOYAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sunil goyal,+91622456699,arpit.sunil@gmail.com,Red,False,False,False
+Arpit,Rajput,2501010084,ARPIT RAJPUT,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep Rajput,+91795770789,arpit.pradeep@gmail.com,Red,False,False,False
+Atharv,Upadhyay,2501010102,ATHARV UPADHYAY,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Upadhyay,+91792097368,atharv.suresh@gmail.com,Blue,False,False,False
+aujasya,rajput,2501010564,AUJASYA RAJPUT,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sanjay rajput,+91966181766,aujasya.sanjay@gmail.com,Red,True,False,True
+Awantika,Maheshwari,2501010107,AWANTIKA MAHESHWARI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay Maheshwari,+91958057151,awantika.ajay@gmail.com,Blue,True,True,True
+Ayesha,khan,2501010108,AYESHA KHAN,Maratha,B.Tech - Computer Science and Artificial Intelligence,Anil khan,+91789879769,ayesha.anil@gmail.com,Blue,False,False,True
+Barnak,Das,2501010113,BARNAK DAS,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ashok Das,+91818172199,barnak.ashok@gmail.com,Blue,True,False,False
+Bharat,Sharma,2501010114,BHARAT SHARMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul Sharma,+91682975191,bharat.rahul@gmail.com,Red,True,False,False
+Bhavya,Bansal,2501010115,BHAVYA BANSAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay Bansal,+91687242470,bhavya.ajay@gmail.com,Red,True,True,True
+Atharva,Chiddarwar,2501010103,CHIDDARWAR ATHARVA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vijay Chiddarwar,+91821348877,atharva.vijay@gmail.com,Blue,False,False,False
+Dakshesh,Sharma,2501010130,DAKSHESH SHARMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rajesh Sharma,+91696293522,dakshesh.rajesh@gmail.com,Red,False,True,False
+DEEKSHA,SHARMA,2501010132,DEEKSHA SHARMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep SHARMA,+91821036821,deeksha.sandeep@gmail.com,Blue,True,False,False
+Dhaval,Sethi,2501010141,DHAVAL SETHI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay Sethi,+91743240225,dhaval.ajay@gmail.com,Red,False,False,True
+Dhruv,Khare,2501010700,DHRUV KHARE,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vijay Khare,+91976495860,dhruv.vijay@gmail.com,Red,True,True,False
+Falak,Mishra,2501010161,FALAK MISHRA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Anil Mishra,+91805375523,falak.anil@gmail.com,Blue,True,False,False
+Harsh,Raj,2501010176,HARSH RAJ,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Raj,+91852699780,harsh.suresh@gmail.com,Red,True,True,True
+Himank,Sain,2501010184,HIMANK SAIN,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay Sain,+91707144846,himank.ajay@gmail.com,Blue,True,True,True
+Himanshi,Bishnoi,2501010185,HIMANSHI BISHNOI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Manoj Bishnoi,+91787721436,himanshi.manoj@gmail.com,Red,False,False,False
+Himanshu,Verma,2501010186,Himanshu Verma,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep Verma,+91722189399,himanshu.pradeep@gmail.com,Red,False,True,False
+Hridey,Marwah,2501010673,HRIDEY MARWAH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay Marwah,+91612704747,hridey.ajay@gmail.com,Blue,False,False,True
+ishaan,goel,2501010191,ISHAAN GOEL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sanjay goel,+91813924794,ishaan.sanjay@gmail.com,Red,True,False,True
+JAI,SHASTRI,2501010689,JAI SHASTRI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep SHASTRI,+91749573877,jai.sandeep@gmail.com,Red,False,True,False
+Joshmann Singh,Dhiman,2501010206,JOSHMANN SINGH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ramesh Dhiman,+91749854091,joshmannsingh.ramesh@gmail.com,Blue,True,True,False
+Keshav,Goel,2501010720,KESHAV GOEL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Alok Goel,+91944392886,keshav.alok@gmail.com,Blue,False,True,False
+Ketan,Agarwal,2501010218,KETAN AGARWAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vinod Agarwal,+91814575699,ketan.vinod@gmail.com,Red,True,True,False
+Khanak,Jain,2501010219,KHANAK JAIN,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ashok Jain,+91777784731,khanak.ashok@gmail.com,Blue,True,False,True
+Kunal,Gupta,2501010586,KUNAL GUPTA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rajesh Gupta,+91661923628,kunal.rajesh@gmail.com,Red,True,False,False
+Kushagra,Kaushik,2501010239,KUSHAGRA KAUSHIK,Maratha,B.Tech - Computer Science and Artificial Intelligence,Deepak Kaushik,+91695867867,kushagra.deepak@gmail.com,Blue,False,True,False
+Kushal,Rathore,2501010242,KUSHAL RATHORE,Maratha,B.Tech - Computer Science and Artificial Intelligence,Karan Rathore,+91742521168,kushal.karan@gmail.com,Blue,False,False,True
+Madhav,Khandelwal,2501010251,MADHAV KHANDELWAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Khandelwal,+91658198175,madhav.suresh@gmail.com,Red,False,False,False
+Mahabir,Shaw,2501010253,MAHABIR SHAW,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul Shaw,+91833304641,mahabir.rahul@gmail.com,Red,False,False,True
+MEET,GUPTA,2501010697,MEET GUPTA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Alok GUPTA,+91991134651,meet.alok@gmail.com,Blue,True,False,False
+Mohit,Choudhary,2501010278,MOHIT CHOUDHARY,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep Choudhary,+91834287182,mohit.sandeep@gmail.com,Blue,False,True,False
+Mrinal,Upreti,2501010282,MRINAL UPRETI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul Upreti,+91874568165,mrinal.rahul@gmail.com,Blue,False,True,True
+Nagendra,Jind,2501010290,NAGENDRA JIND,Maratha,B.Tech - Computer Science and Artificial Intelligence,Anil Jind,+91806800220,nagendra.anil@gmail.com,Blue,True,False,True
+Nandani,Dusad,2501010296,NANDANI DUSAD,Maratha,B.Tech - Computer Science and Artificial Intelligence,Karan Dusad,+91702047765,nandani.karan@gmail.com,Blue,True,True,False
+Neev,Kumar,2501010299,NEEV KUMAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Deepak Kumar,+91623829837,neev.deepak@gmail.com,Blue,True,True,False
+Nimit,Sharma,2501010306,NIMIT SHARMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Sharma,+91600907996,nimit.vikram@gmail.com,Red,False,True,False
+nitya,pawar,2501010683,NITYA PAWAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vinod pawar,+91889079213,nitya.vinod@gmail.com,Red,True,False,True
+Ojal,Akash,2501010311,OJAL AKASH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sanjay Akash,+91795539914,ojal.sanjay@gmail.com,Red,True,False,False
+Parth,Singla,2501010322,PARTH SINGLA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Singla,+91637566901,parth.vikram@gmail.com,Blue,True,False,True
+Parushya,Data,2501010678,PARUSHYA DATA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep Data,+91934554012,parushya.sandeep@gmail.com,Red,False,True,True
+Piyush,Purkait,2501010334,PIYUSH PURKAIT,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep Purkait,+91956153436,piyush.sandeep@gmail.com,Red,True,False,False
+Prachi,Choubey,2501010337,PRACHI CHOUBEY,Maratha,B.Tech - Computer Science and Artificial Intelligence,Anil Choubey,+91986415124,prachi.anil@gmail.com,Red,False,False,True
+Pranjal,GARG,2501010342,PRANJAL GARG,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep GARG,+91872259323,pranjal.pradeep@gmail.com,Blue,False,True,False
+Prtishtha,Khurana,2501010360,PRTISHTHA KHURANA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep Khurana,+91958035401,prtishtha.pradeep@gmail.com,Blue,True,False,False
+Puneet,Goyal,2501010362,PUNEET GOYAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Goyal,+91775118112,puneet.vikram@gmail.com,Red,True,False,False
+Puneet,Kumar,2501010361,PUNEET KUMAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rakesh Kumar,+91974310916,puneet.rakesh@gmail.com,Red,False,True,False
+Raja,Dhaka,2501010366,RAJA DHAKA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep Dhaka,+91897647935,raja.pradeep@gmail.com,Blue,True,True,False
+RAJAT,SONI,2501010367,RAJAT SONI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sunil SONI,+91702993366,rajat.sunil@gmail.com,Red,True,True,True
+Rakshit,Yadav,2501010369,RAKSHIT YADAV,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Yadav,+91956981268,rakshit.vikram@gmail.com,Blue,False,False,True
+Riya,Agarwal,2501010381,RIYA AGARWAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rakesh Agarwal,+91963632301,riya.rakesh@gmail.com,Blue,False,False,False
+Rohit,Raj,2501010384,ROHIT RAJ,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vijay Raj,+91930452053,rohit.vijay@gmail.com,Blue,True,False,False
+Rudransh,Singh,2501010390,RUDRANSH SINGH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Karan Singh,+91761571235,rudransh.karan@gmail.com,Blue,False,True,True
+Saksham,Kejriwal,2501010396,SAKSHAM KEJRIWAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rakesh Kejriwal,+91894171548,saksham.rakesh@gmail.com,Blue,True,True,True
+Saumya,Verma,2501010413,SAUMYA VERMA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rajesh Verma,+91763141622,saumya.rajesh@gmail.com,Red,True,False,True
+Seyanshu,Mukherjee,2501010417,SEYANSHU MUKHERJEE,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep Mukherjee,+91712840968,seyanshu.pradeep@gmail.com,Red,True,False,True
+Shagun,Chauhan,2501010418,SHAGUN CHAUHAN,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Chauhan,+91911376956,shagun.vikram@gmail.com,Red,False,True,False
+Shikhar,Srivastava,2501010647,SHIKHAR SRIVASTAVA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul Srivastava,+91951492405,shikhar.rahul@gmail.com,Blue,True,True,False
+Shivansh,Pandey,2501010698,SHIVANSH PANDEY,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sandeep Pandey,+91849638633,shivansh.sandeep@gmail.com,Blue,True,True,True
+Shlok,Srivastava,2501010434,SHLOK SRIVASTAVA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Manoj Srivastava,+91837382733,shlok.manoj@gmail.com,Red,True,True,False
+SHOURYA,SINGH,2501010435,SHOURYA SINGH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sanjay SINGH,+91874434449,shourya.sanjay@gmail.com,Blue,False,False,True
+Shubham,Rao,2501010447,SHUBHAM RAO,Maratha,B.Tech - Computer Science and Artificial Intelligence,Arun Rao,+91995116294,shubham.arun183@gmail.com,Blue,False,True,False
+Siddhi,modi,2501010645,SIDDHI MODI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ramesh modi,+91752356666,siddhi.ramesh@gmail.com,Blue,False,False,True
+Siddhi,varshney,2501010655,SIDDHI VARSHNEY,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vinod varshney,+91956403814,siddhi.vinod@gmail.com,Blue,False,False,False
+Sneha,agrawal,2501010674,SNEHA AGRAWAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul agrawal,+91779952827,sneha.rahul@gmail.com,Red,False,False,True
+Sriharsha,Mallavarapu,2501010456,SRIHARSHA MALLAVARAPU,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ramesh Mallavarapu,+91726094117,sriharsha.ramesh@gmail.com,Blue,True,True,True
+Sujay,Barui,2501010463,SUJAY BARUI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Pradeep Barui,+91720603039,sujay.pradeep@gmail.com,Blue,False,True,False
+Tahseen,Sarwar,2501010574,TAHSEEN SARWAR,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sanjay Sarwar,+91679110057,tahseen.sanjay@gmail.com,Blue,False,True,True
+TAMOJIT,DUARY,2501010470,TAMOJIT DUARY,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rajesh DUARY,+91624810802,tamojit.rajesh@gmail.com,Blue,False,True,False
+Tirthdev,Gera,2501010596,TIRTHDEV GERA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay Gera,+91855086880,tirthdev.ajay@gmail.com,Red,True,False,False
+Tushar,Khemka,2501010482,TUSHAR KHEMKA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rahul Khemka,+91639099358,tushar.rahul@gmail.com,Red,False,True,True
+Utkarsh,singh,2501010488,UTKARSH SINGH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Manoj singh,+91822501321,utkarsh.manoj917@gmail.com,Blue,False,True,False
+VAIBHAV,GUPTA,2501010490,VAIBHAV GUPTA,Maratha,B.Tech - Computer Science and Artificial Intelligence,Karan GUPTA,+91704386621,vaibhav.karan@gmail.com,Blue,True,False,False
+vaibhav,todi,2501010491,VAIBHAV TODI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rakesh todi,+91865416722,vaibhav.rakesh@gmail.com,Red,False,True,False
+Vanisha,vashisth,2501010609,VANISHA VASHISTH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rakesh vashisth,+91730988150,vanisha.rakesh@gmail.com,Blue,True,False,False
+Varun,adwani,2501010499,VARUN ADWANI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Sunil adwani,+91952218461,varun.sunil@gmail.com,Blue,True,False,False
+Vedant,Tiwari,2501010503,VEDANT TIWARI,Maratha,B.Tech - Computer Science and Artificial Intelligence,Rajesh Tiwari,+91657223618,vedant.rajesh@gmail.com,Blue,True,False,True
+Vishal,Pant,2501010511,VISHAL PANT,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vikram Pant,+91717489440,vishal.vikram@gmail.com,Blue,True,False,False
+Yash,Dangayach,2501010600,YASH DANGAYACH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vijay Dangayach,+91973614789,yash.vijay@gmail.com,Red,True,False,False
+Yash,Prasad,2501010522,YASH PRASAD,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vinod Prasad,+91849403322,yash.vinod@gmail.com,Red,False,False,False
+Yashasvee,Singh,2501010593,YASHASVEE SINGH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Suresh Singh,+91899254959,yashasvee.suresh@gmail.com,Blue,True,False,False
+YASHRAJ,PANGHAL,2501010526,YASHRAJ PANGHAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Ajay PANGHAL,+91665153902,yashraj.ajay@gmail.com,Red,True,False,False
+YASHWINDER,SINGH,2501010528,YASHWINDER SINGH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Manoj SINGH,+91671585884,yashwinder.manoj@gmail.com,Red,False,True,True
+Yatharth,khandelwal,2501010530,YATHARTH KHANDELWAL,Maratha,B.Tech - Computer Science and Artificial Intelligence,Manoj khandelwal,+91958403064,yatharth.manoj@gmail.com,Blue,True,True,False
+Yug,Shah,2501010533,YUG SHAH,Maratha,B.Tech - Computer Science and Artificial Intelligence,Vinod Shah,+91900070731,yug.vinod@gmail.com,Red,False,True,True
+AADITYA,PRAKASH,2502140122,AADITYA PRAKASH,Maratha,"B.Tech - CS,DS and Business",Rahul PRAKASH,+91770348042,aaditya.rahul@gmail.com,Red,False,True,True
+Aarushi,kaushik,2502140096,AARUSHI KAUSHIK,Maratha,"B.Tech - CS,DS and Business",Manoj kaushik,+91928915210,aarushi.manoj@gmail.com,Blue,False,False,True
+Akshat,khubber,2502140011,AKSHAT KHUBBER,Maratha,"B.Tech - CS,DS and Business",Vinod khubber,+91829104699,akshat.vinod@gmail.com,Red,True,True,True
+Dhairya,Sharma,2502140023,DHAIRYA SHARMA,Maratha,"B.Tech - CS,DS and Business",Ashok Sharma,+91839398044,dhairya.ashok@gmail.com,Blue,True,False,False
+Kartikeya,Jhalani,2502140030,KARTIKEYA JHALANI,Maratha,"B.Tech - CS,DS and Business",Vijay Jhalani,+91999246974,kartikeya.vijay@gmail.com,Blue,True,True,True
+Mayank,Barak,2502140042,MAYANK BARAK,Maratha,"B.Tech - CS,DS and Business",Arun Barak,+91841629363,mayank.arun@gmail.com,Red,False,True,True
+Mayank,Yadav,2502140041,MAYANK YADAV,Maratha,"B.Tech - CS,DS and Business",Deepak Yadav,+91732735822,mayank.deepak870@gmail.com,Red,True,True,False
+Naman,kumar,2502140048,NAMAN KUMAR,Maratha,"B.Tech - CS,DS and Business",Deepak kumar,+91879870706,naman.deepak@gmail.com,Blue,True,False,False
+NIRAV,JAIN,2502140112,Nirav Jain,Maratha,"B.Tech - CS,DS and Business",Arun JAIN,+91936483005,nirav.arun@gmail.com,Red,True,True,False
+PRAKRITI,RAUTELA,2502140057,PRAKRITI RAUTELA,Maratha,"B.Tech - CS,DS and Business",Ajay RAUTELA,+91747423381,prakriti.ajay@gmail.com,Red,False,False,True
+Sanjhal,jain,2502140108,SANJHAL JAIN,Maratha,"B.Tech - CS,DS and Business",Manoj jain,+91641598558,sanjhal.manoj@gmail.com,Red,False,False,False
+Sarthak,kumar,2502140068,SARTHAK KUMAR,Maratha,"B.Tech - CS,DS and Business",Pradeep kumar,+91725892782,sarthak.pradeep@gmail.com,Blue,True,True,False
+Shayan,Mitra,2502140123,SHAYAN MITRA,Maratha,"B.Tech - CS,DS and Business",Deepak Mitra,+91780306775,shayan.deepak@gmail.com,Red,True,True,True
+Shivam,Srivastava,2502140101,SHIVAM SRIVASTAVA,Maratha,"B.Tech - CS,DS and Business",Sandeep Srivastava,+91889992016,shivam.sandeep92@gmail.com,Red,True,True,False
+Shray,Upadhyay,2502140134,SHRAY UPADHYAY,Maratha,"B.Tech - CS,DS and Business",Sunil Upadhyay,+91680976594,shray.sunil@gmail.com,Blue,True,False,False
+SHUBH,MEHROTRA,2502140137,SHUBH MEHROTRA,Maratha,"B.Tech - CS,DS and Business",Ajay MEHROTRA,+91805640506,shubh.ajay@gmail.com,Red,False,True,False
+Vaani,Yadav,2502140090,VAANI YADAV,Maratha,"B.Tech - CS,DS and Business",Sunil Yadav,+91979255889,vaani.sunil@gmail.com,Red,False,False,False
+Yash,Sharma,2502140095,YASH SHARMA,Maratha,"B.Tech - CS,DS and Business",Sanjay Sharma,+91634482602,yash.sanjay@gmail.com,Blue,False,False,True
+Adarsh,Mishra,2502110004,ADARSH MISHRA,Maratha,BBA - Entrepreneurship,Vikram Mishra,+91818828247,adarsh.vikram@gmail.com,Red,False,True,False
+Ashutosh,Ghosh,2502110061,ASHUTOSH GHOSH,Maratha,BBA - Entrepreneurship,Sandeep Ghosh,+91891312139,ashutosh.sandeep@gmail.com,Red,True,True,False
+Kavyansh,Jain,2502110018,KAVYANSH JAIN,Maratha,BBA - Entrepreneurship,Manoj Jain,+91823217093,kavyansh.manoj@gmail.com,Red,True,False,True
+Mishti,Hooda,2502110066,MISHTI HOODA,Maratha,BBA - Entrepreneurship,Suresh Hooda,+91711043367,mishti.suresh@gmail.com,Blue,True,False,False
+neha,yadav,2502110023,NEHA YADAV,Maratha,BBA - Entrepreneurship,Vikram yadav,+91809098769,neha.vikram@gmail.com,Red,False,False,True
+palak,chhabra,2502110025,PALAK CHHABRA,Maratha,BBA - Entrepreneurship,Karan chhabra,+91973406061,palak.karan@gmail.com,Blue,True,True,False
+Parmeet,Singh,2502110051,PARMEET SINGH,Maratha,BBA - Entrepreneurship,Rajesh Singh,+91909071403,parmeet.rajesh@gmail.com,Blue,False,False,True
+Shiladitya,Roy,2502110073,SHILADITYA ROY,Maratha,BBA - Entrepreneurship,Rakesh Roy,+91856076544,shiladitya.rakesh@gmail.com,Red,False,True,True
+Tamanpreet,Kaur,2502110037,TAMANPREET KAUR,Maratha,BBA - Entrepreneurship,Rajesh Kaur,+91788849071,tamanpreet.rajesh@gmail.com,Blue,True,False,True
+Tushar,Tyagi,2502110053,TUSHAR TYAGI,Maratha,BBA - Entrepreneurship,Pradeep Tyagi,+91809372487,tushar.pradeep@gmail.com,Blue,True,False,True
+Vidansh,verma,2502110040,VIDANSH VERMA,Maratha,BBA - Entrepreneurship,Vikram verma,+91888954965,vidansh.vikram@gmail.com,Blue,True,True,False
+Gurnoor,Kaur,2503210031,GURNOOR KAUR,Rajputana,B.Design,Ashok Kaur,+91923868766,gurnoor.ashok@gmail.com,Red,False,False,True
+Linima,sharma,2503210011,LINIMA SHARMA,Rajputana,B.Design,Ajay sharma,+91862116207,linima.ajay@gmail.com,Red,True,True,False
+Poorna,Harjai,2503210017,POORNA HARJAI,Rajputana,B.Design,Ajay Harjai,+91746531030,poorna.ajay@gmail.com,Red,False,True,True
+vageesh,yaji,2503210027,VAGEESH YAJI,Rajputana,B.Design,Vikram yaji,+91860727063,vageesh.vikram@gmail.com,Blue,True,False,True
+Prachi,Sharma,2503210037,Prachi sharma,Rajputana,B.Design,Rajesh Sharma,+91808766121,prachi.rajesh@gmail.com,Blue,False,True,True
+Anushree,Saxena,2504310055,ANUSHREE SAXENA,Rajputana,B.Sc (Hons) Psychology,Sandeep Saxena,+91959098790,anushree.sandeep@gmail.com,Blue,False,True,False
+Drishti,Makkar,2504310015,DRISHTI MAKKAR,Rajputana,B.Sc (Hons) Psychology,Rakesh Makkar,+91988791919,drishti.rakesh@gmail.com,Blue,True,False,True
+Harshil,Jobanputra,2504310017,HARSHIL JOBANPUTRA,Rajputana,B.Sc (Hons) Psychology,Vijay Jobanputra,+91850928175,harshil.vijay@gmail.com,Red,False,True,False
+Ishita,Verma,2504310046,ISHITA VERMA,Rajputana,B.Sc (Hons) Psychology,Sunil Verma,+91934071663,ishita.sunil@gmail.com,Red,False,True,False
+Jasmeh,kaur,2504310058,JASMEH KAUR,Rajputana,B.Sc (Hons) Psychology,Ashok kaur,+91614477503,jasmeh.ashok@gmail.com,Blue,True,True,False
+Kashish,meena,2504310020,KASHISH MEENA,Rajputana,B.Sc (Hons) Psychology,Rakesh meena,+91917770015,kashish.rakesh@gmail.com,Blue,False,False,False
+Samridhi,Negi,2504310048,SAMRIDHI NEGI,Rajputana,B.Sc (Hons) Psychology,Karan Negi,+91955945284,samridhi.karan@gmail.com,Blue,True,True,False
+Sukhman,Kahlon,2504310057,SUKHMAN KAHLON,Rajputana,B.Sc (Hons) Psychology,Rajesh Kahlon,+91645068948,sukhman.rajesh@gmail.com,Red,False,False,False
+Aarabdh,Sharma,2501010611,AARABDH SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vikram Sharma,+91672853105,aarabdh.vikram@gmail.com,Red,True,False,False
+Abhijeet,Saini,2501010013,ABHIJEET SAINI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Manoj Saini,+91697565028,abhijeet.manoj@gmail.com,Blue,True,True,False
+Abhishek,Pradhan,2501010018,ABHISHEK PRADHAN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Suresh Pradhan,+91739670356,abhishek.suresh@gmail.com,Blue,False,True,False
+Adarsh,Balu,2501010640,ADARSH BALU,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rakesh Balu,+91775746125,adarsh.rakesh@gmail.com,Red,False,True,True
+Adil,Reyaz,2501010025,Adil Reyaz,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay Reyaz,+91844114843,adil.sanjay@gmail.com,Blue,False,False,True
+AKSHAT,SHUKLA,2501010046,AKSHAT SHUKLA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sandeep SHUKLA,+91781194227,akshat.sandeep@gmail.com,Blue,False,True,True
+Akshit,baliyan,2501010048,AKSHIT BALIYAN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rakesh baliyan,+91749387883,akshit.rakesh@gmail.com,Red,False,True,True
+aman,agrawal,2501010051,AMAN KUMAR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vikram agrawal,+91735437245,aman.vikram@gmail.com,Red,True,True,True
+Amrit,Raj,2501010052,AMRIT RAJ,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ramesh Raj,+91852494060,amrit.ramesh@gmail.com,Blue,False,True,False
+Anindya,Sarkar,2501010058,ANINDYA SARKAR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rajesh Sarkar,+91889598399,anindya.rajesh@gmail.com,Red,True,True,False
+Ankit,Jakhar,2501010060,ANKIT JAKHAR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Suresh Jakhar,+91787883528,ankit.suresh@gmail.com,Blue,True,False,False
+Ankush,verma,2501010065,ANKUSH VERMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ajay verma,+91949043454,ankush.ajay@gmail.com,Red,False,False,False
+Ansh,Gupta,2501010067,ANSH GUPTA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ramesh Gupta,+91949908116,ansh.ramesh51@gmail.com,Red,True,True,False
+Ansh,Sharma,2501010578,ANSH SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rajesh Sharma,+91732759212,ansh.rajesh@gmail.com,Blue,True,True,False
+Arnav,Gupta,2501010080,ARNAV GUPTA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay Gupta,+91610941438,arnav.sanjay@gmail.com,Red,True,True,False
+Arpit,Tripathi,2501010085,ARPIT TRIPATHI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rahul Tripathi,+91681809649,arpit.rahul@gmail.com,Red,True,True,True
+Arpita,Bharti,2501010087,ARPITA BHARTI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ajay Bharti,+91667764370,arpita.ajay@gmail.com,Red,False,False,True
+Aryan,Goyal,2501010092,ARYAN GOYAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Goyal,+91959412982,aryan.arun@gmail.com,Red,True,True,True
+Aryan,Mudgal,2501010096,ARYAN MUDGAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Anil Mudgal,+91902778860,aryan.anil@gmail.com,Red,False,False,True
+Ashima,bansal,2501010648,ASHIMA BANSAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay bansal,+91849663219,ashima.sanjay@gmail.com,Red,False,False,False
+Ashwin,Agrawal,2501010098,ASHWIN AGRAWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Deepak Agrawal,+91798049088,ashwin.deepak@gmail.com,Blue,True,True,False
+Ashwin,Maurya,2501010099,ASHWIN MAURYA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vijay Maurya,+91925286162,ashwin.vijay@gmail.com,Red,False,False,False
+ATUL,PANDA,2501010705,ATUL PANDA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rahul PANDA,+91985665103,atul.rahul@gmail.com,Blue,False,False,True
+Ayush,Jyala,2501010543,AYUSH JYALA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Anil Jyala,+91687921097,ayush.anil@gmail.com,Blue,False,False,False
+BHUMIKA,BENIWAL,2501010117,BHUMIKA BENIWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep BENIWAL,+91658035074,bhumika.pradeep@gmail.com,Red,True,False,False
+Boiri,Aditya,2501010118,BOIRI ADITYA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Karan Aditya,+91613785996,boiri.karan@gmail.com,Blue,False,True,False
+Chayan,Leekha,2501010123,CHAYAN LEEKHA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Leekha,+91909128512,chayan.pradeep@gmail.com,Blue,False,True,True
+Chirag,Antil,2501010125,CHIRAG ANTIL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rakesh Antil,+91812952228,chirag.rakesh@gmail.com,Blue,False,False,False
+Chirag,tyagi,2501010126,CHIRAG TYAGI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay tyagi,+91640800296,chirag.sanjay@gmail.com,Blue,True,True,True
+Debanshika,Das,2501010560,DEBANSHIKA DAS,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Karan Das,+91970770791,debanshika.karan@gmail.com,Red,False,True,True
+Deepali,Aggarwal,2501010134,DEEPALI AGGARWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ajay Aggarwal,+91654707845,deepali.ajay@gmail.com,Blue,True,True,True
+Dipesh,Singla,2501010147,DIPESH SINGLA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Singla,+91967358774,dipesh.pradeep@gmail.com,Red,True,True,True
+Disha,shekhawat,2501010148,DISHA SHEKHAWAT,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rahul shekhawat,+91664990941,disha.rahul@gmail.com,Blue,True,True,False
+Divyansh,jha,2501010604,DIVYANSH JHA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Karan jha,+91622048823,divyansh.karan@gmail.com,Red,True,False,True
+Dwij,saini,2501010158,DWIJ SAINI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Alok saini,+91886015427,dwij.alok@gmail.com,Red,True,True,True
+gourav,mittal,2501010169,GOURAV MITTAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vikram mittal,+91955151564,gourav.vikram@gmail.com,Red,True,True,False
+Harshal,Grover,2501010180,HARSHAL GROVER,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Alok Grover,+91637020865,harshal.alok@gmail.com,Blue,False,True,False
+Harshvardhan,Dhankhar,2501010562,HARSHVARDHAN DHANKHAR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vinod Dhankhar,+91947647137,harshvardhan.vinod@gmail.com,Blue,True,True,True
+Himanshi,yadav,2501010556,HIMANSHI YADAV,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sandeep yadav,+91606792569,himanshi.sandeep@gmail.com,Blue,False,False,False
+Ishita Neeraj,Sharma,2501010195,ISHITA SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vikram Sharma,+91863175037,ishitaneeraj.vikram@gmail.com,Red,False,False,True
+Jashanpreet,Singh,2501010200,JASHANPREET SINGH,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Anil Singh,+91832746102,jashanpreet.anil@gmail.com,Blue,True,False,True
+Jay,Chaudhary,2501010204,JAY CHAUDHARY,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Alok Chaudhary,+91941227155,jay.alok@gmail.com,Blue,False,False,True
+Jyoti,Kesari,2501010207,JYOTI KESARI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Manoj Kesari,+91979733439,jyoti.manoj@gmail.com,Red,False,True,True
+kartik,sharma,2501010638,KARTIK SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sunil sharma,+91833800381,kartik.sunil@gmail.com,Blue,False,False,False
+Kartikey,Dhawan,2501010213,KARTIKEY DHAWAN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vijay Dhawan,+91993953352,kartikey.vijay@gmail.com,Blue,False,True,True
+Karunesh,Mahra,2501010214,KARUNESH MAHRA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vinod Mahra,+91949211667,karunesh.vinod@gmail.com,Red,True,True,False
+Kavy,Singhvi,2501010215,KAVY SINGHVI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Deepak Singhvi,+91930665424,kavy.deepak@gmail.com,Blue,False,True,False
+Khush,Gautam,2501010220,KHUSH GAUTAM,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ashok Gautam,+91859575747,khush.ashok@gmail.com,Red,True,True,False
+Khushi,Chaudhary,2501010221,KHUSHI CHAUDHARY,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Manoj Chaudhary,+91833847273,khushi.manoj@gmail.com,Blue,False,True,False
+Kishan,Kumar,2501010225,Kishan Kumar,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Karan Kumar,+91744093758,kishan.karan@gmail.com,Blue,False,False,True
+Krishna,Gulalia,2501010232,KRISHNA GULALIA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sandeep Gulalia,+91731799213,krishna.sandeep@gmail.com,Red,True,False,False
+Krishna,sharma,2501010234,KRISHNA SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ramesh sharma,+91749748461,krishna.ramesh@gmail.com,Blue,False,False,True
+Kushagra,Sharma,2501010240,KUSHAGRA SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Manoj Sharma,+91730923185,kushagra.manoj@gmail.com,Blue,False,False,False
+Lakshay,Chaudhary,2501010623,LAKSHAY CHAUDHARY,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Manoj Chaudhary,+91905935698,lakshay.manoj@gmail.com,Blue,False,True,False
+Lakshay,Goyal,2501010244,LAKSHAY GOYAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rahul Goyal,+91958730953,lakshay.rahul@gmail.com,Red,True,False,True
+MADHAV,AGARWAL,2501010619,MADHAV AGARWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rakesh AGARWAL,+91780601562,madhav.rakesh@gmail.com,Blue,False,True,True
+Mansha,Agarwal,2501010262,MANSHA AGARWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rajesh Agarwal,+91865378780,mansha.rajesh@gmail.com,Blue,True,False,True
+MANYA,JUNEJA,2501010691,MANYA JUNEJA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sandeep JUNEJA,+91697624528,manya.sandeep@gmail.com,Blue,False,True,False
+Mayank,Bajoria,2501010265,MAYANK BAJORIA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Bajoria,+91713880976,mayank.arun373@gmail.com,Blue,True,True,False
+Mayank,Jangra,2501010573,MAYANK JANGRA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Deepak Jangra,+91782718024,mayank.deepak296@gmail.com,Red,True,False,True
+Mayank,Sharma,2501010266,MAYANK SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rahul Sharma,+91976445159,mayank.rahul@gmail.com,Blue,False,True,True
+Mihir,sahu,2501010666,MIHIR SAHU,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Deepak sahu,+91898388036,mihir.deepak@gmail.com,Red,False,True,True
+Mradusha,Sharma,2501010281,MRADUSHA SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rajesh Sharma,+91877362143,mradusha.rajesh@gmail.com,Red,True,False,True
+Naman,mishra,2501010292,NAMAN MISHRA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay mishra,+91645963108,naman.sanjay@gmail.com,Red,True,True,False
+Navneet,Kumar,2501010298,NAVNEET KUMAR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ajay Kumar,+91986587142,navneet.ajay@gmail.com,Red,False,False,True
+Nischal,Jain,2501010713,NISCHAL JAIN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vikram Jain,+91862303235,nischal.vikram@gmail.com,Blue,True,False,True
+Nishant,Jain,2501010656,NISHANT JAIN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ashok Jain,+91729022929,nishant.ashok@gmail.com,Blue,False,False,True
+Ojaswa,Chauhan,2501010312,OJASWA CHAUHAN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Chauhan,+91946766476,ojaswa.arun@gmail.com,Blue,False,True,True
+Ojus,Sood,2501010313,OJUS SOOD,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Sood,+91840611877,ojus.arun@gmail.com,Red,False,True,False
+Palak,Garg,2501010316,PALAK GARG,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rajesh Garg,+91649957637,palak.rajesh@gmail.com,Red,False,True,True
+Param,Malik,2501010319,PARAM MALIK,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Malik,+91718968663,param.pradeep@gmail.com,Blue,True,False,False
+Parv,Goyal,2501010328,PARV GOYAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rakesh Goyal,+91971400401,parv.rakesh@gmail.com,Blue,False,True,True
+Parv,Narang,2501010329,PARV NARANG,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ajay Narang,+91764393111,parv.ajay@gmail.com,Blue,True,False,True
+PRAKHAR,YADAV,2501010703,PRAKHAR YADAV,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Karan YADAV,+91798116346,prakhar.karan@gmail.com,Red,False,False,False
+Pranav,Tyagi,2501010695,PRANAV TYAGI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Tyagi,+91897143528,pranav.arun@gmail.com,Blue,True,True,True
+Pratikk,Pradhan,2501010630,PRATIKK PRADHAN,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vinod Pradhan,+91784553344,pratikk.vinod@gmail.com,Red,False,False,False
+Prithwiraj,Mitra,2501010615,PRITHWIRAJ MITRA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vikram Mitra,+91895487561,prithwiraj.vikram@gmail.com,Red,True,True,False
+Priyadarshi,Sidhartha,2501010354,PRIYADARSHI SIDHARTHA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sandeep Sidhartha,+91788876837,priyadarshi.sandeep@gmail.com,Red,True,True,True
+Priyal,Tayal,2501010632,PRIYAL TAYAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Manoj Tayal,+91745447148,priyal.manoj@gmail.com,Blue,False,True,False
+Priyanka,Tiwari,2501010692,PRIYANKA TIWARI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Tiwari,+91734971321,priyanka.pradeep@gmail.com,Blue,False,True,False
+Ritik,Beniwal,2501010379,RITIK BENIWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ajay Beniwal,+91664776632,ritik.ajay@gmail.com,Blue,False,True,False
+Rohit,Singh,2501010385,ROHIT SINGH,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay Singh,+91769408512,rohit.sanjay@gmail.com,Red,False,False,False
+Sahil,Dhillon,2501010393,SAHIL DHILLON,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Anil Dhillon,+91998831233,sahil.anil@gmail.com,Red,True,False,False
+SAKSHAM,KACHHAWAHA,2501010399,SAKSHAM KACHHAWAHA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ashok KACHHAWAHA,+91970528737,saksham.ashok@gmail.com,Blue,False,False,False
+Samarthya,Seth,2501010658,SAMARTHYA SETH,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Vijay Seth,+91702832777,samarthya.vijay@gmail.com,Red,True,True,False
+SARTHAK,GUPTA,2501010408,SARTHAK GUPTA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sanjay GUPTA,+91996535353,sarthak.sanjay@gmail.com,Red,True,True,False
+shaurya,negi,2501010423,SHAURYA NEGI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun negi,+91748444607,shaurya.arun@gmail.com,Blue,False,True,True
+Shaurya,Negi,2501010422,SHAURYA NEGI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Karan Negi,+91881662274,shaurya.karan@gmail.com,Blue,True,False,True
+Shaurya,Sharma,2501010421,SHAURYA SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rahul Sharma,+91751933769,shaurya.rahul@gmail.com,Red,True,True,False
+Shivam,Kumar,2501010428,SHIVAM KUMAR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Anil Kumar,+91704216083,shivam.anil@gmail.com,Blue,True,False,True
+Shresth,Juyal,2501010436,SHRESTH JUYAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Juyal,+91722129095,shresth.pradeep@gmail.com,Blue,True,False,False
+Shreyansh,Rathaur,2501010439,SHREYANSH RATHAUR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Alok Rathaur,+91696336946,shreyansh.alok@gmail.com,Blue,False,True,False
+Shweta,Sharma,2501010448,SHWETA SHARMA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Sharma,+91607595844,shweta.pradeep@gmail.com,Blue,False,True,True
+Swaraj,Agarwal,2501010468,SWARAJ AGARWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ashok Agarwal,+91667958709,swaraj.ashok@gmail.com,Red,False,False,False
+Vansh,Gaur,2501010494,VANSH GAUR,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Deepak Gaur,+91624436055,vansh.deepak65@gmail.com,Blue,False,True,False
+Vansh,Grover,2501010493,VANSH GROVER,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ashok Grover,+91756839665,vansh.ashok@gmail.com,Blue,True,False,False
+Vansh,malik,2501010601,VANSH MALIK,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sunil malik,+91942453662,vansh.sunil@gmail.com,Blue,True,True,False
+Varun,Jaiswal,2501010631,VARUN JAISWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Jaiswal,+91655076321,varun.arun@gmail.com,Blue,False,True,True
+Vinayak,Agrawal,2501010508,VINAYAK AGRAWAL,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Rajesh Agrawal,+91908198383,vinayak.rajesh@gmail.com,Red,False,False,False
+Vinayak,Pachauri,2501010507,VINAYAK PACHAURI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Pradeep Pachauri,+91852005564,vinayak.pradeep@gmail.com,Blue,False,True,False
+Vyomini,Tiwari,2501010729,VYOMINI TIWARI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Tiwari,+91836474887,vyomini.arun@gmail.com,Red,True,False,False
+Yashmeet,Anjna,2501010525,YASHMEET ANJNA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Sandeep Anjna,+91698979491,yashmeet.sandeep@gmail.com,Red,False,True,True
+Yatharth,Katta,2501010529,YATHARTH KATTA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Suresh Katta,+91735548300,yatharth.suresh@gmail.com,Red,False,False,False
+Yug,Rastogi,2501010684,YUG RASTOGI,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Rastogi,+91661250065,yug.arun@gmail.com,Blue,False,False,True
+Yuvansh,Juneja,2501010537,YUVANSH JUNEJA,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Ramesh Juneja,+91815128168,yuvansh.ramesh@gmail.com,Blue,True,True,True
+Yuvraj,Singh,2501010538,YUVRAJ SINGH,Rajputana,B.Tech - Computer Science and Artificial Intelligence,Arun Singh,+91639772562,yuvraj.arun@gmail.com,Red,True,False,False
+Aaditya,Verma,2502140130,AADITYA VERMA,Rajputana,"B.Tech - CS,DS and Business",Karan Verma,+91937931089,aaditya.karan@gmail.com,Blue,True,True,False
+Abhinav,Sharma,2502140005,ABHINAV SHARMA,Rajputana,"B.Tech - CS,DS and Business",Suresh Sharma,+91681457818,abhinav.suresh@gmail.com,Red,True,True,True
+Aditya,kumar,2502140009,ADITYA KUMAR,Rajputana,"B.Tech - CS,DS and Business",Sunil kumar,+91902172204,aditya.sunil@gmail.com,Red,True,True,False
+Aditya,Kumar,2502140115,ADITYA KUMAR,Rajputana,"B.Tech - CS,DS and Business",Pradeep Kumar,+91645731148,aditya.pradeep264@gmail.com,Red,True,False,True
+Aditya,kumar,2502140139,Aditya Kumar,Rajputana,"B.Tech - CS,DS and Business",Anil kumar,+91899613177,aditya.anil@gmail.com,Red,True,False,True
+Alok,Rawat,2502140012,ALOK RAWAT,Rajputana,"B.Tech - CS,DS and Business",Vikram Rawat,+91925514309,alok.vikram@gmail.com,Blue,True,True,False
+Arnav,Bhatnagar,2502140135,Arnav Bhatnagar,Rajputana,"B.Tech - CS,DS and Business",Rahul Bhatnagar,+91932010824,arnav.rahul@gmail.com,Red,False,True,False
+Aveek,Kumar,2502140127,AVEEK KUMAR,Rajputana,"B.Tech - CS,DS and Business",Ajay Kumar,+91880553993,aveek.ajay@gmail.com,Red,False,False,True
+Avni,Bhambani,2502140017,AVNI BHAMBANI,Rajputana,"B.Tech - CS,DS and Business",Rakesh Bhambani,+91841868109,avni.rakesh@gmail.com,Red,True,True,True
+Chirag,Gautram,2502140020,CHIRAG GAUTAM,Rajputana,"B.Tech - CS,DS and Business",Manoj Gautram,+91759640245,chirag.manoj@gmail.com,Blue,True,True,True
+GUNJ,TIBREWALA,2502140024,GUNJ TIBREWALA,Rajputana,"B.Tech - CS,DS and Business",Karan TIBREWALA,+91830226264,gunj.karan@gmail.com,Red,False,False,True
+Kanugula,Jayasurya,2502140119,KANUGULA JAYASURYA,Rajputana,"B.Tech - CS,DS and Business",Pradeep Jayasurya,+91905280620,kanugula.pradeep@gmail.com,Red,True,True,False
+Kashish,Choudhary,2502140116,KASHISH CHOUDHARY,Rajputana,"B.Tech - CS,DS and Business",Rahul Choudhary,+91632335898,kashish.rahul@gmail.com,Blue,True,False,False
+Kushal,Chaudhary,2502140037,KUSHAL CHAUDHARY,Rajputana,"B.Tech - CS,DS and Business",Rahul Chaudhary,+91997332422,kushal.rahul@gmail.com,Blue,True,True,False
+Mohit,Bhawnani,2502140044,MOHIT BHAWNANI,Rajputana,"B.Tech - CS,DS and Business",Anil Bhawnani,+91711555281,mohit.anil@gmail.com,Blue,False,False,False
+Naman,Aggarwal,2502140047,NAMAN AGGARWAL,Rajputana,"B.Tech - CS,DS and Business",Sanjay Aggarwal,+91742080806,naman.sanjay686@gmail.com,Blue,False,True,False
+Nikhil,Singh,2502140129,NIKHIL SINGH,Rajputana,"B.Tech - CS,DS and Business",Ramesh Singh,+91684319384,nikhil.ramesh@gmail.com,Blue,False,True,True
+Prince,Choudhary,2502140058,PRINCE CHOUDHARY,Rajputana,"B.Tech - CS,DS and Business",Ajay Choudhary,+91693315439,prince.ajay@gmail.com,Blue,False,False,False
+Satvik,Kesarwani,2502140110,SATVIK KESARWANI,Rajputana,"B.Tech - CS,DS and Business",Ashok Kesarwani,+91640300147,satvik.ashok@gmail.com,Blue,False,True,False
+SEEJAL,AGARWAL,2502140072,SEEJAL AGARWAL,Rajputana,"B.Tech - CS,DS and Business",Vijay AGARWAL,+91601436519,seejal.vijay@gmail.com,Red,True,False,False
+Shivansh,Mogha,2502140076,SHIVANSH MOGHA,Rajputana,"B.Tech - CS,DS and Business",Vikram Mogha,+91841862333,shivansh.vikram@gmail.com,Blue,False,True,False
+Shwetansh,Singh,2502140078,SHWETANSH SINGH,Rajputana,"B.Tech - CS,DS and Business",Rahul Singh,+91852282341,shwetansh.rahul@gmail.com,Blue,True,False,False
+Sourabh,Pal,2502140102,SOURABH PAL,Rajputana,"B.Tech - CS,DS and Business",Pradeep Pal,+91617523391,sourabh.pradeep@gmail.com,Blue,True,False,True
+Subh,Sharma,2502140082,SUBH SHARMA,Rajputana,"B.Tech - CS,DS and Business",Ajay Sharma,+91754675132,subh.ajay@gmail.com,Red,False,False,True
+Tanvi,Agrawal,2502140087,TANVI AGRAWAL,Rajputana,"B.Tech - CS,DS and Business",Pradeep Agrawal,+91977413569,tanvi.pradeep@gmail.com,Blue,False,False,True
+Tushar,Das,2502140088,TUSHAR DAS,Rajputana,"B.Tech - CS,DS and Business",Manoj Das,+91638214342,tushar.manoj@gmail.com,Red,True,True,False
+Vaishnavi,jaswal,2502140092,VAISHNAVI JASWAL,Rajputana,"B.Tech - CS,DS and Business",Ajay jaswal,+91742031682,vaishnavi.ajay@gmail.com,Red,True,True,True
+Vasu,Kaushik,2502140104,VASU KAUSHIK,Rajputana,"B.Tech - CS,DS and Business",Karan Kaushik,+91954969940,vasu.karan@gmail.com,Red,True,False,True
+Aaditya,tanwar,2502110002,AADITYA TANWAR,Rajputana,BBA - Entrepreneurship,Sanjay tanwar,+91828244747,aaditya.sanjay@gmail.com,Blue,False,False,False
+Abhinav,Oli,2502110072,ABHINAV OLI,Rajputana,BBA - Entrepreneurship,Anil Oli,+91892359702,abhinav.anil@gmail.com,Blue,False,False,False
+Atharv,Tiwari,2502110065,ATHARV TIWARI,Rajputana,BBA - Entrepreneurship,Ajay Tiwari,+91947696244,atharv.ajay@gmail.com,Red,False,True,False
+Avnendra,Mishra,2502110009,AVNENDRA MISHRA,Rajputana,BBA - Entrepreneurship,Sunil Mishra,+91742610347,avnendra.sunil@gmail.com,Blue,False,True,True
+Hardik,Jain,2502110054,Hardik Jain,Rajputana,BBA - Entrepreneurship,Sunil Jain,+91638337865,hardik.sunil@gmail.com,Blue,False,True,True
+Harshit,Jain,2502110074,HARSHIT JAIN,Rajputana,BBA - Entrepreneurship,Suresh Jain,+91689079117,harshit.suresh@gmail.com,Blue,True,True,False
+Jhilmil singh,sengar,2502110017,JHILMIL SENGAR,Rajputana,BBA - Entrepreneurship,Pradeep sengar,+91919461833,jhilmilsingh.pradeep@gmail.com,Red,False,False,False
+Parbhav,Bansal,2502110027,PARBHAV BANSAL,Rajputana,BBA - Entrepreneurship,Karan Bansal,+91754946631,parbhav.karan@gmail.com,Blue,True,False,True
+Raghib,Jamal,2502110058,RAGHIB JAMAL,Rajputana,BBA - Entrepreneurship,Manoj Jamal,+91666761860,raghib.manoj@gmail.com,Blue,True,False,True
+Sahil,sharma,2502110067,SAHIL SHARMA,Rajputana,BBA - Entrepreneurship,Manoj sharma,+91969731182,sahil.manoj@gmail.com,Blue,True,True,False
+SHRAVAN,SRIVASTAVA,2502110034,SHRAVAN SRIVASTAVA,Rajputana,BBA - Entrepreneurship,Pradeep SRIVASTAVA,+91975666660,shravan.pradeep@gmail.com,Red,False,True,False
+Sumit,Kumar,2502110035,SUMIT KUMAR,Rajputana,BBA - Entrepreneurship,Rakesh Kumar,+91746161060,sumit.rakesh@gmail.com,Red,False,True,True
+Vansh,Wadhwa,2502110045,VANSH WADHWA,Rajputana,BBA - Entrepreneurship,Vinod Wadhwa,+91889900395,vansh.vinod@gmail.com,Red,False,False,False
+Kaustubh,Singh,2503210008,KAUSTUBH SINGH,Vijaya,B.Design,Arun Singh,+91835020003,kaustubh.arun@gmail.com,Blue,True,False,True
+Krishna,Agarwal,2503210010,KRISHNA AGARWAL,Vijaya,B.Design,Ramesh Agarwal,+91921068488,krishna.ramesh50@gmail.com,Blue,True,True,True
+mudita,sapra,2503210032,MUDITA SAPRA,Vijaya,B.Design,Vikram sapra,+91994349899,mudita.vikram@gmail.com,Red,True,False,True
+Nadar,Kaur,2503210014,NADAR KAUR,Vijaya,B.Design,Sandeep Kaur,+91924116295,nadar.sandeep@gmail.com,Red,True,True,True
+Shivansh,Arora,2503210021,SHIVANSH ARORA,Vijaya,B.Design,Deepak Arora,+91613886110,shivansh.deepak103@gmail.com,Blue,True,True,False
+Sneha,bhardwaj,2503210022,SNEHA BHARDWAJ,Vijaya,B.Design,Ajay bhardwaj,+91962011178,sneha.ajay@gmail.com,Blue,True,False,False
+Arika,Goel,2504310008,ARIKA GOEL,Vijaya,B.Sc (Hons) Psychology,Karan Goel,+91915209223,arika.karan@gmail.com,Blue,False,True,True
+Ayushi,chhikara,2504310060,AYUSHI CHHIKARA,Vijaya,B.Sc (Hons) Psychology,Rajesh chhikara,+91960928426,ayushi.rajesh@gmail.com,Blue,False,False,True
+Dhruv,Kumar,2504310012,DHRUV KUMAR,Vijaya,B.Sc (Hons) Psychology,Deepak Kumar,+91909370245,dhruv.deepak@gmail.com,Blue,False,True,True
+Lovekesh,Patel,2504310022,LOVEKESH PATEL,Vijaya,B.Sc (Hons) Psychology,Suresh Patel,+91694054807,lovekesh.suresh@gmail.com,Red,False,False,True
+Simran,Gupta,2504310059,Simran Gupta,Vijaya,B.Sc (Hons) Psychology,Arun Gupta,+91878616589,simran.arun@gmail.com,Blue,True,False,True
+surbhi,singh,2504310054,SURBHI SINGH,Vijaya,B.Sc (Hons) Psychology,Manoj singh,+91749334175,surbhi.manoj@gmail.com,Red,True,False,False
+Aaditi,Sharma,2501010688,AADITI SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vijay Sharma,+91914246448,aaditi.vijay@gmail.com,Red,False,True,False
+Aaryan,Barthwal,2501010681,AARYAN BARTHWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Barthwal,+91940797448,aaryan.vikram@gmail.com,Red,True,True,False
+Abhra,Jaiswal,2501010020,ABHRA JAISWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun Jaiswal,+91648985393,abhra.arun@gmail.com,Red,False,False,False
+Adarsh,chauhan,2501010622,ADARSH CHAUHAN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun chauhan,+91786810170,adarsh.arun@gmail.com,Blue,False,False,True
+ADEMARAVIND,0,2501010024,ADEM ARAVIND,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram 0,+91778943583,ademaravind.vikram@gmail.com,Red,False,True,True
+Aditya,choudhary,2501010616,ADITYA CHOUDHARY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep choudhary,+91959775190,aditya.sandeep@gmail.com,Red,True,True,True
+Aditya,Singh,2501010027,ADITYA SINGH,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Singh,+91686342186,aditya.anil347@gmail.com,Red,False,True,True
+Ajay,Yadav,2501010042,AJAY YADAV,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Yadav,+91972413217,ajay.vikram517@gmail.com,Blue,False,False,True
+Akash,Pansari,2501010566,AKASH PANSARI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Pansari,+91955721827,akash.pradeep@gmail.com,Blue,False,True,False
+Akshara,Verma,2501010548,AKSHARA VERMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh Verma,+91895330870,akshara.rakesh@gmail.com,Red,True,True,True
+AMIT,CHOUDHARY,2501010599,AMIT CHOUDHARY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh CHOUDHARY,+91844182802,amit.suresh@gmail.com,Blue,True,False,False
+Anant,Jaiswal,2501010053,ANANT JAISWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ramesh Jaiswal,+91768855112,anant.ramesh@gmail.com,Red,False,True,False
+Anay,maheshwari,2501010685,ANAY MAHESHWARI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak maheshwari,+91773556292,anay.deepak@gmail.com,Red,True,True,False
+Anubhav,Jaiswal,2501010072,ANUBHAV JAISWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Jaiswal,+91816989831,anubhav.anil@gmail.com,Blue,True,True,False
+ANURAG,CHOUBEY,2501010074,ANURAG CHOUBEY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vinod CHOUBEY,+91600617973,anurag.vinod@gmail.com,Red,True,False,True
+archit,jain,2501010579,ARCHIT JAIN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok jain,+91848021663,archit.ashok@gmail.com,Red,True,False,False
+Arjun,Mittal,2501010079,ARJUN MITTAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Mittal,+91629100596,arjun.vikram@gmail.com,Blue,True,False,False
+Arnav,Jindal,2501010651,ARNAV JINDAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sanjay Jindal,+91878335031,arnav.sanjay380@gmail.com,Red,True,False,False
+Arpan,Kaur,2501010082,ARPAN KAUR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rahul Kaur,+91867626444,arpan.rahul@gmail.com,Blue,True,False,True
+Arundhati,singh,2501010577,ARUNDHATI SINGH,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Manoj singh,+91627708863,arundhati.manoj@gmail.com,Blue,True,False,True
+Arush,Singla,2501010089,ARUSH SINGLA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sanjay Singla,+91743374727,arush.sanjay@gmail.com,Red,True,False,True
+Aryaman,Sharma,2501010592,ARYAMAN SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok Sharma,+91670337190,aryaman.ashok@gmail.com,Blue,True,True,False
+Asmit,Kumar,2501010100,ASMIT KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Kumar,+91835211784,asmit.pradeep@gmail.com,Blue,False,True,False
+Atharwa,sahu,2501010104,ATHARWA SAHU,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun sahu,+91665190134,atharwa.arun@gmail.com,Blue,False,False,True
+AYAN,AHMAD,2501010620,AYAN AHMAD,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rajesh AHMAD,+91938240632,ayan.rajesh@gmail.com,Blue,True,True,False
+Ayush,kumar,2501010544,AYUSH KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rahul kumar,+91728471847,ayush.rahul@gmail.com,Blue,False,True,True
+Chandrasekhar,Panda,2501010121,CHANDRASEKHAR PANDA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vijay Panda,+91766832711,chandrasekhar.vijay@gmail.com,Blue,False,False,True
+Daksh,Goyal,2501010128,DAKSH GOYAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok Goyal,+91607341422,daksh.ashok@gmail.com,Blue,True,True,False
+Darsh,Bansal,2501010131,DARSH BANSAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok Bansal,+91819038335,darsh.ashok@gmail.com,Blue,True,True,False
+Darsh,Rustagi,2501010558,DARSH RUSTAGI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ramesh Rustagi,+91720635244,darsh.ramesh@gmail.com,Red,True,True,False
+Deeksha,Agrawal,2501010133,DEEKSHA AGRAWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Agrawal,+91847737949,deeksha.anil@gmail.com,Red,False,True,False
+Devansh,Aggarwal,2501010138,DEVANSH AGGARWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Aggarwal,+91947736490,devansh.anil862@gmail.com,Red,False,True,True
+Deveshi,Sahu,2501010722,Deveshi Sahu,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sunil Sahu,+91867563311,deveshi.sunil@gmail.com,Blue,True,False,True
+Dhanaya,Khaspuri,2501010140,DHANAYA KHASPURI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Khaspuri,+91873198582,dhanaya.pradeep@gmail.com,Red,True,False,True
+Dhruv,Maan,2501010142,DHRUV MAAN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak Maan,+91823064677,dhruv.deepak864@gmail.com,Red,True,False,True
+DITTYA,MAITY,2501010150,DITTYA MAITY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun MAITY,+91853521065,dittya.arun@gmail.com,Blue,False,True,True
+Divyansh,Chaudhary,2501010153,DIVYANSH CHAUDHARY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ajay Chaudhary,+91845235368,divyansh.ajay@gmail.com,Blue,False,False,False
+EKANSH,SHROTRIYA,2501010160,EKANSH SHROTRIYA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok SHROTRIYA,+91677654064,ekansh.ashok@gmail.com,Blue,False,True,True
+Gauri,tewari,2501010557,GAURI TEWARI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh tewari,+91702333162,gauri.rakesh@gmail.com,Red,False,True,True
+Gautam,Bhardwaj,2501010682,GAUTAM BHARDWAJ,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rahul Bhardwaj,+91872859750,gautam.rahul@gmail.com,Red,True,True,True
+Gourav,jain,2501010551,GOURAV JAIN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sunil jain,+91637479002,gourav.sunil@gmail.com,Blue,True,True,False
+Gurmehar,Singh,2501010171,GURMEHAR SINGH,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak Singh,+91822770516,gurmehar.deepak@gmail.com,Blue,True,False,False
+Harsh,Goyal,2501010179,HARSH GOYAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep Goyal,+91872589590,harsh.sandeep@gmail.com,Red,True,False,False
+HARSH,SHARMA,2501010178,HARSH SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak SHARMA,+91601377213,harsh.deepak@gmail.com,Blue,False,True,False
+Hirenya,Sansanwal,2501010671,HIRENYA SANSANWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Sansanwal,+91989795655,hirenya.pradeep@gmail.com,Blue,False,False,True
+IRFAN,RAHAMAN,2501010190,IRFAN RAHAMAN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep RAHAMAN,+91915109789,irfan.pradeep@gmail.com,Blue,True,True,True
+Jahanvi,Jain,2501010196,JAHANVI JAIN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Karan Jain,+91954302994,jahanvi.karan@gmail.com,Red,True,False,False
+Japinder,Kaur,2501010649,JAPINDER KAUR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun Kaur,+91679776556,japinder.arun@gmail.com,Red,False,False,False
+Jassnoor,Singh,2501010201,JASSNOOR SINGH,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Manoj Singh,+91889148246,jassnoor.manoj@gmail.com,Blue,True,True,True
+Anjana,Kamle,2501010059,KAMLE ANJANA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun Kamle,+91785287007,anjana.arun@gmail.com,Red,False,False,True
+Khushi,Gupta,2501010555,KHUSHI GUPTA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep Gupta,+91896308407,khushi.sandeep@gmail.com,Blue,True,True,False
+KINJAL,SINGLA,2501010699,KINJAL SINGLA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok SINGLA,+91802513106,kinjal.ashok@gmail.com,Blue,True,False,False
+krish,achra,2501010229,KRISH ACHRA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Manoj achra,+91772752899,krish.manoj@gmail.com,Red,True,True,False
+Krishna,Agarwal,2501010231,KRISHNA AGARWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sanjay Agarwal,+91974466619,krishna.sanjay@gmail.com,Red,True,True,False
+Krishna,Saraf,2501010233,KRISHNA SARAF,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ajay Saraf,+91906981523,krishna.ajay@gmail.com,Red,True,False,True
+Kunal,Agarwal,2501010238,KUNAL AGARWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh Agarwal,+91725392880,kunal.rakesh@gmail.com,Red,True,False,True
+Kushal,Garg,2501010241,Kushal Garg,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Garg,+91623432965,kushal.vikram@gmail.com,Red,True,True,True
+Lakshay,Sharma,2501010247,LAKSHAY SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep Sharma,+91999810534,lakshay.sandeep@gmail.com,Blue,False,False,False
+Mahika,Garg,2501010254,MAHIKA GARG,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun Garg,+91978616334,mahika.arun@gmail.com,Red,False,False,False
+Manas,katiyar,2501010709,MANAS KATIYAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh katiyar,+91807274450,manas.rakesh@gmail.com,Blue,False,True,True
+manav,garg,2501010256,MANAV GARG,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sunil garg,+91865927541,manav.sunil@gmail.com,Blue,False,True,True
+Mehak,Sharma,2501010274,MEHAK SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh Sharma,+91667777949,mehak.suresh@gmail.com,Red,False,False,True
+Mradul,Sharma,2501010701,MRADUL SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vinod Sharma,+91916850705,mradul.vinod@gmail.com,Blue,True,True,True
+MUDIT,AGRAWAL,2501010283,MUDIT AGRAWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep AGRAWAL,+91653882832,mudit.sandeep@gmail.com,Blue,True,True,False
+Mudit,Jindal,2501010284,MUDIT JINDAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Manoj Jindal,+91653532310,mudit.manoj@gmail.com,Blue,False,True,True
+Musharrif,khan,2501010286,MUSHARRIF KHAN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vinod khan,+91845311394,musharrif.vinod@gmail.com,Red,True,False,True
+Narendar,Kumar,2501010297,NARENDAR KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rajesh Kumar,+91987859076,narendar.rajesh@gmail.com,Red,False,False,True
+NILESH,SAINI,2501010305,NILESH SAINI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sunil SAINI,+91820105593,nilesh.sunil@gmail.com,Blue,False,True,True
+Ocean,Kumar,2501010310,OCEAN KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sunil Kumar,+91640173111,ocean.sunil@gmail.com,Red,True,False,True
+pankaj,kumar,2501010317,PANKAJ KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun kumar,+91742283022,pankaj.arun@gmail.com,Blue,True,True,True
+Parag,Garg,2501010318,PARAG GARG,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep Garg,+91934609842,parag.sandeep@gmail.com,Blue,True,False,True
+Parth,bhaskar,2501010323,PARTH BHASKAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh bhaskar,+91948878398,parth.rakesh@gmail.com,Red,False,True,False
+Parth,Kumawat,2501010324,PARTH KUMAWAT,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ramesh Kumawat,+91776397305,parth.ramesh@gmail.com,Red,True,True,False
+Parth,Mittal,2501010657,PARTH MITTAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok Mittal,+91804015990,parth.ashok@gmail.com,Red,False,False,False
+Parv,Verma,2501010327,PARV VERMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sandeep Verma,+91936510244,parv.sandeep@gmail.com,Red,False,True,False
+Piyush,Jaiswal,2501010637,PIYUSH JAISWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun Jaiswal,+91890455761,piyush.arun@gmail.com,Blue,False,False,True
+Pranay,Raut,2501010341,PRANAY RAUT,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh Raut,+91931496025,pranay.suresh@gmail.com,Blue,True,False,False
+Pratham,Madaan,2501010348,PRATHAM MADAAN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ramesh Madaan,+91726041315,pratham.ramesh@gmail.com,Red,True,True,False
+Prince,Goswami,2501010580,PRINCE GOSWAMI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Goswami,+91722130766,prince.pradeep@gmail.com,Red,False,True,True
+Priyank,Gurnani,2501010355,PRIYANK GURNANI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ramesh Gurnani,+91832986657,priyank.ramesh@gmail.com,Red,True,False,True
+Priyanshu,Sharma,2501010358,PRIYANSHU SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Sharma,+91940240773,priyanshu.anil@gmail.com,Blue,True,True,False
+priyesh,choubey,2501010359,PRIYESH CHOUBEY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil choubey,+91838198108,priyesh.anil@gmail.com,Red,True,True,False
+Raj,Sharma,2501010365,RAJ SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vijay Sharma,+91972589037,raj.vijay@gmail.com,Red,False,True,True
+Rajveer,Kumar,2501010368,RAJVEER KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Kumar,+91615540939,rajveer.pradeep@gmail.com,Blue,False,True,False
+Rama,Attri,2501010621,RAMA ATTRI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh Attri,+91774147323,rama.suresh@gmail.com,Blue,True,True,True
+Ramit,Layek,2501010727,Ramit Layek,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh Layek,+91757500627,ramit.suresh@gmail.com,Blue,False,False,True
+Riya,Todi,2501010382,RIYA TODI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Alok Todi,+91801241277,riya.alok@gmail.com,Red,True,False,True
+Rudra,Chittoda,2501010387,RUDRA CHITTODA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Chittoda,+91678152188,rudra.vikram@gmail.com,Red,True,True,True
+sachin,kumar,2501010567,SACHIN KUMAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ajay kumar,+91885167747,sachin.ajay@gmail.com,Red,True,True,False
+Saksham,Chauhan,2501010394,SAKSHAM CHAUHAN,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Chauhan,+91903830315,saksham.vikram@gmail.com,Blue,True,True,True
+Saksham,paliwal,2501010398,SAKSHAM PALIWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vijay paliwal,+91691259276,saksham.vijay@gmail.com,Blue,False,False,True
+Saksham,Saini,2501010397,SAKSHAM SAINI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vijay Saini,+91642395809,saksham.vijay634@gmail.com,Blue,False,True,False
+Sankalp,Tripathi,2501010404,SANKALP TRIPATHI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh Tripathi,+91932704469,sankalp.rakesh@gmail.com,Red,False,False,True
+shambhavi,shukla,2501010585,SHAMBHAVI SHUKLA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ajay shukla,+91867183069,shambhavi.ajay@gmail.com,Blue,True,False,False
+Shreya,Das,2501010437,SHREYA DAS,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Karan Das,+91676835742,shreya.karan@gmail.com,Blue,True,False,False
+Shreyansh,Agrawal,2501010625,SHREYANSH AGRAWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ajay Agrawal,+91847577975,shreyansh.ajay@gmail.com,Red,True,True,False
+Siddhant,Srivastava,2501010450,SIDDHANT SRIVASTAVA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak Srivastava,+91846730032,siddhant.deepak@gmail.com,Blue,False,False,True
+Snehaashish,Sahoo,2501010612,SNEHAASHISH SAHOO,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak Sahoo,+91958007385,snehaashish.deepak@gmail.com,Blue,True,True,False
+Somya,Agarwal,2501010454,SOMYA AGARWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rajesh Agarwal,+91849780938,somya.rajesh@gmail.com,Red,False,False,False
+Srijal,Srivastava,2501010457,SRIJAL SRIVASTAVA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Srivastava,+91963789573,srijal.pradeep@gmail.com,Red,False,True,True
+Suryansh,Pandey,2501010465,SURYANSH PANDEY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ashok Pandey,+91684812518,suryansh.ashok@gmail.com,Red,False,False,False
+Suryanshu,Tiwari,2501010466,SURYANSHU TIWARI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ramesh Tiwari,+91837151870,suryanshu.ramesh@gmail.com,Blue,False,True,False
+Tanishka,Singh,2501010472,TANISHKA SINGH,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Alok Singh,+91915450156,tanishka.alok@gmail.com,Blue,False,False,False
+Tanishq,Tyagi,2501010474,TANISHQ TYAGI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Tyagi,+91943027603,tanishq.pradeep@gmail.com,Blue,False,True,False
+Tarunya,Kesharwani,2501010477,TARUNYA KESHARWANI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Vikram Kesharwani,+91970609245,tarunya.vikram@gmail.com,Blue,True,True,False
+Tejas,Gupta,2501010478,TEJAS GUPTA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak Gupta,+91845261856,tejas.deepak@gmail.com,Red,True,True,True
+Tejash,Batham,2501010659,TEJASH BATHAM,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Batham,+91706953810,tejash.pradeep@gmail.com,Blue,False,True,False
+Thanniru,Sairam,2501010626,THANNIRU SAIRAM,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh Sairam,+91859420352,thanniru.rakesh@gmail.com,Blue,False,False,False
+Vani,Dhull,2501010492,VANI DHULL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Dhull,+91727348842,vani.anil@gmail.com,Blue,True,False,True
+Vansh,Kushwaha,2501010495,VANSH KUSHWAHA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh Kushwaha,+91907048659,vansh.rakesh@gmail.com,Red,False,True,True
+Vanshika,Rajoria,2501010718,VANSHIKA RAJORIA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Alok Rajoria,+91908599807,vanshika.alok@gmail.com,Red,False,False,True
+Vatsya,Aggarwal,2501010501,VATSYA AGGARWAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Aggarwal,+91975422599,vatsya.pradeep@gmail.com,Red,True,True,False
+Vibhu,Kakkar,2501010505,VIBHU KAKKAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Pradeep Kakkar,+91611778731,vibhu.pradeep@gmail.com,Blue,False,True,True
+Vishal,Maurya,2501010513,VISHAL MAURYA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rakesh Maurya,+91747360534,vishal.rakesh@gmail.com,Blue,False,False,False
+Yash,Gupta,2501010519,YASH GUPTA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Rajesh Gupta,+91903830827,yash.rajesh@gmail.com,Red,False,True,False
+Yash,sengar,2501010518,YASH SENGAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh sengar,+91925562007,yash.suresh@gmail.com,Red,True,True,True
+Yashika,Bharti,2501010572,YASHIKA BHARTI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Arun Bharti,+91753649315,yashika.arun@gmail.com,Blue,True,False,True
+Yashika,Gupta,2501010724,Yashika Gupta,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Ajay Gupta,+91925915537,yashika.ajay@gmail.com,Blue,True,True,False
+Yashvardhan,Mundhra,2501010527,YASHVARDHAN MUNDHRA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Alok Mundhra,+91717577164,yashvardhan.alok@gmail.com,Blue,False,True,True
+Yatharth,Soni,2501010531,YATHARTH SONI,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sanjay Soni,+91933338407,yatharth.sanjay@gmail.com,Blue,False,True,False
+Yatin,Sharma,2501010710,YATIN SHARMA,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Deepak Sharma,+91963872023,yatin.deepak@gmail.com,Red,True,True,True
+Yogye,Berry,2501010532,YOGYE BERRY,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Sunil Berry,+91937288135,yogye.sunil@gmail.com,Blue,False,False,True
+Yugam,Panchal,2501010535,YUGAM PANCHAL,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Anil Panchal,+91936864007,yugam.anil@gmail.com,Blue,False,False,True
+Yuvraj,Babbar,2501010539,YUVRAJ BABBAR,Vijaya,B.Tech - Computer Science and Artificial Intelligence,Suresh Babbar,+91765857076,yuvraj.suresh@gmail.com,Red,False,False,False
+Aarush,Gupta,2502140001,AARUSH GUPTA,Vijaya,"B.Tech - CS,DS and Business",Manoj Gupta,+91617912445,aarush.manoj@gmail.com,Blue,False,True,True
+Aayush,JINDAL,2502140003,AAYUSH JINDAL,Vijaya,"B.Tech - CS,DS and Business",Karan JINDAL,+91795883382,aayush.karan@gmail.com,Blue,False,True,False
+Abhishek,Kumar,2502140006,ABHISHEK KUMAR,Vijaya,"B.Tech - CS,DS and Business",Sunil Kumar,+91648389986,abhishek.sunil@gmail.com,Red,True,False,False
+Ayush,Vishnoi,2502140018,AYUSH VISHNOI,Vijaya,"B.Tech - CS,DS and Business",Pradeep Vishnoi,+91775405995,ayush.pradeep@gmail.com,Blue,False,True,False
+Devishi,Grover,2502140132,DEVISHI GROVER,Vijaya,"B.Tech - CS,DS and Business",Vikram Grover,+91694296046,devishi.vikram@gmail.com,Blue,True,True,False
+Kapish,garg,2502140029,KAPISH GARG,Vijaya,"B.Tech - CS,DS and Business",Sanjay garg,+91670952750,kapish.sanjay@gmail.com,Red,False,True,True
+Krish,Bansal,2502140033,KRISH BANSAL,Vijaya,"B.Tech - CS,DS and Business",Ashok Bansal,+91796418266,krish.ashok@gmail.com,Red,True,True,False
+Kshitiz,Kumar,2502140035,KSHITIZ KUMAR,Vijaya,"B.Tech - CS,DS and Business",Vinod Kumar,+91869399011,kshitiz.vinod@gmail.com,Red,False,False,False
+Lakshya,Katiyar,2502140038,LAKSHYA KATIYAR,Vijaya,"B.Tech - CS,DS and Business",Deepak Katiyar,+91688339115,lakshya.deepak@gmail.com,Blue,True,False,True
+Mannat,Bansal,2502140040,MANNAT BANSAL,Vijaya,"B.Tech - CS,DS and Business",Deepak Bansal,+91858690083,mannat.deepak@gmail.com,Red,False,False,False
+Moksh,Ajmeria,2502140045,MOKSH AJMERIA,Vijaya,"B.Tech - CS,DS and Business",Pradeep Ajmeria,+91781846367,moksh.pradeep@gmail.com,Red,True,True,True
+NICK,TYAGI,2502140049,NICK TYAGI,Vijaya,"B.Tech - CS,DS and Business",Anil TYAGI,+91851433496,nick.anil@gmail.com,Red,False,False,False
+Poorak,Pandey,2502140055,POORAK PANDEY,Vijaya,"B.Tech - CS,DS and Business",Ramesh Pandey,+91675568347,poorak.ramesh@gmail.com,Blue,True,False,True
+Rajat,Bhatti,2502140117,RAJAT BHATTI,Vijaya,"B.Tech - CS,DS and Business",Ajay Bhatti,+91963098534,rajat.ajay@gmail.com,Blue,False,True,False
+Raunak,Jaiswal,2502140105,RAUNAK JAISWAL,Vijaya,"B.Tech - CS,DS and Business",Rakesh Jaiswal,+91899204934,raunak.rakesh@gmail.com,Blue,True,True,True
+Ravi,Antil,2502140114,RAVI ANTIL,Vijaya,"B.Tech - CS,DS and Business",Alok Antil,+91648480985,ravi.alok@gmail.com,Blue,True,False,False
+Saksham,Yadav,2502140062,SAKSHAM YADAV,Vijaya,"B.Tech - CS,DS and Business",Rakesh Yadav,+91607472523,saksham.rakesh280@gmail.com,Red,False,False,False
+Satyam,Aggarwal,2502140070,SATYAM AGGARWAL,Vijaya,"B.Tech - CS,DS and Business",Ashok Aggarwal,+91666351197,satyam.ashok@gmail.com,Red,False,False,True
+Shrishti,Tiwari,2502140077,SHRISHTI TIWARI,Vijaya,"B.Tech - CS,DS and Business",Manoj Tiwari,+91797882919,shrishti.manoj@gmail.com,Red,True,False,True
+SUMATI,SEN,2502140084,SUMATI SEN,Vijaya,"B.Tech - CS,DS and Business",Deepak SEN,+91913833311,sumati.deepak@gmail.com,Blue,False,True,True
+Vansh,jain,2502140093,VANSH JAIN,Vijaya,"B.Tech - CS,DS and Business",Rakesh jain,+91942818526,vansh.rakesh972@gmail.com,Red,True,False,True
+Yanshika,Rana,2502140120,YANSHIKA RANA,Vijaya,"B.Tech - CS,DS and Business",Alok Rana,+91658167870,yanshika.alok@gmail.com,Blue,True,False,False
+yash,Kumar,2502140131,YASH KUMAR,Vijaya,"B.Tech - CS,DS and Business",Ajay Kumar,+91853122217,yash.ajay@gmail.com,Blue,True,True,False
+Chandan,Kumar,2502110011,CHANDAN KUMAR,Vijaya,BBA - Entrepreneurship,Rajesh Kumar,+91932616688,chandan.rajesh@gmail.com,Red,False,False,True
+Digvijay,Shahi,2502110012,DIGVIJAY SHAHI,Vijaya,BBA - Entrepreneurship,Ashok Shahi,+91776097029,digvijay.ashok@gmail.com,Blue,True,True,False
+Maanit,Agarwal,2502110048,MAANIT AGARWAL,Vijaya,BBA - Entrepreneurship,Rahul Agarwal,+91718845609,maanit.rahul@gmail.com,Red,True,True,True
+Madhavan,Bhimrajka,2502110020,MADHAVAN BHIMRAJKA,Vijaya,BBA - Entrepreneurship,Ramesh Bhimrajka,+91941129883,madhavan.ramesh@gmail.com,Blue,False,True,True
+Mehnashi,Insha,2502110022,MEHNASHI INSHA,Vijaya,BBA - Entrepreneurship,Manoj Insha,+91976387939,mehnashi.manoj@gmail.com,Red,False,False,False
+Parv,.,2502110076,Parv .,Vijaya,BBA - Entrepreneurship,Pradeep .,+91948557775,parv.pradeep@gmail.com,Red,False,False,False
+Sarthak,Aggarwal,2502110031,SARTHAK AGGARWAL,Vijaya,BBA - Entrepreneurship,Vikram Aggarwal,+91662639917,sarthak.vikram@gmail.com,Red,False,True,False
+Vanshika,Ahlawat,2502110062,VANSHIKA AHLAWAT,Vijaya,BBA - Entrepreneurship,Sunil Ahlawat,+91624345382,vanshika.sunil@gmail.com,Red,True,False,False
+VISHESS,PANI,2502110043,VISHESS PANI,Vijaya,BBA - Entrepreneurship,Suresh PANI,+91763404488,vishess.suresh@gmail.com,Blue,True,False,False
+Yashaswi,agrawal,2502110044,Yashaswi Agrawal,Vijaya,BBA - Entrepreneurship,Arun agrawal,+91662341708,yashaswi.arun@gmail.com,Red,True,True,False

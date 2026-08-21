@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light Mode Palette: #FFEDD2 background, #191919 text/surfaces, #CC0033 primary red */
+    --background: 36 100% 93%;
+    --foreground: 0 0% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+
+    /* Primary Red = #CC0033 */
+    --primary: 345 100% 40%;
+    --primary-foreground: 36 100% 95%;
+
+    /* Secondary = #FFEDD2 */
+    --secondary: 36 80% 86%;
+    --secondary-foreground: 0 0% 10%;
+
+    --muted: 36 40% 88%;
+    --muted-foreground: 0 0% 40%;
+
+    --accent: 36 60% 90%;
+    --accent-foreground: 0 0% 10%;
+
+    /* Destructive = #CC0033 */
+    --destructive: 345 100% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 36 30% 82%;
+    --input: 36 30% 82%;
+    --ring: 345 100% 40%;
+    --radius: 0.4rem;
+
+    --chart-1: 345 100% 40%;
+    --chart-2: 0 0% 20%;
+    --chart-3: 345 80% 55%;
+    --chart-4: 36 80% 60%;
+    --chart-5: 0 0% 45%;
+  }
+
+  .dark {
+    /* Dark Mode Palette: #1f1f1f dark gray bg, #292929 card surfaces, #FFEDD2 warm text, #CC0033 primary red */
+    --background: 0 0% 12%;
+    --foreground: 36 100% 91%;
+
+    --card: 0 0% 16%;
+    --card-foreground: 36 100% 91%;
+
+    --popover: 0 0% 16%;
+    --popover-foreground: 36 100% 91%;
+
+    --primary: 345 100% 40%;
+    --primary-foreground: 36 100% 91%;
+
+    --secondary: 36 100% 91%;
+    --secondary-foreground: 0 0% 12%;
+
+    --muted: 0 0% 20%;
+    --muted-foreground: 36 40% 75%;
+
+    --accent: 0 0% 22%;
+    --accent-foreground: 36 100% 91%;
+
+    --destructive: 345 100% 40%;
+    --destructive-foreground: 36 100% 91%;
+
+    --border: 0 0% 25%;
+    --input: 0 0% 25%;
+    --ring: 345 100% 40%;
+
+    --chart-1: 345 100% 40%;
+    --chart-2: 36 100% 91%;
+    --chart-3: 345 80% 55%;
+    --chart-4: 36 80% 75%;
+    --chart-5: 0 0% 60%;
+  }
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    @apply bg-background text-foreground antialiased selection:bg-primary/20 selection:text-primary;
+    font-family: var(--font-poppins), 'Poppins', system-ui, -apple-system, sans-serif;
+    font-feature-settings: "cv11", "ss01";
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+[data-magicui-theme-vt="active"]::view-transition-old(root) {
+  z-index: 1;
+}
+
+[data-magicui-theme-vt="active"]::view-transition-new(root) {
+  z-index: 9999;
+  clip-path: var(--magicui-theme-vt-clip-from, circle(0% at 50% 50%));
+}

@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id                        String        @id @default(uuid())
+  rollNumber                String        @unique
+  firstName                 String
+  lastName                  String
+  fullName                  String?
+  email                     String        @unique
+  parentName                String?
+  department                String
+  degree                    String        @default("Undergraduate")
+  phone                     String
+  bandColor                 String?
+  hostelAllocated           Boolean       @default(false)
+  hostelBlock               String?
+  roomNumber                String?
+  feesPaid                  Boolean       @default(false)
+  pendingFees               Boolean       @default(false)
+  checkpointGate2           Boolean       @default(false)
+  checkpointHostel          Boolean       @default(false)
+  checkpointMainAudiDoc     Boolean       @default(false)
+  checkpointVipLoungeIdCard Boolean       @default(false)
+  checkpointCBlockKit       Boolean       @default(false)
+  status                    CheckInStatus @default(PENDING)
+  checkInTime               DateTime?
+  checkedInBy               String?
+  emergencyContact          String?
+  createdAt                 DateTime      @default(now())
+  updatedAt                 DateTime      @updatedAt
+  checkInLogs               CheckInLog[]
+}
+
+model CheckInLog {
+  id          String   @id @default(uuid())
+  studentId   String
+  action      String
+  performedBy String   @default("Team Orientation Staff")
+  timestamp   DateTime @default(now())
+  student     Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  name      String
+  role      UserRole @default(STAFF)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum CheckInStatus {
+  PENDING
+  CHECKED_IN
+  FLAGGED
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  STAFF
+}
