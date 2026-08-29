@@ -4,7 +4,6 @@ import React, { useState, useEffect, useMemo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTheme } from "next-themes";
 import {
-  Edit3,
   Check,
   Coffee,
   Soup,
@@ -253,9 +252,7 @@ export function MessMenu() {
   // Accordion Expand State
   const [expandedSlot, setExpandedSlot] = useState<string | null>("lunch");
 
-  // Edit Modal State
-  const [editingMeal, setEditingMeal] = useState<{ dayKey: string; slotKey: keyof Omit<DaySchedule, "day"> } | null>(null);
-  const [editItemsText, setEditItemsText] = useState("");
+
 
   useEffect(() => {
     setMounted(true);
@@ -326,42 +323,7 @@ export function MessMenu() {
 
   const isFutureBlankDate = !currentScheduleData;
 
-  const handleSaveEdit = () => {
-    if (!editingMeal) return;
-    const newItems = editItemsText
-      .split("\n")
-      .map((s) => s.trim())
-      .filter(Boolean);
 
-    let actualDay = "Saturday";
-    if (editingMeal.dayKey.includes("28") || editingMeal.dayKey === "Friday") actualDay = "Friday";
-    else if (editingMeal.dayKey.includes("29") || editingMeal.dayKey === "Saturday" || editingMeal.dayKey === "Today") actualDay = "Saturday";
-    else if (editingMeal.dayKey.includes("30") || editingMeal.dayKey === "Sunday" || editingMeal.dayKey === "Tomorrow") actualDay = "Sunday";
-    else actualDay = editingMeal.dayKey;
-
-    const baseDayData = schedule[actualDay] || {
-      day: actualDay,
-      breakfast: { time: "07:30 - 09:30 AM", startHour: 7, startMin: 30, endHour: 9, endMin: 30, items: [] },
-      lunch: { time: "12:30 - 02:30 PM", startHour: 12, startMin: 30, endHour: 14, endMin: 30, items: [] },
-      snacks: { time: "05:00 - 06:30 PM", startHour: 17, startMin: 0, endHour: 18, endMin: 30, items: [] },
-      dinner: { time: "07:30 - 09:30 PM", startHour: 19, startMin: 30, endHour: 21, endMin: 30, items: [] }
-    };
-
-    const updated = {
-      ...schedule,
-      [actualDay]: {
-        ...baseDayData,
-        [editingMeal.slotKey]: {
-          ...baseDayData[editingMeal.slotKey],
-          items: newItems
-        }
-      }
-    };
-
-    setSchedule(updated);
-    localStorage.setItem("ru_mess_image_schedule_v2", JSON.stringify(updated));
-    setEditingMeal(null);
-  };
 
   return (
     <div className="min-h-screen w-full font-sans bg-background text-foreground flex flex-col items-center justify-start pb-12 transition-colors duration-300">
@@ -405,17 +367,9 @@ export function MessMenu() {
               <div>
                 <h4 className="font-bold text-base md:text-lg">Soon to be updated</h4>
                 <p className="text-xs sm:text-sm text-muted-foreground mt-1 max-w-md mx-auto">
-                  Data for {selectedDayKey} will be uploaded soon. You can click below to add menu items.
+                  Data for {selectedDayKey} will be uploaded soon.
                 </p>
               </div>
-              <button
-                onClick={() =>
-                  setEditingMeal({ dayKey: selectedDayKey, slotKey: "lunch" })
-                }
-                className="px-5 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-primary text-primary-foreground shadow-sm hover:opacity-90"
-              >
-                + Add Menu Data
-              </button>
             </div>
           ) : (
             <div className="flex flex-col gap-3.5">
@@ -465,27 +419,12 @@ export function MessMenu() {
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-2">
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setEditingMeal({ dayKey: selectedDayKey, slotKey: key });
-                            setEditItemsText(slotData?.items.join("\n") || "");
-                          }}
-                          className="p-1.5 sm:p-2 rounded-xl hover:bg-muted text-muted-foreground hover:text-foreground transition-colors"
-                          title="Edit slot"
-                        >
-                          <Edit3 className="h-4 w-4" />
-                        </button>
-
-                        <motion.div
-                          animate={{ rotate: isExpanded ? 180 : 0 }}
-                          transition={{ duration: 0.2 }}
-                        >
-                          <ChevronDown className="h-5 w-5 text-muted-foreground" />
-                        </motion.div>
-                      </div>
+                      <motion.div
+                        animate={{ rotate: isExpanded ? 180 : 0 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <ChevronDown className="h-5 w-5 text-muted-foreground" />
+                      </motion.div>
                     </div>
 
                     {/* Dropdown Content */}
@@ -590,60 +529,7 @@ export function MessMenu() {
         )}
       </AnimatePresence>
 
-      {/* ── Edit Modal ───────────────────────────────────────────────────────── */}
-      <AnimatePresence>
-        {editingMeal && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-xs">
-            <motion.div
-              initial={{ scale: 0.95, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              exit={{ scale: 0.95, opacity: 0 }}
-              className="bg-card border border-border rounded-3xl p-5 w-full max-w-md shadow-2xl space-y-4"
-            >
-              <div className="flex items-center justify-between border-b border-border pb-3">
-                <h3 className="font-bold text-sm flex items-center gap-2">
-                  <Edit3 className="h-4 w-4 text-primary" />
-                  Edit {editingMeal.dayKey} - {editingMeal.slotKey.toUpperCase()}
-                </h3>
-                <button
-                  onClick={() => setEditingMeal(null)}
-                  className="text-xs font-bold text-muted-foreground hover:text-foreground"
-                >
-                  ✕
-                </button>
-              </div>
 
-              <div className="space-y-2">
-                <label className="text-xs font-medium text-muted-foreground">
-                  Enter items (one per line):
-                </label>
-                <textarea
-                  rows={5}
-                  value={editItemsText}
-                  onChange={(e) => setEditItemsText(e.target.value)}
-                  className="w-full rounded-2xl border border-border bg-background p-3 text-xs font-mono focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="e.g. Rajma Masala&#10;Steamed Rice&#10;Chapati"
-                />
-              </div>
-
-              <div className="flex items-center justify-end gap-2 pt-2">
-                <button
-                  onClick={() => setEditingMeal(null)}
-                  className="px-4 py-2 rounded-xl text-xs font-semibold border border-border hover:bg-muted"
-                >
-                  Cancel
-                </button>
-                <button
-                  onClick={handleSaveEdit}
-                  className="px-4 py-2 rounded-xl text-xs font-semibold bg-primary text-primary-foreground shadow-sm"
-                >
-                  Save Menu
-                </button>
-              </div>
-            </motion.div>
-          </div>
-        )}
-      </AnimatePresence>
     </div>
   );
 }
