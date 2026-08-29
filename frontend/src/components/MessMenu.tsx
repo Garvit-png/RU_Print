@@ -84,7 +84,7 @@ export function MessMenu() {
 
   const selectedOption = DATE_OPTIONS.find(o => o.key === selectedDateKey)!;
   const menuForDay = selectedOption.day ? MENU[selectedOption.day] : null;
-  const isTodayLive = selectedDateKey === "29 (Saturday)";
+
 
   return (
     <div className="min-h-screen w-full bg-background text-foreground flex flex-col items-center justify-start pb-12">
@@ -124,17 +124,13 @@ export function MessMenu() {
           ) : (
             MEAL_SLOTS.map(({ key, label, time, icon: Icon, color }) => {
               const isExpanded = expandedSlot === key;
-              const isLive = isTodayLive && activeMealSlot === key;
+
               const items = menuForDay[key] ?? [];
 
               return (
                 <div
                   key={key}
-                  className={`rounded-2xl overflow-hidden ${
-                    isLive
-                      ? "border-2 border-red-600 ring-2 ring-red-600/20 bg-card"
-                      : "border border-border/60 bg-card/80"
-                  }`}
+                  className="rounded-2xl overflow-hidden border border-border/60 bg-card/80"
                 >
                   {/* Card Header */}
                   <div
@@ -148,11 +144,7 @@ export function MessMenu() {
                       <div>
                         <div className="flex items-center gap-2">
                           <h4 className="font-extrabold text-base">{label}</h4>
-                          {isLive && (
-                            <span className="px-2 py-0.5 rounded-full text-[9px] font-extrabold bg-emerald-500 text-white animate-pulse">
-                              NOW
-                            </span>
-                          )}
+
                         </div>
                         <span className="text-xs text-muted-foreground">{time}</span>
                       </div>
