@@ -42,13 +42,6 @@ const MEAL_SLOTS = [
   { key: "dinner",    label: "Dinner",    time: "07:30 - 09:30 PM", icon: Soup,      color: "text-blue-500",   start: 1170, end: 1290 },
 ] as const;
 
-const DATE_OPTIONS = [
-  { key: "28 (Friday)",   label: "28 Friday",       sub: "Friday Schedule",    day: "Friday"   },
-  { key: "29 (Saturday)", label: "29 Saturday",      sub: "Today (Live Sync)",  day: "Saturday" },
-  { key: "30 (Sunday)",   label: "30 Sunday",        sub: "Sunday Schedule",    day: "Sunday"   },
-  { key: "Monday",        label: "Monday, Aug 31",   sub: "Soon to be updated", day: ""         },
-  { key: "Tuesday",       label: "Tuesday, Sep 1",   sub: "Soon to be updated", day: ""         },
-];
 
 function getLiveSlot(minutesSinceMidnight: number): string {
   for (const slot of MEAL_SLOTS) {
@@ -61,9 +54,44 @@ function getLiveSlot(minutesSinceMidnight: number): string {
 
 export function MessMenu() {
   const [now, setNow] = useState<Date | null>(null);
-  const [selectedDateKey, setSelectedDateKey] = useState("29 (Saturday)");
+  const [selectedDateKey, setSelectedDateKey] = useState("");
   const [showPicker, setShowPicker] = useState(false);
   const [expandedSlot, setExpandedSlot] = useState<string>("lunch");
+
+  const dateOptions = useMemo(() => {
+    if (!now) return [];
+    
+    const options = [];
+    const MENU_DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    for (let i = 0; i < 5; i++) {
+      const d = new Date(now);
+      d.setDate(now.getDate() + i);
+      const dayName = MENU_DAYS[d.getDay()];
+      const monthName = MONTHS[d.getMonth()];
+      
+      const key = `${d.getDate()} (${dayName})`;
+      const hasData = MENU[dayName] !== undefined;
+      
+      options.push({
+        key,
+        label: i === 0 ? `${d.getDate()} ${dayName}` : `${dayName}, ${monthName} ${d.getDate()}`,
+        sub: i === 0 ? "Today (Live Sync)" : (hasData ? `${dayName} Schedule` : "Soon to be updated"),
+        day: hasData ? dayName : "",
+      });
+    }
+    return options;
+  }, [now?.getDate()]); // update when date changes
+
+  useEffect(() => {
+    if (dateOptions.length > 0) {
+      const stillExists = dateOptions.some(o => o.key === selectedDateKey);
+      if (!stillExists) {
+        setSelectedDateKey(dateOptions[0].key);
+      }
+    }
+  }, [dateOptions, selectedDateKey]);
 
   // Clock tick every minute (not every second) to reduce renders
   useEffect(() => {
@@ -82,10 +110,10 @@ export function MessMenu() {
     setExpandedSlot(activeMealSlot);
   }, [activeMealSlot]);
 
-  const selectedOption = DATE_OPTIONS.find(o => o.key === selectedDateKey)!;
-  const menuForDay = selectedOption.day ? MENU[selectedOption.day] : null;
+  const selectedOption = dateOptions.find(o => o.key === selectedDateKey) || dateOptions[0];
+  const menuForDay = selectedOption?.day ? MENU[selectedOption.day] : null;
 
-
+  if (!now || !selectedOption) return null; // Wait for hydration
   return (
     <div className="min-h-screen w-full bg-background text-foreground flex flex-col items-center justify-start pb-12">
       <div className="w-full max-w-md px-4 py-4 flex flex-col gap-4">
@@ -199,7 +227,7 @@ export function MessMenu() {
             </div>
 
             <div className="space-y-2">
-              {DATE_OPTIONS.map(opt => {
+              {dateOptions.map(opt => {
                 const isSelected = selectedDateKey === opt.key;
                 const isPending = !opt.day;
                 return (

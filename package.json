@@ -4,5 +4,8 @@
   "private": true,
   "scripts": {
     "build": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   }
 }
