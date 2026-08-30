@@ -56,7 +56,7 @@ export function MessMenu() {
   const [now, setNow] = useState<Date | null>(null);
   const [selectedDateKey, setSelectedDateKey] = useState("");
   const [showPicker, setShowPicker] = useState(false);
-  const [expandedSlot, setExpandedSlot] = useState<string>("lunch");
+  const [expandedSlot, setExpandedSlot] = useState<string>("");
 
   const dateOptions = useMemo(() => {
     if (!now) return [];
@@ -104,11 +104,6 @@ export function MessMenu() {
     if (!now) return "lunch";
     return getLiveSlot(now.getHours() * 60 + now.getMinutes());
   }, [now]);
-
-  // Auto-expand live slot when day changes
-  useEffect(() => {
-    setExpandedSlot(activeMealSlot);
-  }, [activeMealSlot]);
 
   const selectedOption = dateOptions.find(o => o.key === selectedDateKey) || dateOptions[0];
   const menuForDay = selectedOption?.day ? MENU[selectedOption.day] : null;
@@ -256,6 +251,11 @@ export function MessMenu() {
           </div>
         </div>
       )}
+
+      {/* ── Footer ── */}
+      <div className="mt-6 text-xs font-medium text-muted-foreground/80 tracking-wide text-center">
+        Made with ❤️ by Garvit Gandhi
+      </div>
     </div>
   );
 }
