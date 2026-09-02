@@ -10,10 +10,22 @@ import {
   ChevronDown,
   CalendarDays,
   Sparkles,
-  CheckCircle2
+  CheckCircle2,
+  Settings,
+  X,
+  Lock,
+  Save,
+  Plus,
+  Trash2,
 } from "lucide-react";
 
-// ─── Mess Menu Data (28 Friday, 29 Saturday, 30 Sunday) ──────────────────────
+const PINCODE = "0313";
+const GH_TOKEN  = process.env.NEXT_PUBLIC_GITHUB_TOKEN ?? "";
+const GH_REPO   = process.env.NEXT_PUBLIC_GITHUB_REPO  ?? "Garvit-png/RU_Print";
+const GH_PATH   = "frontend/src/components/MessMenu.tsx";
+const GH_BRANCH = "main";
+
+// ─── Mess Menu Data (Week: Mon 01 Sep – Sun 07 Sep 2026) ─────────────────────
 const MENU: Record<string, Record<string, string[]>> = {
   Monday: {
     breakfast: ["Banana", "Masala Oats", "Cornflakes", "Aloo Pyaaz Paratha", "Curd & Pickle", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
@@ -82,6 +94,17 @@ export function MessMenu() {
   const [showPicker, setShowPicker] = useState(false);
   const [expandedSlot, setExpandedSlot] = useState<string>("");
 
+  // ── Settings panel state ──────────────────────────────────────────────────
+  type SettingsView = "closed" | "pin" | "open";
+  const [settingsView, setSettingsView]   = useState<SettingsView>("closed");
+  const [pin, setPin]                     = useState("");
+  const [pinError, setPinError]           = useState(false);
+  const [editDay, setEditDay]             = useState<string>("Monday");
+  const [editSlot, setEditSlot]           = useState<string>("breakfast");
+  const [editItems, setEditItems]         = useState<string[]>([]);
+  const [saveStatus, setSaveStatus]       = useState<"idle"|"saving"|"ok"|"err">("idle");
+  const [saveMsg, setSaveMsg]             = useState("");
+
   const dateOptions = useMemo(() => {
     if (!now) return [];
     
@@ -132,7 +155,104 @@ export function MessMenu() {
   const selectedOption = dateOptions.find(o => o.key === selectedDateKey) || dateOptions[0];
   const menuForDay = selectedOption?.day ? MENU[selectedOption.day] : null;
 
-  if (!now || !selectedOption) return null; // Wait for hydration
+  // ── Settings helpers ─────────────────────────────────────────────────────
+  const openSettings = (day: string, slot: string) => {
+    setEditDay(day);
+    setEditSlot(slot);
+    setEditItems([...(MENU[day]?.[slot] ?? [])]);
+    setSaveStatus("idle");
+    setSaveMsg("");
+  };
+
+  const handlePinSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (pin === PINCODE) {
+      setPinError(false);
+      setPin("");
+      setSettingsView("open");
+      openSettings("Monday", "breakfast");
+    } else {
+      setPinError(true);
+      setPin("");
+    }
+  };
+
+  const handleSlotChange = (day: string, slot: string) => {
+    openSettings(day, slot);
+  };
+
+  const handleSaveToGitHub = async () => {
+    setSaveStatus("saving");
+    setSaveMsg("");
+
+    // Build updated MENU object string — we patch the one slot being edited
+    const updatedMenu: typeof MENU = JSON.parse(JSON.stringify(MENU));
+    updatedMenu[editDay][editSlot] = editItems.filter(i => i.trim() !== "");
+
+    try {
+      // 1. Get current file SHA
+      const getRes = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}?ref=${GH_BRANCH}`,
+        { headers: { Authorization: `Bearer ${GH_TOKEN}`, Accept: "application/vnd.github+json" } }
+      );
+      if (!getRes.ok) throw new Error("Could not fetch file from GitHub.");
+      const fileData = await getRes.json();
+
+      // 2. Decode current content, replace MENU block
+      const currentContent: string = atob(fileData.content.replace(/\n/g, ""));
+      const menuStr = `const MENU: Record<string, Record<string, string[]>> = ${JSON.stringify(updatedMenu, null, 2)};`;
+      const newContent = currentContent.replace(
+        /const MENU: Record<string, Record<string, string\[\]>> = \{[\s\S]*?\n\};/,
+        menuStr
+      );
+
+      // 3. Commit
+      const today = new Date().toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" });
+      const putRes = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`,
+        {
+          method: "PUT",
+          headers: { Authorization: `Bearer ${GH_TOKEN}`, Accept: "application/vnd.github+json", "Content-Type": "application/json" },
+          body: JSON.stringify({
+            message: `menu: update ${editDay} ${editSlot} — ${today}`,
+            content: btoa(unescape(encodeURIComponent(newContent))),
+            sha: fileData.sha,
+            branch: GH_BRANCH,
+          }),
+        }
+      );
+      if (!putRes.ok) {
+        const err = await putRes.json();
+        throw new Error(err.message ?? "GitHub commit failed.");
+      }
+      setSaveStatus("ok");
+      setSaveMsg("Saved! Vercel will redeploy in ~30s.");
+      // Patch local MENU too so UI updates instantly
+      MENU[editDay][editSlot] = [...editItems.filter(i => i.trim() !== "")];
+    } catch (err: any) {
+      setSaveStatus("err");
+      setSaveMsg(err.message ?? "Save failed.");
+    }
+  };
+
+  const closeSettings = () => {
+    setSettingsView("closed");
+    setPin("");
+    setPinError(false);
+    setSaveStatus("idle");
+  };
+
+  // Show skeleton while hydrating — avoids blank/loading screen on first render
+  if (!now || !selectedOption) return (
+    <div className="min-h-screen w-full bg-background flex flex-col items-center pt-8 gap-4 px-4">
+      <div className="w-full max-w-md space-y-4">
+        <div className="h-8 w-48 rounded-xl bg-muted/50 animate-pulse" />
+        {[1,2,3,4].map(i => (
+          <div key={i} className="h-20 w-full rounded-2xl bg-muted/40 animate-pulse" />
+        ))}
+      </div>
+    </div>
+  );
   return (
     <div className="min-h-screen w-full bg-background text-foreground flex flex-col items-center justify-start pb-12">
       <div className="w-full max-w-md px-4 py-4 flex flex-col gap-4">
@@ -141,7 +261,7 @@ export function MessMenu() {
         <header className="flex items-center justify-between pb-3 border-b border-border/40">
           <div className="flex flex-col">
             <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
-              Mess Schedule
+              Mess Schedule · 01 Sep – 07 Sep 2026
             </span>
             <span className="text-lg font-extrabold text-foreground">
               {selectedOption.label}
@@ -280,6 +400,161 @@ export function MessMenu() {
       <div className="mt-6 text-xs font-medium text-muted-foreground/80 tracking-wide text-center">
         Made with ❤️ by Garvit Gandhi
       </div>
+
+      {/* ── Settings gear button (fixed bottom-right) ── */}
+      <button
+        onClick={() => { setSettingsView("pin"); setPinError(false); setPin(""); }}
+        className="fixed bottom-5 right-5 z-40 h-11 w-11 flex items-center justify-center rounded-full bg-card border border-border/70 shadow-lg text-muted-foreground hover:text-primary hover:border-primary/50 hover:scale-110 transition-all"
+        aria-label="Settings"
+      >
+        <Settings className="h-5 w-5" />
+      </button>
+
+      {/* ── Settings overlay ── */}
+      {settingsView !== "closed" && (
+        <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 backdrop-blur-sm"
+          onClick={closeSettings}>
+          <div
+            className="w-full max-w-md bg-card border border-border rounded-t-3xl overflow-hidden max-h-[90vh] flex flex-col"
+            onClick={e => e.stopPropagation()}
+          >
+            {/* Panel header */}
+            <div className="flex items-center justify-between px-5 py-4 border-b border-border/40 shrink-0">
+              <div className="flex items-center gap-2.5">
+                <div className="p-1.5 rounded-lg bg-primary/10">
+                  <Settings className="h-4 w-4 text-primary" />
+                </div>
+                <p className="text-sm font-bold">Menu Settings</p>
+              </div>
+              <button onClick={closeSettings} className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors">
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+
+            {/* PIN screen */}
+            {settingsView === "pin" && (
+              <form onSubmit={handlePinSubmit} className="p-5 space-y-4">
+                <div className="flex flex-col items-center gap-2 py-2">
+                  <div className="p-3 rounded-full bg-primary/10">
+                    <Lock className="h-6 w-6 text-primary" />
+                  </div>
+                  <p className="text-sm font-semibold">Enter PIN</p>
+                  <p className="text-xs text-muted-foreground text-center">4-digit PIN required to edit menu.</p>
+                </div>
+                <input
+                  type="password"
+                  inputMode="numeric"
+                  maxLength={4}
+                  placeholder="• • • •"
+                  value={pin}
+                  autoFocus
+                  onChange={e => { setPin(e.target.value.replace(/\D/g,"").slice(0,4)); setPinError(false); }}
+                  className="w-full h-12 text-center text-2xl tracking-[0.6em] font-mono rounded-xl bg-muted/40 border border-border/60 focus:outline-none focus:ring-2 focus:ring-primary/40"
+                />
+                {pinError && (
+                  <p className="text-xs text-destructive text-center">Incorrect PIN. Try again.</p>
+                )}
+                <button type="submit" className="w-full h-11 rounded-xl bg-primary text-primary-foreground font-semibold text-sm">
+                  Unlock
+                </button>
+              </form>
+            )}
+
+            {/* Edit screen */}
+            {settingsView === "open" && (
+              <div className="flex flex-col flex-1 overflow-hidden">
+                {/* Day + Slot selectors */}
+                <div className="px-5 pt-4 pb-3 space-y-3 shrink-0 border-b border-border/30">
+                  {/* Day pills */}
+                  <div className="flex gap-1.5 overflow-x-auto pb-1">
+                    {Object.keys(MENU).map(day => (
+                      <button
+                        key={day}
+                        onClick={() => handleSlotChange(day, editSlot)}
+                        className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
+                          editDay === day
+                            ? "bg-primary text-primary-foreground"
+                            : "bg-muted/50 text-muted-foreground hover:text-foreground"
+                        }`}
+                      >
+                        {day.slice(0,3)}
+                      </button>
+                    ))}
+                  </div>
+                  {/* Slot pills */}
+                  <div className="flex gap-1.5 overflow-x-auto pb-1">
+                    {["breakfast","lunch","snacks","dinner"].map(slot => (
+                      <button
+                        key={slot}
+                        onClick={() => handleSlotChange(editDay, slot)}
+                        className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
+                          editSlot === slot
+                            ? "bg-primary text-primary-foreground"
+                            : "bg-muted/50 text-muted-foreground hover:text-foreground"
+                        }`}
+                      >
+                        {slot}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Items list */}
+                <div className="flex-1 overflow-y-auto px-5 py-3 space-y-2">
+                  <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                    {editDay} — {editSlot} items
+                  </p>
+                  {editItems.map((item, idx) => (
+                    <div key={idx} className="flex items-center gap-2">
+                      <input
+                        value={item}
+                        onChange={e => {
+                          const updated = [...editItems];
+                          updated[idx] = e.target.value;
+                          setEditItems(updated);
+                        }}
+                        className="flex-1 h-9 px-3 rounded-xl bg-muted/40 border border-border/60 text-sm focus:outline-none focus:ring-1 focus:ring-primary/40 text-foreground"
+                      />
+                      <button
+                        onClick={() => setEditItems(editItems.filter((_, i) => i !== idx))}
+                        className="p-1.5 rounded-lg text-muted-foreground hover:text-destructive hover:bg-destructive/10 transition-colors shrink-0"
+                      >
+                        <Trash2 className="h-4 w-4" />
+                      </button>
+                    </div>
+                  ))}
+                  <button
+                    onClick={() => setEditItems([...editItems, ""])}
+                    className="flex items-center gap-1.5 text-xs text-primary font-semibold mt-1 px-1 py-1.5"
+                  >
+                    <Plus className="h-3.5 w-3.5" /> Add item
+                  </button>
+                </div>
+
+                {/* Save bar */}
+                <div className="px-5 pb-5 pt-3 border-t border-border/30 shrink-0 space-y-2">
+                  {saveMsg && (
+                    <p className={`text-xs text-center font-medium ${saveStatus === "ok" ? "text-emerald-500" : "text-destructive"}`}>
+                      {saveMsg}
+                    </p>
+                  )}
+                  <button
+                    onClick={handleSaveToGitHub}
+                    disabled={saveStatus === "saving"}
+                    className="w-full h-11 rounded-xl bg-primary text-primary-foreground font-semibold text-sm flex items-center justify-center gap-2 disabled:opacity-60"
+                  >
+                    {saveStatus === "saving" ? (
+                      <><span className="h-4 w-4 rounded-full border-2 border-primary-foreground/30 border-t-primary-foreground animate-spin" /> Saving to GitHub…</>
+                    ) : (
+                      <><Save className="h-4 w-4" /> Save &amp; Deploy</>
+                    )}
+                  </button>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
