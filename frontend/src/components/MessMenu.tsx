@@ -2,13 +2,11 @@
 
 import React, { useState, useEffect, useMemo } from "react";
 import {
-  Check,
   Coffee,
   Soup,
   Croissant,
   Utensils,
   ChevronDown,
-  CalendarDays,
   Sparkles,
   CheckCircle2,
   Settings,
@@ -90,8 +88,6 @@ function getLiveSlot(minutesSinceMidnight: number): string {
 
 export function MessMenu() {
   const [now, setNow] = useState<Date | null>(null);
-  const [selectedDateKey, setSelectedDateKey] = useState("");
-  const [showPicker, setShowPicker] = useState(false);
   const [expandedSlot, setExpandedSlot] = useState<string>("");
 
   // ── Settings panel state ──────────────────────────────────────────────────
@@ -99,7 +95,6 @@ export function MessMenu() {
   const [settingsView, setSettingsView]   = useState<SettingsView>("closed");
   const [pin, setPin]                     = useState("");
   const [pinError, setPinError]           = useState(false);
-  const [editDay, setEditDay]             = useState<string>("Monday");
   const [editSlot, setEditSlot]           = useState<string>("breakfast");
   const [editItems, setEditItems]         = useState<string[]>([]);
   const [saveStatus, setSaveStatus]       = useState<"idle"|"saving"|"ok"|"err">("idle");
@@ -107,38 +102,13 @@ export function MessMenu() {
 
   const dateOptions = useMemo(() => {
     if (!now) return [];
-    
-    const options = [];
     const MENU_DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const d = new Date(now);
+    const dayName = MENU_DAYS[d.getDay()];
+    return [{ key: "today", label: "Today", day: MENU[dayName] ? dayName : "" }];
+  }, [now?.getDate()]);
 
-    for (let i = 0; i < 5; i++) {
-      const d = new Date(now);
-      d.setDate(now.getDate() + i);
-      const dayName = MENU_DAYS[d.getDay()];
-      const monthName = MONTHS[d.getMonth()];
-      
-      const key = `${d.getDate()} (${dayName})`;
-      const hasData = MENU[dayName] !== undefined;
-      
-      options.push({
-        key,
-        label: i === 0 ? `${d.getDate()} ${dayName}` : `${dayName}, ${monthName} ${d.getDate()}`,
-        sub: i === 0 ? "Today (Live Sync)" : (hasData ? `${dayName} Schedule` : "Soon to be updated"),
-        day: hasData ? dayName : "",
-      });
-    }
-    return options;
-  }, [now?.getDate()]); // update when date changes
-
-  useEffect(() => {
-    if (dateOptions.length > 0) {
-      const stillExists = dateOptions.some(o => o.key === selectedDateKey);
-      if (!stillExists) {
-        setSelectedDateKey(dateOptions[0].key);
-      }
-    }
-  }, [dateOptions, selectedDateKey]);
+  useEffect(() => {}, []);  // kept for compat
 
   // Clock tick every minute (not every second) to reduce renders
   useEffect(() => {
@@ -152,14 +122,15 @@ export function MessMenu() {
     return getLiveSlot(now.getHours() * 60 + now.getMinutes());
   }, [now]);
 
-  const selectedOption = dateOptions.find(o => o.key === selectedDateKey) || dateOptions[0];
+  const selectedOption = dateOptions[0];
   const menuForDay = selectedOption?.day ? MENU[selectedOption.day] : null;
+  // Today's day name for settings
+  const todayDayName = selectedOption?.day ?? "Monday";
 
   // ── Settings helpers ─────────────────────────────────────────────────────
-  const openSettings = (day: string, slot: string) => {
-    setEditDay(day);
+  const openSettings = (slot: string) => {
     setEditSlot(slot);
-    setEditItems([...(MENU[day]?.[slot] ?? [])]);
+    setEditItems([...(MENU[todayDayName]?.[slot] ?? [])]);
     setSaveStatus("idle");
     setSaveMsg("");
   };
@@ -170,15 +141,15 @@ export function MessMenu() {
       setPinError(false);
       setPin("");
       setSettingsView("open");
-      openSettings("Monday", "breakfast");
+      openSettings("breakfast");
     } else {
       setPinError(true);
       setPin("");
     }
   };
 
-  const handleSlotChange = (day: string, slot: string) => {
-    openSettings(day, slot);
+  const handleSlotChange = (slot: string) => {
+    openSettings(slot);
   };
 
   const handleSaveToGitHub = async () => {
@@ -187,7 +158,7 @@ export function MessMenu() {
 
     // Build updated MENU object string — we patch the one slot being edited
     const updatedMenu: typeof MENU = JSON.parse(JSON.stringify(MENU));
-    updatedMenu[editDay][editSlot] = editItems.filter(i => i.trim() !== "");
+    updatedMenu[todayDayName][editSlot] = editItems.filter(i => i.trim() !== "");
 
     try {
       // 1. Get current file SHA
@@ -214,7 +185,7 @@ export function MessMenu() {
           method: "PUT",
           headers: { Authorization: `Bearer ${GH_TOKEN}`, Accept: "application/vnd.github+json", "Content-Type": "application/json" },
           body: JSON.stringify({
-            message: `menu: update ${editDay} ${editSlot} — ${today}`,
+            message: `menu: update ${todayDayName} ${editSlot} — ${today}`,
             content: btoa(unescape(encodeURIComponent(newContent))),
             sha: fileData.sha,
             branch: GH_BRANCH,
@@ -228,7 +199,7 @@ export function MessMenu() {
       setSaveStatus("ok");
       setSaveMsg("Saved! Vercel will redeploy in ~30s.");
       // Patch local MENU too so UI updates instantly
-      MENU[editDay][editSlot] = [...editItems.filter(i => i.trim() !== "")];
+      MENU[todayDayName][editSlot] = [...editItems.filter(i => i.trim() !== "")];
     } catch (err: any) {
       setSaveStatus("err");
       setSaveMsg(err.message ?? "Save failed.");
@@ -261,21 +232,12 @@ export function MessMenu() {
         <header className="flex items-center justify-between pb-3 border-b border-border/40">
           <div className="flex flex-col">
             <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
-              Mess Schedule · 01 Sep – 07 Sep 2026
+              Mess Schedule · {todayDayName}
             </span>
             <span className="text-lg font-extrabold text-foreground">
-              {selectedOption.label}
+              Today
             </span>
           </div>
-
-          <button
-            onClick={() => setShowPicker(true)}
-            className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-card border border-border text-xs font-bold text-foreground active:scale-95 transition-transform"
-          >
-            <CalendarDays className="h-4 w-4 text-primary" />
-            <span>Other Dates</span>
-            <ChevronDown className="h-3.5 w-3.5 text-muted-foreground" />
-          </button>
         </header>
 
         {/* ── Meal Cards ── */}
@@ -285,7 +247,7 @@ export function MessMenu() {
               <Sparkles className="h-9 w-9 text-primary mx-auto opacity-60" />
               <h4 className="font-bold text-base">Soon to be updated</h4>
               <p className="text-xs text-muted-foreground">
-                Data for {selectedOption.label} will be uploaded soon.
+                Menu for today ({todayDayName}) will be uploaded soon.
               </p>
             </div>
           ) : (
@@ -342,60 +304,6 @@ export function MessMenu() {
         </div>
       </div>
 
-      {/* ── Date Picker Sheet ── */}
-      {showPicker && (
-        <div
-          className="fixed inset-0 z-50 flex items-end justify-center bg-black/50"
-          onClick={() => setShowPicker(false)}
-        >
-          <div
-            className="w-full max-w-md bg-card border border-border rounded-t-3xl p-5 space-y-3 max-h-[80vh] overflow-y-auto"
-            onClick={e => e.stopPropagation()}
-          >
-            <div className="flex items-center justify-between pb-2 border-b border-border">
-              <h3 className="font-extrabold text-base flex items-center gap-2">
-                <CalendarDays className="h-4 w-4 text-primary" />
-                Select Date
-              </h3>
-              <button
-                onClick={() => setShowPicker(false)}
-                className="text-muted-foreground font-bold text-sm"
-              >
-                ✕
-              </button>
-            </div>
-
-            <div className="space-y-2">
-              {dateOptions.map(opt => {
-                const isSelected = selectedDateKey === opt.key;
-                const isPending = !opt.day;
-                return (
-                  <button
-                    key={opt.key}
-                    onClick={() => { setSelectedDateKey(opt.key); setShowPicker(false); }}
-                    className={`w-full p-3 rounded-2xl border flex items-center justify-between text-left active:scale-[0.98] transition-transform ${
-                      isSelected
-                        ? "bg-primary text-primary-foreground border-primary"
-                        : isPending
-                        ? "bg-muted/20 border-border/40 text-muted-foreground/70"
-                        : "bg-muted/40 border-border/60 text-foreground"
-                    }`}
-                  >
-                    <div>
-                      <span className="font-bold text-sm block">{opt.label}</span>
-                      <span className={`text-[11px] ${isSelected ? "text-primary-foreground/80" : isPending ? "italic text-muted-foreground/60" : "text-muted-foreground"}`}>
-                        {opt.sub}
-                      </span>
-                    </div>
-                    {isSelected && <Check className="h-4 w-4" />}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* ── Footer ── */}
       <div className="mt-6 text-xs font-medium text-muted-foreground/80 tracking-wide text-center">
         Made with ❤️ by Garvit Gandhi
@@ -412,10 +320,13 @@ export function MessMenu() {
 
       {/* ── Settings overlay ── */}
       {settingsView !== "closed" && (
-        <div className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 backdrop-blur-sm"
-          onClick={closeSettings}>
+        <div
+          className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 backdrop-blur-sm"
+          onClick={closeSettings}
+        >
           <div
-            className="w-full max-w-md bg-card border border-border rounded-t-3xl overflow-hidden max-h-[90vh] flex flex-col"
+            className="w-full max-w-md bg-card border border-border rounded-t-3xl overflow-hidden flex flex-col"
+            style={{ maxHeight: "calc(100dvh - 60px)" }}
             onClick={e => e.stopPropagation()}
           >
             {/* Panel header */}
@@ -424,16 +335,18 @@ export function MessMenu() {
                 <div className="p-1.5 rounded-lg bg-primary/10">
                   <Settings className="h-4 w-4 text-primary" />
                 </div>
-                <p className="text-sm font-bold">Menu Settings</p>
+                <p className="text-sm font-bold">
+                  {settingsView === "pin" ? "Menu Settings" : `Today — ${todayDayName}`}
+                </p>
               </div>
               <button onClick={closeSettings} className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors">
                 <X className="h-4 w-4" />
               </button>
             </div>
 
-            {/* PIN screen */}
+            {/* PIN screen — no autoFocus to avoid keyboard pushing panel */}
             {settingsView === "pin" && (
-              <form onSubmit={handlePinSubmit} className="p-5 space-y-4">
+              <form onSubmit={handlePinSubmit} className="p-5 space-y-4 pb-8">
                 <div className="flex flex-col items-center gap-2 py-2">
                   <div className="p-3 rounded-full bg-primary/10">
                     <Lock className="h-6 w-6 text-primary" />
@@ -447,7 +360,6 @@ export function MessMenu() {
                   maxLength={4}
                   placeholder="• • • •"
                   value={pin}
-                  autoFocus
                   onChange={e => { setPin(e.target.value.replace(/\D/g,"").slice(0,4)); setPinError(false); }}
                   className="w-full h-12 text-center text-2xl tracking-[0.6em] font-mono rounded-xl bg-muted/40 border border-border/60 focus:outline-none focus:ring-2 focus:ring-primary/40"
                 />
@@ -465,28 +377,12 @@ export function MessMenu() {
               <div className="flex flex-col flex-1 overflow-hidden">
                 {/* Day + Slot selectors */}
                 <div className="px-5 pt-4 pb-3 space-y-3 shrink-0 border-b border-border/30">
-                  {/* Day pills */}
-                  <div className="flex gap-1.5 overflow-x-auto pb-1">
-                    {Object.keys(MENU).map(day => (
-                      <button
-                        key={day}
-                        onClick={() => handleSlotChange(day, editSlot)}
-                        className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                          editDay === day
-                            ? "bg-primary text-primary-foreground"
-                            : "bg-muted/50 text-muted-foreground hover:text-foreground"
-                        }`}
-                      >
-                        {day.slice(0,3)}
-                      </button>
-                    ))}
-                  </div>
-                  {/* Slot pills */}
+                  {/* Slot pills — today's day is fixed */}
                   <div className="flex gap-1.5 overflow-x-auto pb-1">
                     {["breakfast","lunch","snacks","dinner"].map(slot => (
                       <button
                         key={slot}
-                        onClick={() => handleSlotChange(editDay, slot)}
+                        onClick={() => handleSlotChange(slot)}
                         className={`shrink-0 px-3 py-1.5 rounded-xl text-xs font-bold capitalize transition-all ${
                           editSlot === slot
                             ? "bg-primary text-primary-foreground"
@@ -502,7 +398,7 @@ export function MessMenu() {
                 {/* Items list */}
                 <div className="flex-1 overflow-y-auto px-5 py-3 space-y-2">
                   <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
-                    {editDay} — {editSlot} items
+                    {todayDayName} — {editSlot} items
                   </p>
                   {editItems.map((item, idx) => (
                     <div key={idx} className="flex items-center gap-2">
