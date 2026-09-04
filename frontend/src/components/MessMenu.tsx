@@ -25,50 +25,276 @@ const GH_REPO   = process.env.NEXT_PUBLIC_GITHUB_REPO  ?? "Garvit-png/RU_Print";
 const GH_PATH   = "frontend/src/components/MessMenu.tsx";
 const GH_BRANCH = "main";
 
-// ─── Mess Menu Data (Week: Mon 01 Sep – Sun 07 Sep 2026) ─────────────────────
+// âââ Mess Menu Data (Week: Mon 01 Sep â Sun 07 Sep 2026) âââââââââââââââââââââ
 const MENU: Record<string, Record<string, string[]>> = {
-  Monday: {
-    breakfast: ["Banana", "Masala Oats", "Cornflakes", "Aloo Pyaaz Paratha", "Curd & Pickle", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Rooh Afza", "Pasta Salad", "Chana Masala", "Aloo Matar", "Beetroot Foogath", "Jeera Rice", "Chapati", "Besan Barfi"],
-    snacks:    ["Mix Veg Pakora", "Chutney", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Tossed Salad", "Capsicum Gobi Corn", "Rajma", "Tomato Rasam", "Rice", "Chapati"],
+  "Monday": {
+    "breakfast": [
+      "Banana",
+      "Masala Oats",
+      "Cornflakes",
+      "Aloo Pyaaz Paratha",
+      "Curd & Pickle",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Rooh Afza",
+      "Pasta Salad",
+      "Chana Masala",
+      "Aloo Matar",
+      "Beetroot Foogath",
+      "Jeera Rice",
+      "Chapati",
+      "Besan Barfi"
+    ],
+    "snacks": [
+      "Mix Veg Pakora",
+      "Chutney",
+      "Cold Coffee",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Tossed Salad",
+      "Capsicum Gobi Corn",
+      "Rajma",
+      "Tomato Rasam",
+      "Rice",
+      "Chapati"
+    ]
   },
-  Tuesday: {
-    breakfast: ["Watermelon", "Dalia", "Chocos", "Pav", "Bhaji", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Sweet Lassi", "Green Salad", "Veg Kofta Curry", "Arhar Dal Tarka", "Tomato Pachadi", "Steamed Rice", "Chapati"],
-    snacks:    ["Maggi", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Green Salad", "Soya Chaap Lababdar", "Moong Dal Hing Tarka", "Onion Samber", "Jeera Rice", "Chapati", "Gulab Jamun"],
+  "Tuesday": {
+    "breakfast": [
+      "Watermelon",
+      "Dalia",
+      "Chocos",
+      "Pav",
+      "Bhaji",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Sweet Lassi",
+      "Green Salad",
+      "Veg Kofta Curry",
+      "Arhar Dal Tarka",
+      "Tomato Pachadi",
+      "Steamed Rice",
+      "Chapati"
+    ],
+    "snacks": [
+      "Maggi",
+      "Ketchup",
+      "Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Green Salad",
+      "Soya Chaap Lababdar",
+      "Moong Dal Hing Tarka",
+      "Onion Samber",
+      "Jeera Rice",
+      "Chapati",
+      "Gulab Jamun"
+    ]
   },
-  Wednesday: {
-    breakfast: ["Mix Fruits", "Macaroni", "Muesli", "Kulcha", "Matar", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Mixed Crush", "Cucumber Salad", "Chettinad Paneer", "Mix Yellow Dal", "Coriander Rice", "Chapati", "Sweet Boondi Dry"],
-    snacks:    ["Aloo Tikki Chaat", "Curd / Imli Chutney", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Onion Lachha", "Bhindi Do Pyaza", "Lal Malka Dal", "Cabbage Foogath", "Plain Rice", "Chapati"],
+  "Wednesday": {
+    "breakfast": [
+      "Mix Fruits",
+      "Macaroni",
+      "Muesli",
+      "Kulcha",
+      "Matar",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Mixed Crush",
+      "Cucumber Salad",
+      "Chettinad Paneer",
+      "Mix Yellow Dal",
+      "Coriander Rice",
+      "Chapati",
+      "Sweet Boondi Dry"
+    ],
+    "snacks": [
+      "Aloo Tikki Chaat",
+      "Curd / Imli Chutney",
+      "Cold Coffee",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Onion Lachha",
+      "Bhindi Do Pyaza",
+      "Lal Malka Dal",
+      "Cabbage Foogath",
+      "Plain Rice",
+      "Chapati"
+    ]
   },
-  Thursday: {
-    breakfast: ["Papaya", "Masala Oats", "Cornflakes", "Kachori", "Aloo Tamatar Sabzi", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Chaas", "Laccha Onion", "Veg Tahiri", "Aloo Ka Salan", "Karam Chutney", "Dhaba Dal Thick", "Chapati"],
-    snacks:    ["Paneer Puff", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Cucumber Salad", "Tofu Chilli", "Chole Punjabi", "Carrot Poriyal", "Peas Rice", "Chapati", "Ice Cream"],
+  "Thursday": {
+    "breakfast": [
+      "Papaya",
+      "Masala Oats",
+      "Cornflakes",
+      "Kachori",
+      "Aloo Tamatar Sabzi",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Chaas",
+      "Laccha Onion",
+      "Veg Tahiri",
+      "Aloo Ka Salan",
+      "Karam Chutney",
+      "Dhaba Dal Thick",
+      "Chapati"
+    ],
+    "snacks": [
+      "Paneer Puff",
+      "Ketchup",
+      "Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Cucumber Salad",
+      "Tofu Chilli",
+      "Chole Punjabi",
+      "Carrot Poriyal",
+      "Peas Rice",
+      "Chapati",
+      "Ice Cream"
+    ]
   },
-  Friday: {
-    breakfast: ["Watermelon", "Chocos", "Macaroni", "Veg Upma", "Spicy Peanut Chutney", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Salted Lassi", "Tossed Salad", "Mix Veg", "Rajma", "Pesarattu", "Plain Rice", "Chapati", "Coconut Ladoo"],
-    snacks:    ["Samosa", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Green Salad", "Kolhapuri Paneer", "Panchmel Dal", "Jeera Rice", "Chapati", "Pastry"],
+  "Friday": {
+    "breakfast": [
+      "Watermelon",
+      "Chocos",
+      "Macaroni",
+      "Veg Upma",
+      "Spicy Peanut Chutney",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Salted Lassi",
+      "Tossed Salad",
+      "Mix Veg",
+      "Rajma",
+      "Pesarattu",
+      "Plain Rice",
+      "Chapati",
+      "Coconut Ladoo"
+    ],
+    "snacks": [
+      "Samosa",
+      "Ketchup",
+      "Cold Coffee",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Green Salad",
+      "Kolhapuri Paneer",
+      "Panchmel Dal",
+      "Jeera Rice",
+      "Chapati",
+      "No Desert "
+    ]
   },
-  Saturday: {
-    breakfast: ["Mix Fruits", "Chocos", "Aloo Toast", "Mixed Pulses Chila", "Tangy Tomato Garlic Chutney", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Butter Milk", "Cucumber Carrot Salad", "Soya Chaap Makhanwala", "Lal Malka", "Ghee Rice", "Chapati"],
-    snacks:    ["Chinese Bhel", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Moong Sprout Salad", "Parval Aloo", "Gota Masoor", "Beans Foogath", "Ghee Rice", "Chapati"],
+  "Saturday": {
+    "breakfast": [
+      "Mix Fruits",
+      "Chocos",
+      "Aloo Toast",
+      "Mixed Pulses Chila",
+      "Tangy Tomato Garlic Chutney",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Butter Milk",
+      "Cucumber Carrot Salad",
+      "Soya Chaap Makhanwala",
+      "Lal Malka",
+      "Ghee Rice",
+      "Chapati"
+    ],
+    "snacks": [
+      "Chinese Bhel",
+      "Ketchup",
+      "Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Moong Sprout Salad",
+      "Parval Aloo",
+      "Gota Masoor",
+      "Beans Foogath",
+      "Ghee Rice",
+      "Chapati"
+    ]
   },
-  Sunday: {
-    breakfast: ["Papaya", "Muesli", "Masala Oats", "Paratha", "Aloo Tamatar", "Cold / Hot Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Chaas", "Chana Sprout Salad", "Dum Aloo", "Dhaba Dal", "Samber", "Plain Rice", "Chapati", "Besan Ladoo"],
-    snacks:    ["Dabheli", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Cucumber Salad", "Dahi Lauki Moong", "Mix Yellow Dal", "Steamed Rice", "Chapati"],
-  },
+  "Sunday": {
+    "breakfast": [
+      "Papaya",
+      "Muesli",
+      "Masala Oats",
+      "Paratha",
+      "Aloo Tamatar",
+      "Cold / Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread / Butter / Jam"
+    ],
+    "lunch": [
+      "Chaas",
+      "Chana Sprout Salad",
+      "Dum Aloo",
+      "Dhaba Dal",
+      "Samber",
+      "Plain Rice",
+      "Chapati",
+      "Besan Ladoo"
+    ],
+    "snacks": [
+      "Dabheli",
+      "Ketchup",
+      "Cold Coffee",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Cucumber Salad",
+      "Dahi Lauki Moong",
+      "Mix Yellow Dal",
+      "Steamed Rice",
+      "Chapati"
+    ]
+  }
 };
 
 const MEAL_SLOTS = [
@@ -92,7 +318,7 @@ export function MessMenu() {
   const [now, setNow] = useState<Date | null>(null);
   const [expandedSlot, setExpandedSlot] = useState<string>("");
 
-  // ── Settings panel state ──────────────────────────────────────────────────
+  // ââ Settings panel state ââââââââââââââââââââââââââââââââââââââââââââââââââ
   type SettingsView = "closed" | "pin" | "open";
   const [settingsView, setSettingsView]   = useState<SettingsView>("closed");
   const [pin, setPin]                     = useState("");
@@ -142,7 +368,7 @@ export function MessMenu() {
   const menuForDay = MENU[viewingDay] ?? null;
   const isViewingToday = viewingDay === todayDayName;
 
-  // ── Settings helpers ─────────────────────────────────────────────────────
+  // ââ Settings helpers âââââââââââââââââââââââââââââââââââââââââââââââââââââ
   const openSettings = (slot: string) => {
     setEditSlot(slot);
     setEditItems([...(MENU[todayDayName]?.[slot] ?? [])]);
@@ -171,7 +397,7 @@ export function MessMenu() {
     setSaveStatus("saving");
     setSaveMsg("");
 
-    // Build updated MENU object string — we patch the one slot being edited
+    // Build updated MENU object string â we patch the one slot being edited
     const updatedMenu: typeof MENU = JSON.parse(JSON.stringify(MENU));
     updatedMenu[todayDayName][editSlot] = editItems.filter(i => i.trim() !== "");
 
@@ -200,7 +426,7 @@ export function MessMenu() {
           method: "PUT",
           headers: { Authorization: `Bearer ${GH_TOKEN}`, Accept: "application/vnd.github+json", "Content-Type": "application/json" },
           body: JSON.stringify({
-            message: `menu: update ${todayDayName} ${editSlot} — ${today}`,
+            message: `menu: update ${todayDayName} ${editSlot} â ${today}`,
             content: btoa(unescape(encodeURIComponent(newContent))),
             sha: fileData.sha,
             branch: GH_BRANCH,
@@ -228,7 +454,7 @@ export function MessMenu() {
     setSaveStatus("idle");
   };
 
-  // Show skeleton while hydrating — avoids blank/loading screen on first render
+  // Show skeleton while hydrating â avoids blank/loading screen on first render
   if (!now) return (
     <div className="min-h-screen w-full bg-background flex flex-col items-center pt-8 gap-4 px-4">
       <div className="w-full max-w-md space-y-4">
@@ -243,12 +469,12 @@ export function MessMenu() {
     <div className="min-h-screen w-full bg-background text-foreground flex flex-col items-center justify-start pb-12">
       <div className="w-full max-w-md px-4 py-4 flex flex-col gap-4">
 
-        {/* ── Header ── */}
+        {/* ââ Header ââ */}
         <header className="pb-3 border-b border-border/40 space-y-3">
           <div className="flex items-center justify-between">
             <div className="flex flex-col">
               <span className="text-[10px] font-bold uppercase tracking-wider text-muted-foreground">
-                Mess Schedule · {viewingDay}
+                Mess Schedule Â· {viewingDay}
               </span>
               <span className="text-lg font-extrabold text-foreground">
                 {isViewingToday ? "Today" : viewingDay}
@@ -290,7 +516,7 @@ export function MessMenu() {
           </div>
         </header>
 
-        {/* ── Meal Cards ── */}
+        {/* ââ Meal Cards ââ */}
         <div className="flex flex-col gap-3">
           {!menuForDay ? (
             <div className="p-10 rounded-3xl border border-dashed border-border bg-card/40 text-center space-y-2">
@@ -354,12 +580,12 @@ export function MessMenu() {
         </div>
       </div>
 
-      {/* ── Footer ── */}
+      {/* ââ Footer ââ */}
       <div className="mt-6 text-xs font-medium text-muted-foreground/80 tracking-wide text-center">
-        Made with ❤️ by Garvit Gandhi
+        Made with â¤ï¸ by Garvit Gandhi
       </div>
 
-      {/* ── Settings gear button (fixed bottom-right) ── */}
+      {/* ââ Settings gear button (fixed bottom-right) ââ */}
       <button
         onClick={() => { setSettingsView("pin"); setPinError(false); setPin(""); }}
         className="fixed bottom-5 right-5 z-40 h-11 w-11 flex items-center justify-center rounded-full bg-card border border-border/70 shadow-lg text-muted-foreground hover:text-primary hover:border-primary/50 hover:scale-110 transition-all"
@@ -368,7 +594,7 @@ export function MessMenu() {
         <Settings className="h-5 w-5" />
       </button>
 
-      {/* ── Settings overlay ── */}
+      {/* ââ Settings overlay ââ */}
       {settingsView !== "closed" && (
         <div
           className="fixed inset-0 z-50 flex items-end justify-center bg-black/50 backdrop-blur-sm"
@@ -386,7 +612,7 @@ export function MessMenu() {
                   <Settings className="h-4 w-4 text-primary" />
                 </div>
                 <p className="text-sm font-bold">
-                  {settingsView === "pin" ? "Menu Settings" : `Today — ${todayDayName}`}
+                  {settingsView === "pin" ? "Menu Settings" : `Today â ${todayDayName}`}
                 </p>
               </div>
               <button onClick={closeSettings} className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/50 transition-colors">
@@ -394,7 +620,7 @@ export function MessMenu() {
               </button>
             </div>
 
-            {/* PIN screen — no autoFocus to avoid keyboard pushing panel */}
+            {/* PIN screen â no autoFocus to avoid keyboard pushing panel */}
             {settingsView === "pin" && (
               <form onSubmit={handlePinSubmit} className="p-5 space-y-4 pb-8">
                 <div className="flex flex-col items-center gap-2 py-2">
@@ -408,7 +634,7 @@ export function MessMenu() {
                   type="password"
                   inputMode="numeric"
                   maxLength={4}
-                  placeholder="• • • •"
+                  placeholder="â¢ â¢ â¢ â¢"
                   value={pin}
                   onChange={e => { setPin(e.target.value.replace(/\D/g,"").slice(0,4)); setPinError(false); }}
                   className="w-full h-12 text-center text-2xl tracking-[0.6em] font-mono rounded-xl bg-muted/40 border border-border/60 focus:outline-none focus:ring-2 focus:ring-primary/40"
@@ -427,7 +653,7 @@ export function MessMenu() {
               <div className="flex flex-col flex-1 overflow-hidden">
                 {/* Day + Slot selectors */}
                 <div className="px-5 pt-4 pb-3 space-y-3 shrink-0 border-b border-border/30">
-                  {/* Slot pills — today's day is fixed */}
+                  {/* Slot pills â today's day is fixed */}
                   <div className="flex gap-1.5 overflow-x-auto pb-1">
                     {["breakfast","lunch","snacks","dinner"].map(slot => (
                       <button
@@ -448,7 +674,7 @@ export function MessMenu() {
                 {/* Items list */}
                 <div className="flex-1 overflow-y-auto px-5 py-3 space-y-2">
                   <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
-                    {todayDayName} — {editSlot} items
+                    {todayDayName} â {editSlot} items
                   </p>
                   {editItems.map((item, idx) => (
                     <div key={idx} className="flex items-center gap-2">
@@ -490,7 +716,7 @@ export function MessMenu() {
                     className="w-full h-11 rounded-xl bg-primary text-primary-foreground font-semibold text-sm flex items-center justify-center gap-2 disabled:opacity-60"
                   >
                     {saveStatus === "saving" ? (
-                      <><span className="h-4 w-4 rounded-full border-2 border-primary-foreground/30 border-t-primary-foreground animate-spin" /> Saving to GitHub…</>
+                      <><span className="h-4 w-4 rounded-full border-2 border-primary-foreground/30 border-t-primary-foreground animate-spin" /> Saving to GitHubâ¦</>
                     ) : (
                       <><Save className="h-4 w-4" /> Save &amp; Deploy</>
                     )}
