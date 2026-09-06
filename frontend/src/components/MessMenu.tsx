@@ -17,7 +17,10 @@ import {
   Save,
   Plus,
   Trash2,
+  Mail,
+  AlertTriangle,
 } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 const PINCODE = "0313";
 const GH_TOKEN  = process.env.NEXT_PUBLIC_GITHUB_TOKEN ?? "";
@@ -91,6 +94,7 @@ function getLiveSlot(minutesSinceMidnight: number): string {
 export function MessMenu() {
   const [now, setNow] = useState<Date | null>(null);
   const [expandedSlot, setExpandedSlot] = useState<string>("");
+  const [showMessage, setShowMessage] = useState(false);
 
   // ── Settings panel state ──────────────────────────────────────────────────
   type SettingsView = "closed" | "pin" | "open";
@@ -129,6 +133,29 @@ export function MessMenu() {
       setSelectedDay(DAY_NAMES[now.getDay()]);
     }
   }, [now]);
+
+  // Auto-refresh when opened as PWA (install as an app)
+  useEffect(() => {
+    const handleVisibility = () => {
+      if (document.visibilityState === "visible") {
+        if (window.matchMedia("(display-mode: standalone)").matches || (window.navigator as any).standalone === true) {
+          const lastReload = localStorage.getItem("last_pwa_reload");
+          const now = Date.now();
+          // Reload if more than 3 minutes (180000 ms) have passed since the last reload
+          if (!lastReload || now - parseInt(lastReload) > 3 * 60 * 1000) {
+            localStorage.setItem("last_pwa_reload", now.toString());
+            window.location.reload();
+          }
+        }
+      }
+    };
+    
+    // Check on initial load
+    handleVisibility(); 
+    
+    document.addEventListener("visibilitychange", handleVisibility);
+    return () => document.removeEventListener("visibilitychange", handleVisibility);
+  }, []);
 
   const activeMealSlot = useMemo(() => {
     if (!now) return "lunch";
@@ -254,14 +281,24 @@ export function MessMenu() {
                 {isViewingToday ? "Today" : viewingDay}
               </span>
             </div>
-            {!isViewingToday && (
+            <div className="flex items-center gap-3">
+              {!isViewingToday && (
+                <button
+                  onClick={() => setSelectedDay(todayDayName)}
+                  className="px-3 py-1.5 rounded-xl text-xs font-bold bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                >
+                  Go to Today
+                </button>
+              )}
               <button
-                onClick={() => setSelectedDay(todayDayName)}
-                className="px-3 py-1.5 rounded-xl text-xs font-bold bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
+                onClick={() => setShowMessage(true)}
+                className="p-2 rounded-xl bg-destructive/10 text-destructive hover:bg-destructive/20 transition-all hover:scale-105 active:scale-95 flex items-center justify-center relative shadow-sm"
+                aria-label="Important Message"
               >
-                Go to Today
+                <Mail className="h-5 w-5" />
+                <span className="absolute top-1 right-1 h-2.5 w-2.5 rounded-full bg-destructive border-2 border-background animate-pulse" />
               </button>
-            )}
+            </div>
           </div>
 
           {/* Day-of-week picker */}
@@ -358,6 +395,48 @@ export function MessMenu() {
       <div className="mt-6 text-xs font-medium text-muted-foreground/80 tracking-wide text-center">
         Made with ❤️ by Garvit Gandhi
       </div>
+
+      {/* ── Message overlay ── */}
+      <AnimatePresence>
+        {showMessage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+            onClick={() => setShowMessage(false)}
+          >
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+              className="w-full max-w-sm bg-card border border-destructive/30 rounded-3xl overflow-hidden shadow-2xl relative"
+              onClick={e => e.stopPropagation()}
+            >
+              <div className="bg-destructive/10 p-6 flex flex-col items-center justify-center gap-3">
+                <div className="p-4 bg-destructive/20 rounded-full text-destructive animate-bounce">
+                  <AlertTriangle className="h-8 w-8" />
+                </div>
+                <h3 className="font-extrabold text-lg text-foreground">Menu Update</h3>
+              </div>
+              <div className="p-6 space-y-4">
+                <p className="text-sm text-muted-foreground leading-relaxed text-center font-medium">
+                  Sorry for mismatched menu. Even today, in snacks, it was written Dabeli, but on sheet, it was GolGappe, but now they are serving Maggie. 
+                  <br/><br/>
+                  <span className="text-destructive font-bold">Disaster Planning! 🤦‍♂️</span>
+                </p>
+                <button
+                  onClick={() => setShowMessage(false)}
+                  className="w-full h-12 rounded-xl bg-destructive text-destructive-foreground font-bold text-sm hover:bg-destructive/90 transition-colors active:scale-[0.98]"
+                >
+                  Close
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* ── Settings gear button (fixed bottom-right) ── */}
       <button
