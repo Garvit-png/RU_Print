@@ -212,7 +212,7 @@ export function MessMenu() {
       const fileData = await getRes.json();
 
       // 2. Decode current content, replace MENU block
-      const currentContent: string = atob(fileData.content.replace(/\n/g, ""));
+      const currentContent: string = decodeURIComponent(escape(atob(fileData.content.replace(/\n/g, ""))));
       const menuStr = `const MENU: Record<string, Record<string, string[]>> = ${JSON.stringify(updatedMenu, null, 2)};`;
       const newContent = currentContent.replace(
         /const MENU: Record<string, Record<string, string\[\]>> = \{[\s\S]*?\n\};/,
