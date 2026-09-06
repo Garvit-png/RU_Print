@@ -69,7 +69,7 @@ const MENU: Record<string, Record<string, string[]>> = {
   Sunday: {
     breakfast: ["Papaya", "Muesli", "Masala Oats", "Paratha", "Aloo Tamatar", "Cold / Hot Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
     lunch:     ["Chaas", "Chana Sprout Salad", "Dum Aloo", "Dhaba Dal", "Samber", "Plain Rice", "Chapati", "Besan Ladoo"],
-    snacks:    ["Dabheli", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
+    snacks:    ["Maggie", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
     dinner:    ["Cucumber Salad", "Dahi Lauki Moong", "Mix Yellow Dal", "Steamed Rice", "Chapati"],
   },
 };
