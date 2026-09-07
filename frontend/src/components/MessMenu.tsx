@@ -434,9 +434,9 @@ export function MessMenu() {
               </div>
               <div className="p-6 space-y-4">
                 <p className="text-sm text-muted-foreground leading-relaxed text-center font-medium">
-                  Sorry for mismatched menu. Even today, in snacks, it was written Dabeli, but on sheet, it was GolGappe, but now they are serving Maggie. 
+                  No message right now 
                   <br/><br/>
-                  <span className="text-destructive font-bold">Disaster Planning! 🤦‍♂️</span>
+                  <span className="text-destructive font-bold">Enjoy</span>
                 </p>
                 <button
                   onClick={() => setShowMessage(false)}
