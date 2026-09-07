@@ -28,49 +28,49 @@ const GH_REPO   = process.env.NEXT_PUBLIC_GITHUB_REPO  ?? "Garvit-png/RU_Print";
 const GH_PATH   = "frontend/src/components/MessMenu.tsx";
 const GH_BRANCH = "main";
 
-// ─── Mess Menu Data (Week: Mon 01 Sep – Sun 07 Sep 2026) ─────────────────────
+// ─── Mess Menu Data (Week: Mon 07 Sep – Sun 13 Sep 2026) ─────────────────────
 const MENU: Record<string, Record<string, string[]>> = {
   Monday: {
-    breakfast: ["Banana", "Masala Oats", "Cornflakes", "Aloo Pyaaz Paratha", "Curd & Pickle", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Rooh Afza", "Pasta Salad", "Chana Masala", "Aloo Matar", "Beetroot Foogath", "Jeera Rice", "Chapati", "Besan Barfi"],
-    snacks:    ["Mix Veg Pakora", "Chutney", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Tossed Salad", "Capsicum Gobi Corn", "Rajma", "Tomato Rasam", "Rice", "Chapati"],
+    breakfast: ["Banana", "Semiya Upma", "Muesli", "Idli", "Sambar & Coconut Chutney", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Mixed Crush", "Green Salad", "Chole Masale", "Masaledar Baingan", "Andhra Style Dal", "Jeera Rice", "Chapati", "Sewai Kheer"],
+    snacks:    ["Bread Pakora", "Chutney", "Cold Coffee", "Tea (D)"],
+    dinner:    ["Tossed Salad", "Rajma Masala", "Aloo Matar Dry", "Pulusu", "Rice", "Chapati"],
   },
   Tuesday: {
-    breakfast: ["Watermelon", "Dalia", "Chocos", "Pav", "Bhaji", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Sweet Lassi", "Green Salad", "Veg Kofta Curry", "Arhar Dal Tarka", "Tomato Pachadi", "Steamed Rice", "Chapati"],
-    snacks:    ["Maggi", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Green Salad", "Soya Chaap Lababdar", "Moong Dal Hing Tarka", "Onion Samber", "Jeera Rice", "Chapati", "Gulab Jamun"],
+    breakfast: ["Mix Fruits", "Boiled Chana", "Chocos", "Plain Paratha", "Bhaji", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Jeera Raita", "Mint Lachha Onion", "Veg Tahari", "Mirch Ka Salan", "Karam Chutney", "Dhaba Dal", "Chapati", "Gulab Jamun"],
+    snacks:    ["Aloo Matar Puff", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
+    dinner:    ["Green Salad", "Soya Chaap Masala", "Moong-Massor Dal", "Gokarkai Kura", "Jeera Rice", "Chapati", "Gulab Jamun"],
   },
   Wednesday: {
-    breakfast: ["Mix Fruits", "Macaroni", "Muesli", "Kulcha", "Matar", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Mixed Crush", "Cucumber Salad", "Chettinad Paneer", "Mix Yellow Dal", "Coriander Rice", "Chapati", "Sweet Boondi Dry"],
-    snacks:    ["Aloo Tikki Chaat", "Curd / Imli Chutney", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Onion Lachha", "Bhindi Do Pyaza", "Lal Malka Dal", "Cabbage Foogath", "Plain Rice", "Chapati"],
+    breakfast: ["Papaya", "Masala Oats", "Cornflakes", "Pav", "Missal", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Chach", "Green Salad", "Paneer Butter Masala", "Mix Yellow Dal", "Plain Rice", "Chapati", "Ice Cream"],
+    snacks:    ["Jhal Muri", "Cold Coffee", "Tea (D)"],
+    dinner:    ["Onion Lachha", "Parwal Aloo Dry", "Arhar Dal Tarka", "Bendakai Kura", "Plain Rice", "Chapati"],
   },
   Thursday: {
-    breakfast: ["Papaya", "Masala Oats", "Cornflakes", "Kachori", "Aloo Tamatar Sabzi", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Chaas", "Laccha Onion", "Veg Tahiri", "Aloo Ka Salan", "Karam Chutney", "Dhaba Dal Thick", "Chapati"],
-    snacks:    ["Paneer Puff", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Cucumber Salad", "Tofu Chilli", "Chole Punjabi", "Carrot Poriyal", "Peas Rice", "Chapati", "Ice Cream"],
+    breakfast: ["Water Melon", "Moong Sprout", "Muesli", "Ajwain Poori", "Aloo Matar Sabji", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Aam Panna", "Green Salad", "Kadhi Pakora", "Aloo Matar Capsicum", "Sambar", "Dhania Rice", "Chapati", "Rice Kheer"],
+    snacks:    ["Samosa", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
+    dinner:    ["Cucumber Salad", "Tofu Manchurian", "Chole Punjabi", "Yonkai Kura", "Peas Rice", "Chapati", "Rice Kheer"],
   },
   Friday: {
-    breakfast: ["Watermelon", "Chocos", "Macaroni", "Veg Upma", "Spicy Peanut Chutney", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Salted Lassi", "Tossed Salad", "Mix Veg", "Rajma", "Pesarattu", "Plain Rice", "Chapati", "Coconut Ladoo"],
-    snacks:    ["Samosa", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Green Salad", "Kolhapuri Paneer", "Panchmel Dal", "Jeera Rice", "Chapati", "Pastry"],
+    breakfast: ["Banana", "Chocos", "Macaroni", "Besan Chilla", "Hara Chutney", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Rooh-Afza", "Tossed Salad", "Cabbage Matar Tamatar", "Rauma", "Beans Coconut", "Plain Rice", "Chapati", "Pastry"],
+    snacks:    ["French Fries", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
+    dinner:    ["Green Salad", "Paneer Makhni", "Yellow Moong Dal", "Sambar", "Jeera Rice", "Chapati"],
   },
   Saturday: {
-    breakfast: ["Mix Fruits", "Chocos", "Aloo Toast", "Mixed Pulses Chila", "Tangy Tomato Garlic Chutney", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Butter Milk", "Cucumber Carrot Salad", "Soya Chaap Makhanwala", "Lal Malka", "Ghee Rice", "Chapati"],
-    snacks:    ["Chinese Bhel", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Moong Sprout Salad", "Parval Aloo", "Gota Masoor", "Beans Foogath", "Ghee Rice", "Chapati"],
+    breakfast: ["Mix Fruits", "Cornflakes", "Sandwich", "Veg Uttapam", "Sambar & Chutney", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Salted Lassi", "Cucumber-Carrot Salad", "Lauki Kofta Curry", "Arhar Dal Tarka", "Dondakai", "Ghee Rice", "Chapati"],
+    snacks:    ["Maggi", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
+    dinner:    ["Moong Sprout Salad", "Kundru Aloo Chatpata", "Gota Masoor", "Beans Podi", "Ghee Rice", "Chapati", "Choco Moose"],
   },
   Sunday: {
-    breakfast: ["Papaya", "Muesli", "Masala Oats", "Paratha", "Aloo Tamatar", "Cold / Hot Milk (D)", "Tea (D)", "Coffee Powder", "Bread / Butter / Jam"],
-    lunch:     ["Chaas", "Chana Sprout Salad", "Dum Aloo", "Dhaba Dal", "Samber", "Plain Rice", "Chapati", "Besan Ladoo"],
-    snacks:    ["Maggie", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Cucumber Salad", "Dahi Lauki Moong", "Mix Yellow Dal", "Steamed Rice", "Chapati"],
+    breakfast: ["Papaya", "Muesli", "Dalia", "Paneer - Pyaaz Aloo Paratha", "Curd & Pickle", "Cold/Hot Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
+    lunch:     ["Butter Milk", "Lachha Onion", "Dal Makhni", "Mix Veg Bhaji", "Sambar", "Plain Rice", "Poori", "Besan Ladoo"],
+    snacks:    ["Burger", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
+    dinner:    ["Cucumber Salad", "Dhaba Dal", "Makhana Matar", "Rasam", "Steamed Rice", "Chapati"],
   },
 };
 
@@ -408,10 +408,22 @@ export function MessMenu() {
           >
             <motion.div
               initial={{ opacity: 0, scale: 0.9, y: 20 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.9, y: 20 }}
-              transition={{ type: "spring", damping: 25, stiffness: 300 }}
-              className="w-full max-w-sm bg-card border border-destructive/30 rounded-3xl overflow-hidden shadow-2xl relative"
+              animate={{ 
+                opacity: 1, 
+                scale: 1, 
+                y: 0,
+                boxShadow: [
+                  "0px 0px 0px 0px rgba(220, 38, 38, 0)",
+                  "0px 0px 60px 20px rgba(220, 38, 38, 0.5)",
+                  "0px 25px 50px -12px rgba(0, 0, 0, 0.25)"
+                ]
+              }}
+              exit={{ opacity: 0, scale: 0.9, y: 20, boxShadow: "0px 0px 0px 0px rgba(220, 38, 38, 0)" }}
+              transition={{ 
+                default: { type: "spring", damping: 25, stiffness: 300 },
+                boxShadow: { duration: 1.2, ease: "easeOut", delay: 0.1 }
+              }}
+              className="w-full max-w-sm bg-card border-2 border-destructive/50 rounded-3xl overflow-hidden relative"
               onClick={e => e.stopPropagation()}
             >
               <div className="bg-destructive/10 p-6 flex flex-col items-center justify-center gap-3">
