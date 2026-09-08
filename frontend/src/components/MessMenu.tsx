@@ -30,48 +30,275 @@ const GH_BRANCH = "main";
 
 // ─── Mess Menu Data (Week: Mon 07 Sep – Sun 13 Sep 2026) ─────────────────────
 const MENU: Record<string, Record<string, string[]>> = {
-  Monday: {
-    breakfast: ["Banana", "Semiya Upma", "Muesli", "Idli", "Sambar & Coconut Chutney", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Mixed Crush", "Green Salad", "Chole Masale", "Masaledar Baingan", "Andhra Style Dal", "Jeera Rice", "Chapati", "Sewai Kheer"],
-    snacks:    ["Bread Pakora", "Chutney", "Cold Coffee", "Tea (D)"],
-    dinner:    ["Tossed Salad", "Rajma Masala", "Aloo Matar Dry", "Pulusu", "Rice", "Chapati"],
+  "Monday": {
+    "breakfast": [
+      "Banana",
+      "Semiya Upma",
+      "Muesli",
+      "Idli",
+      "Sambar & Coconut Chutney",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Mixed Crush",
+      "Green Salad",
+      "Chole Masale",
+      "Masaledar Baingan",
+      "Andhra Style Dal",
+      "Jeera Rice",
+      "Chapati",
+      "Sewai Kheer"
+    ],
+    "snacks": [
+      "Bread Pakora",
+      "Chutney",
+      "Cold Coffee",
+      "Tea (D)"
+    ],
+    "dinner": [
+      "Tossed Salad",
+      "Rajma Masala",
+      "Aloo Matar Dry",
+      "Pulusu",
+      "Rice",
+      "Chapati"
+    ]
   },
-  Tuesday: {
-    breakfast: ["Mix Fruits", "Boiled Chana", "Chocos", "Plain Paratha", "Bhaji", "Hot Milk", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Jeera Raita", "Mint Lachha Onion", "Veg Tahari", "Mirch Ka Salan", "Karam Chutney", "Dhaba Dal", "Chapati", "Gulab Jamun"],
-    snacks:    ["Aloo Matar Puff", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Green Salad", "Soya Chaap Masala", "Moong-Massor Dal", "Gokarkai Kura", "Jeera Rice", "Chapati", "Gulab Jamun"],
+  "Tuesday": {
+    "breakfast": [
+      "Mix Fruits",
+      "Boiled Chana",
+      "Chocos",
+      "Plain Paratha",
+      "Bhaji",
+      "Hot Milk",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Jeera Raita",
+      "Mint Lachha Onion",
+      "Veg biriyani",
+      "Mirch Ka Salan",
+      "Karam Chutney",
+      "Dhaba Dal",
+      "Chapati",
+      "Gulab Jamun"
+    ],
+    "snacks": [
+      "Aloo Matar Puff",
+      "Ketchup",
+      "Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Green Salad",
+      "Soya Chaap Masala",
+      "Moong-Massor Dal",
+      "Gokarkai Kura",
+      "Jeera Rice",
+      "Chapati",
+      "Gulab Jamun"
+    ]
   },
-  Wednesday: {
-    breakfast: ["Papaya", "Masala Oats", "Cornflakes", "Pav", "Missal", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Chach", "Green Salad", "Paneer Butter Masala", "Mix Yellow Dal", "Plain Rice", "Chapati", "Ice Cream"],
-    snacks:    ["Jhal Muri", "Cold Coffee", "Tea (D)"],
-    dinner:    ["Onion Lachha", "Parwal Aloo Dry", "Arhar Dal Tarka", "Bendakai Kura", "Plain Rice", "Chapati"],
+  "Wednesday": {
+    "breakfast": [
+      "Papaya",
+      "Masala Oats",
+      "Cornflakes",
+      "Pav",
+      "Missal",
+      "Hot Milk (D)",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Chach",
+      "Green Salad",
+      "Paneer Butter Masala",
+      "Mix Yellow Dal",
+      "Plain Rice",
+      "Chapati",
+      "Ice Cream"
+    ],
+    "snacks": [
+      "Jhal Muri",
+      "Cold Coffee",
+      "Tea (D)"
+    ],
+    "dinner": [
+      "Onion Lachha",
+      "Parwal Aloo Dry",
+      "Arhar Dal Tarka",
+      "Bendakai Kura",
+      "Plain Rice",
+      "Chapati"
+    ]
   },
-  Thursday: {
-    breakfast: ["Water Melon", "Moong Sprout", "Muesli", "Ajwain Poori", "Aloo Matar Sabji", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Aam Panna", "Green Salad", "Kadhi Pakora", "Aloo Matar Capsicum", "Sambar", "Dhania Rice", "Chapati", "Rice Kheer"],
-    snacks:    ["Samosa", "Ketchup", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Cucumber Salad", "Tofu Manchurian", "Chole Punjabi", "Yonkai Kura", "Peas Rice", "Chapati", "Rice Kheer"],
+  "Thursday": {
+    "breakfast": [
+      "Water Melon",
+      "Moong Sprout",
+      "Muesli",
+      "Ajwain Poori",
+      "Aloo Matar Sabji",
+      "Hot Milk (D)",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Aam Panna",
+      "Green Salad",
+      "Kadhi Pakora",
+      "Aloo Matar Capsicum",
+      "Sambar",
+      "Dhania Rice",
+      "Chapati",
+      "Rice Kheer"
+    ],
+    "snacks": [
+      "Samosa",
+      "Ketchup",
+      "Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Cucumber Salad",
+      "Tofu Manchurian",
+      "Chole Punjabi",
+      "Yonkai Kura",
+      "Peas Rice",
+      "Chapati",
+      "Rice Kheer"
+    ]
   },
-  Friday: {
-    breakfast: ["Banana", "Chocos", "Macaroni", "Besan Chilla", "Hara Chutney", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Rooh-Afza", "Tossed Salad", "Cabbage Matar Tamatar", "Rauma", "Beans Coconut", "Plain Rice", "Chapati", "Pastry"],
-    snacks:    ["French Fries", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Green Salad", "Paneer Makhni", "Yellow Moong Dal", "Sambar", "Jeera Rice", "Chapati"],
+  "Friday": {
+    "breakfast": [
+      "Banana",
+      "Chocos",
+      "Macaroni",
+      "Besan Chilla",
+      "Hara Chutney",
+      "Hot Milk (D)",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Rooh-Afza",
+      "Tossed Salad",
+      "Cabbage Matar Tamatar",
+      "Rauma",
+      "Beans Coconut",
+      "Plain Rice",
+      "Chapati",
+      "Pastry"
+    ],
+    "snacks": [
+      "French Fries",
+      "Ketchup",
+      "Cold Coffee",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Green Salad",
+      "Paneer Makhni",
+      "Yellow Moong Dal",
+      "Sambar",
+      "Jeera Rice",
+      "Chapati"
+    ]
   },
-  Saturday: {
-    breakfast: ["Mix Fruits", "Cornflakes", "Sandwich", "Veg Uttapam", "Sambar & Chutney", "Hot Milk (D)", "Cold Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Salted Lassi", "Cucumber-Carrot Salad", "Lauki Kofta Curry", "Arhar Dal Tarka", "Dondakai", "Ghee Rice", "Chapati"],
-    snacks:    ["Maggi", "Hot Milk (D)", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Moong Sprout Salad", "Kundru Aloo Chatpata", "Gota Masoor", "Beans Podi", "Ghee Rice", "Chapati", "Choco Moose"],
+  "Saturday": {
+    "breakfast": [
+      "Mix Fruits",
+      "Cornflakes",
+      "Sandwich",
+      "Veg Uttapam",
+      "Sambar & Chutney",
+      "Hot Milk (D)",
+      "Cold Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Salted Lassi",
+      "Cucumber-Carrot Salad",
+      "Lauki Kofta Curry",
+      "Arhar Dal Tarka",
+      "Dondakai",
+      "Ghee Rice",
+      "Chapati"
+    ],
+    "snacks": [
+      "Maggi",
+      "Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Moong Sprout Salad",
+      "Kundru Aloo Chatpata",
+      "Gota Masoor",
+      "Beans Podi",
+      "Ghee Rice",
+      "Chapati",
+      "Choco Moose"
+    ]
   },
-  Sunday: {
-    breakfast: ["Papaya", "Muesli", "Dalia", "Paneer - Pyaaz Aloo Paratha", "Curd & Pickle", "Cold/Hot Milk (D)", "Tea (D)", "Coffee Powder", "Bread/Butter/Jam"],
-    lunch:     ["Butter Milk", "Lachha Onion", "Dal Makhni", "Mix Veg Bhaji", "Sambar", "Plain Rice", "Poori", "Besan Ladoo"],
-    snacks:    ["Burger", "Ketchup", "Cold Coffee", "Tea (D)", "Coffee Powder"],
-    dinner:    ["Cucumber Salad", "Dhaba Dal", "Makhana Matar", "Rasam", "Steamed Rice", "Chapati"],
-  },
+  "Sunday": {
+    "breakfast": [
+      "Papaya",
+      "Muesli",
+      "Dalia",
+      "Paneer - Pyaaz Aloo Paratha",
+      "Curd & Pickle",
+      "Cold/Hot Milk (D)",
+      "Tea (D)",
+      "Coffee Powder",
+      "Bread/Butter/Jam"
+    ],
+    "lunch": [
+      "Butter Milk",
+      "Lachha Onion",
+      "Dal Makhni",
+      "Mix Veg Bhaji",
+      "Sambar",
+      "Plain Rice",
+      "Poori",
+      "Besan Ladoo"
+    ],
+    "snacks": [
+      "Burger",
+      "Ketchup",
+      "Cold Coffee",
+      "Tea (D)",
+      "Coffee Powder"
+    ],
+    "dinner": [
+      "Cucumber Salad",
+      "Dhaba Dal",
+      "Makhana Matar",
+      "Rasam",
+      "Steamed Rice",
+      "Chapati"
+    ]
+  }
 };
 
 const MEAL_SLOTS = [
