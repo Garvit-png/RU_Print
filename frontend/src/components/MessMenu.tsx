@@ -165,7 +165,7 @@ const MENU: Record<string, Record<string, string[]>> = {
       "Sambar",
       "Dhania Rice",
       "Chapati",
-      "Rice Kheer"
+      "No desert"
     ],
     "snacks": [
       "Samosa",
