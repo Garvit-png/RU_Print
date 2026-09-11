@@ -215,12 +215,12 @@ const MENU: Record<string, Record<string, string[]>> = {
       "Coffee Powder"
     ],
     "dinner": [
-      "Green Salad",
-      "Paneer Makhni",
-      "Yellow Moong Dal",
-      "Sambar",
-      "Jeera Rice",
-      "Chapati"
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪"
     ]
   },
   "Saturday": {
