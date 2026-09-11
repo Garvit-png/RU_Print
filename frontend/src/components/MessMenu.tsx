@@ -201,7 +201,7 @@ const MENU: Record<string, Record<string, string[]>> = {
       "Rooh-Afza",
       "Tossed Salad",
       "Cabbage Matar Tamatar",
-      "Rauma",
+      "Rajmah",
       "Beans Coconut",
       "Plain Rice",
       "Chapati",
