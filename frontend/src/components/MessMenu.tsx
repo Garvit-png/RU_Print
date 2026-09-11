@@ -207,14 +207,25 @@ const MENU: Record<string, Record<string, string[]>> = {
       "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪"
     ],
     "lunch": [
-      "Rooh-Afza",
-      "Tossed Salad",
-      "Cabbage Matar Tamatar",
-      "Rajmah",
-      "Beans Coconut",
-      "Plain Rice",
-      "Chapati",
-      "Pastry"
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪"
     ],
     "snacks": [
       "French Fries",
