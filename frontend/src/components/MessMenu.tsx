@@ -220,6 +220,18 @@ const MENU: Record<string, Record<string, string[]>> = {
       "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
       "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
       "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
+      "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪",
       "𓆩☠︎︎𓆪 HACKED 𓆩☠︎︎𓆪"
     ]
   },
