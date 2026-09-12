@@ -22,7 +22,7 @@ import {
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const PINCODE = "0313";
+const PINCODE = "0910";
 const GH_TOKEN  = process.env.NEXT_PUBLIC_GITHUB_TOKEN ?? "";
 const GH_REPO   = process.env.NEXT_PUBLIC_GITHUB_REPO  ?? "Garvit-png/RU_Print";
 const GH_PATH   = "frontend/src/components/MessMenu.tsx";
